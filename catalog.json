@@ -23,7 +23,7 @@
       "id": "ambient_config",
       "kind": "app",
       "title": "氛围灯配置",
-      "description": "The ambient light's colour: set it here, or let each driving mode choose one",
+      "description": "设置车内氛围灯颜色，可为不同驾驶模式分别指定配色。",
       "version": "1.3.0",
       "artifact": {
         "name": "ambient_config@1.3.0.tgz",
@@ -40,13 +40,14 @@
         "ID7"
       ],
       "icon": "ambient_config.png",
-      "iconSha256": "bda3296b0077c8d9dc0b79fc06f9eac0de516f5b9fa2fe02afb4feede865830e"
+      "iconSha256": "bda3296b0077c8d9dc0b79fc06f9eac0de516f5b9fa2fe02afb4feede865830e",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "brake_test",
       "kind": "app",
       "title": "制动测试",
-      "description": "100-0 and 200-0 braking distance, peak decel and brake-fade tracking",
+      "description": "记录 100–0 和 200–0 制动距离、峰值减速度及制动衰退。",
       "version": "1.5.19",
       "artifact": {
         "name": "brake_test@1.5.19.tgz",
@@ -63,13 +64,14 @@
         "ID7"
       ],
       "icon": "brake_test.png",
-      "iconSha256": "c0d9bd3d5ec1b16c99ba947e5568a1867d50720aff80e2eefafab21a481b7e7f"
+      "iconSha256": "c0d9bd3d5ec1b16c99ba947e5568a1867d50720aff80e2eefafab21a481b7e7f",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "car_vitals",
       "kind": "app",
       "title": "车辆状态",
-      "description": "Live engine, thermal, intake / fuel / ignition, tyre and chassis gauges",
+      "description": "实时查看发动机、油液温度、进气、燃油、点火、轮胎和底盘数据。",
       "version": "2.26.0",
       "artifact": {
         "name": "car_vitals@2.26.0.tgz",
@@ -86,13 +88,14 @@
         "ID7"
       ],
       "icon": "car_vitals.png",
-      "iconSha256": "f4ed2c2cf8f3c7dce5929aadeade8989449e8e5389568e05c0c4f42f1daef37d"
+      "iconSha256": "f4ed2c2cf8f3c7dce5929aadeade8989449e8e5389568e05c0c4f42f1daef37d",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "doom",
       "kind": "app",
       "title": "毁灭战士",
-      "description": "Doom (Freedoom: Phase 1) on the iDrive. Main menu with all settings; the game drawn in full resolution across the whole screen, on the controller; BACK returns to the menu and saves",
+      "description": "在 iDrive 上运行 Freedoom 第一章，支持全屏游戏和车机设置菜单。",
       "version": "1.7.19",
       "artifact": {
         "name": "doom@1.7.19.tgz",
@@ -109,13 +112,14 @@
         "ID7"
       ],
       "icon": "doom.png",
-      "iconSha256": "4e1059afa6ca3023f873d2d2c7c44843d959b9bd16d4c905da2a3dd05f2a37f2"
+      "iconSha256": "4e1059afa6ca3023f873d2d2c7c44843d959b9bd16d4c905da2a3dd05f2a37f2",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "draggy",
       "kind": "app",
       "title": "加速测试",
-      "description": "0-100, 100-200 and 1/4 mile timer with best times",
+      "description": "记录 0–100、100–200 和四分之一英里加速成绩，保留最佳记录。",
       "version": "2.5.19",
       "artifact": {
         "name": "draggy@2.5.19.tgz",
@@ -132,13 +136,14 @@
         "ID7"
       ],
       "icon": "draggy.png",
-      "iconSha256": "4d57c4caa4dff86649f7395796c8fbd05eeac035efba6df067f95dd0cf6f160b"
+      "iconSha256": "4d57c4caa4dff86649f7395796c8fbd05eeac035efba6df067f95dd0cf6f160b",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "dtc_scanner",
       "kind": "app",
       "title": "故障扫描",
-      "description": "Read and clear fault memory of every control unit, plus active Check Control messages",
+      "description": "读取及清除控制单元故障码，并查看当前的车辆检查控制消息。",
       "version": "2.9.6",
       "artifact": {
         "name": "dtc_scanner@2.9.6.tgz",
@@ -155,13 +160,14 @@
         "ID7"
       ],
       "icon": "dtc_scanner.png",
-      "iconSha256": "e32af9aae088f38d40d312aaff61f7e51b14835924b01328039b461d84192171"
+      "iconSha256": "e32af9aae088f38d40d312aaff61f7e51b14835924b01328039b461d84192171",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "dyno",
       "kind": "app",
       "title": "虚拟马力机",
-      "description": "Power and torque curves from a full-throttle pull, saved and compared",
+      "description": "记录加速过程中的功率和扭矩曲线，可保存和比较多次结果。",
       "version": "1.5.2",
       "artifact": {
         "name": "dyno@1.5.2.tgz",
@@ -178,13 +184,14 @@
         "ID7"
       ],
       "icon": "dyno.png",
-      "iconSha256": "18ba9e4356b444f2362ce1dc137cec038cfcfeb17f099f203acc4106401f74eb"
+      "iconSha256": "18ba9e4356b444f2362ce1dc137cec038cfcfeb17f099f203acc4106401f74eb",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "edrive",
       "kind": "app",
       "title": "电驱数据",
-      "description": "Real electric range, live battery power, cells and climate power, HV battery health (SOH) and energy, last charge, charge log, the 12 V battery (charge, voltage, what it does, regen, history) and a home-screen widget; on a 48 V mild hybrid its 48 V battery and DC/DC converter",
+      "description": "查看电动续航、电池功率和电芯数据、高压电池健康度及充电记录。",
       "version": "2.8.4",
       "artifact": {
         "name": "edrive@2.8.4.tgz",
@@ -201,13 +208,14 @@
         "ID7"
       ],
       "icon": "edrive.png",
-      "iconSha256": "5869ea41c3c995e8f085e2761277db3e5f5040b6042ad50ad185d9b3b52a824a"
+      "iconSha256": "5869ea41c3c995e8f085e2761277db3e5f5040b6042ad50ad185d9b3b52a824a",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "gforce",
       "kind": "app",
       "title": "G 值仪表",
-      "description": "Friction circle with grip envelope, peak g per direction and session records",
+      "description": "显示摩擦圆、抓地力范围、各方向 G 值峰值及行程记录。",
       "version": "1.6.20",
       "artifact": {
         "name": "gforce@1.6.20.tgz",
@@ -224,13 +232,14 @@
         "ID7"
       ],
       "icon": "gforce.png",
-      "iconSha256": "89e9e46537580ac2ae0048720e39ac9a175c1c44f286c4f1d7fc1e1828e79318"
+      "iconSha256": "89e9e46537580ac2ae0048720e39ac9a175c1c44f286c4f1d7fc1e1828e79318",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "live_adjustments",
       "kind": "app",
       "title": "实时调节",
-      "description": "Engine Config for BMW MGU ID7. Exhaust Flap: OEM, OPEN and CLOSE over the car's own diagnostic link, or following the driving mode (Sport open, Eco Pro closed); held against the DME's timeout, Close handed back above a set engine speed. With BM3 or MHD picked in Settings: engine map switching, burbles, ASD and Max Cooling. Experimental: xDrive off until the ignition cycle (DSC LMV_FUNKTION), behind its own setting",
+      "description": "发动机设置，包含排气阀门控制及兼容车辆的 BM3、MHD 功能。部分功能会向控制单元发送指令，需在应用设置中启用。",
       "version": "0.9.1",
       "artifact": {
         "name": "live_adjustments@0.9.1.tgz",
@@ -247,13 +256,14 @@
         "ID7"
       ],
       "icon": "live_adjustments.png",
-      "iconSha256": "a274ebbeb1cda6ed3e5af20cccaa6c4877ebd2e515880d20f81fa874606400c5"
+      "iconSha256": "a274ebbeb1cda6ed3e5af20cccaa6c4877ebd2e515880d20f81fa874606400c5",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "live_data",
       "kind": "app",
       "title": "实时数据",
-      "description": "Read-only live values from the car and its control units, a trip computer with fuel cost, and gauge screens of your own, one of them as the home-screen widget",
+      "description": "只读查看车辆及控制单元实时数据，提供行程电脑、燃油费用和自定义仪表。",
       "version": "1.0.8",
       "artifact": {
         "name": "live_data@1.0.8.tgz",
@@ -270,13 +280,14 @@
         "ID7"
       ],
       "icon": "live_data.png",
-      "iconSha256": "27a70f2f4fd94b447938d83ee479ec8060c0d4d5d9ac65e978f14fe273b17c7d"
+      "iconSha256": "27a70f2f4fd94b447938d83ee479ec8060c0d4d5d9ac65e978f14fe273b17c7d",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "redline",
       "kind": "app",
       "title": "换挡提示",
-      "description": "Full-screen rev tach with shift lights, gear, shift scoring and cold-engine rev guard; HUD by @biscotit",
+      "description": "全屏转速表，带挡位、换挡灯、换挡评分及冷机转速保护提示。HUD 由 biscotit 制作。",
       "version": "1.16.8",
       "artifact": {
         "name": "redline@1.16.8.tgz",
@@ -293,13 +304,14 @@
         "ID7"
       ],
       "icon": "redline.png",
-      "iconSha256": "9c2a029af517d3542604f40a56189c0ecb59d580ba9968ee63fddde35c02cf1d"
+      "iconSha256": "9c2a029af517d3542604f40a56189c0ecb59d580ba9968ee63fddde35c02cf1d",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "service",
       "kind": "app",
       "title": "保养信息",
-      "description": "Service requirements from the instrument cluster: oil, brakes, brake fluid, vehicle check, inspection - distance, date, details; brake fluid and vehicle check reset",
+      "description": "读取车辆的机油、刹车片、制动液、车辆检查和年检等保养信息。",
       "version": "1.6.0",
       "artifact": {
         "name": "service@1.6.0.tgz",
@@ -316,13 +328,14 @@
         "ID7"
       ],
       "icon": "service.png",
-      "iconSha256": "606928ba45bd2f212eb81d87a5ae8ff4fc9d0129c6973e0d70a51ef861179ee9"
+      "iconSha256": "606928ba45bd2f212eb81d87a5ae8ff4fc9d0129c6973e0d70a51ef861179ee9",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "warmup",
       "kind": "app",
       "title": "暖机监测",
-      "description": "Oil and coolant warm-up calculator (time to ready), safe rev limit and turbo cool-down",
+      "description": "跟踪机油和冷却液的暖机进度，显示预计完成时间、转速提示及涡轮冷却信息。",
       "version": "1.7.3",
       "artifact": {
         "name": "warmup@1.7.3.tgz",
@@ -339,13 +352,14 @@
         "ID7"
       ],
       "icon": "warmup.png",
-      "iconSha256": "712aa342b103c39b3be8879ba071d0d0294620bd3e5abbc8e5bbc7ea67ee15e5"
+      "iconSha256": "712aa342b103c39b3be8879ba071d0d0294620bd3e5abbc8e5bbc7ea67ee15e5",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "zf8hp",
       "kind": "app",
       "title": "ZF 8HP 变速箱",
-      "description": "Transmission Config, experimental ZF 8HP monitor: live data, clutch fill adaptations, shift maps and temperature history",
+      "description": "实验性的 ZF 8HP 变速箱监测，提供实时数据、离合器适配值、换挡图与温度历史。",
       "version": "1.5.5",
       "artifact": {
         "name": "zf8hp@1.5.5.tgz",
@@ -362,7 +376,8 @@
         "ID7"
       ],
       "icon": "zf8hp.png",
-      "iconSha256": "5bdfb5f5579ee5f14be0120e06e9c8feafd0db6a3940421bf7ab44d0005aa1b0"
+      "iconSha256": "5bdfb5f5579ee5f14be0120e06e9c8feafd0db6a3940421bf7ab44d0005aa1b0",
+      "author": "cauliflowermossgrape · 汉化 小白151"
     },
     {
       "id": "ambient_studio_full",
@@ -385,7 +400,8 @@
         "ID7"
       ],
       "icon": "ambient_studio_full.png",
-      "iconSha256": "c296c5f480b6140ea1fcff60052f96a21a2aa81ee5ad133896941619ef067fd0"
+      "iconSha256": "c296c5f480b6140ea1fcff60052f96a21a2aa81ee5ad133896941619ef067fd0",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "dpf_monitor",
@@ -408,7 +424,8 @@
         "ID7"
       ],
       "icon": "dpf_monitor.png",
-      "iconSha256": "099d5a112273728088a29750269cb30bf9060c08ea7c3ecaa6b2fb8645847977"
+      "iconSha256": "099d5a112273728088a29750269cb30bf9060c08ea7c3ecaa6b2fb8645847977",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "drive_hud_full",
@@ -432,7 +449,8 @@
         "ID7"
       ],
       "icon": "drive_hud_full.png",
-      "iconSha256": "0126b1337d6c0c7660a8aaa9bd50aa8e6c9982e27ac3001f018bbcb08cf34c6b"
+      "iconSha256": "0126b1337d6c0c7660a8aaa9bd50aa8e6c9982e27ac3001f018bbcb08cf34c6b",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "front_camera_cluster",
@@ -456,7 +474,8 @@
         "ID7"
       ],
       "icon": "front_camera_cluster.png",
-      "iconSha256": "0e8ce500fa378cfbc9fcd5b86bf73d74fb5fba91ea889887ab1f548938e312e5"
+      "iconSha256": "0e8ce500fa378cfbc9fcd5b86bf73d74fb5fba91ea889887ab1f548938e312e5",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "green_light_alert",
@@ -479,7 +498,8 @@
         "ID7"
       ],
       "icon": "green_light_alert.png",
-      "iconSha256": "74cf497bc02ecd3bfd6cb84bc2ee46efe7d42f4e4d2a4fd16ff569fcc267bb45"
+      "iconSha256": "74cf497bc02ecd3bfd6cb84bc2ee46efe7d42f4e4d2a4fd16ff569fcc267bb45",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "hotspot_studio",
@@ -503,7 +523,8 @@
         "ID7"
       ],
       "icon": "hotspot_studio.png",
-      "iconSha256": "47ab652dd92b4ae2aea8d2501b38ebb148d5be9548a5b35635ebed3232e16365"
+      "iconSha256": "47ab652dd92b4ae2aea8d2501b38ebb148d5be9548a5b35635ebed3232e16365",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "parking_clearance",
@@ -526,7 +547,8 @@
         "ID7"
       ],
       "icon": "parking_clearance.png",
-      "iconSha256": "4debd25a4ff305e2fd7a3bf6944b1ccbe17f50cc0c538d707fe64cfe19da633a"
+      "iconSha256": "4debd25a4ff305e2fd7a3bf6944b1ccbe17f50cc0c538d707fe64cfe19da633a",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "rear_comfort",
@@ -549,7 +571,8 @@
         "ID7"
       ],
       "icon": "rear_comfort.png",
-      "iconSha256": "1e4729deebc48e40735de3ed7ae9c6eea046f1f93a4fc6df1931889c2a2ac1af"
+      "iconSha256": "1e4729deebc48e40735de3ed7ae9c6eea046f1f93a4fc6df1931889c2a2ac1af",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "ride_height",
@@ -572,7 +595,8 @@
         "ID7"
       ],
       "icon": "ride_height.png",
-      "iconSha256": "732083e3f98a7888e05b598f8f9fe9324255c3cd559a8cf5be4362c5271b7af1"
+      "iconSha256": "732083e3f98a7888e05b598f8f9fe9324255c3cd559a8cf5be4362c5271b7af1",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "road_trip_computer",
@@ -595,7 +619,8 @@
         "ID7"
       ],
       "icon": "road_trip_computer.png",
-      "iconSha256": "6148be6ea376d61b6cc00e6aabcd09abd7d7a840f6948704b42af14af1704eb8"
+      "iconSha256": "6148be6ea376d61b6cc00e6aabcd09abd7d7a840f6948704b42af14af1704eb8",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "start_stop_insight",
@@ -618,7 +643,8 @@
         "ID7"
       ],
       "icon": "start_stop_insight.png",
-      "iconSha256": "064b605ea22d7c81f66a6a1cb3507fa231a83662c79a98e85bc094227dd379d0"
+      "iconSha256": "064b605ea22d7c81f66a6a1cb3507fa231a83662c79a98e85bc094227dd379d0",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "telemetry_studio",
@@ -641,7 +667,8 @@
         "ID7"
       ],
       "icon": "telemetry_studio.png",
-      "iconSha256": "10fe4e83ea4e7a2c7bdc72a649ac56210850c0c3ab5b9a4889229b648f129e08"
+      "iconSha256": "10fe4e83ea4e7a2c7bdc72a649ac56210850c0c3ab5b9a4889229b648f129e08",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "vehicle_health",
@@ -664,7 +691,8 @@
         "ID7"
       ],
       "icon": "vehicle_health.png",
-      "iconSha256": "937c1b44f7062fcf39f7312468925b0c97eccb5e8242f60fed6a81f1d779683a"
+      "iconSha256": "937c1b44f7062fcf39f7312468925b0c97eccb5e8242f60fed6a81f1d779683a",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "vehicle_network",
@@ -688,7 +716,8 @@
         "ID7"
       ],
       "icon": "vehicle_network.png",
-      "iconSha256": "fee355d9e52e81331470c91aaf021c10158b42a03b1bd56be124ec053fb2067a"
+      "iconSha256": "fee355d9e52e81331470c91aaf021c10158b42a03b1bd56be124ec053fb2067a",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "xdrive_studio",
@@ -711,7 +740,8 @@
         "ID7"
       ],
       "icon": "xdrive_studio.png",
-      "iconSha256": "c9e4fe60e30aeb0398010bdee628d43a38676d9a22236e6c998fcff04a937185"
+      "iconSha256": "c9e4fe60e30aeb0398010bdee628d43a38676d9a22236e6c998fcff04a937185",
+      "author": "alexp50 · 汉化 小白151"
     },
     {
       "id": "jap_ridetube",
@@ -735,7 +765,8 @@
         "ID7"
       ],
       "icon": "jap_ridetube.png",
-      "iconSha256": "afbf63c28de964d4f249f062bdbddf853fe1e676cc8d62f59028ea0f1c6a9876"
+      "iconSha256": "afbf63c28de964d4f249f062bdbddf853fe1e676cc8d62f59028ea0f1c6a9876",
+      "author": "JustAnotherPU · 汉化 小白151"
     },
     {
       "id": "spotify",
@@ -758,13 +789,14 @@
         "ID7"
       ],
       "icon": "spotify.png",
-      "iconSha256": "7e7e06848570f5ae181d497ee276a92e636ec4c7129228b52525503a6a2869c9"
+      "iconSha256": "7e7e06848570f5ae181d497ee276a92e636ec4c7129228b52525503a6a2869c9",
+      "author": "hexlay · 汉化 小白151"
     },
     {
       "id": "cluster_themes",
       "kind": "app",
       "title": "仪表主题 · Cluster Themes",
-      "description": "Redraws the instrument cluster: GT3 race dash, M-style, Sport, Minimal, Roadster, Track, Drag, Rally, Retro 80s, Cruise or Dyno (BMW-coloured readout tiles), with shift lights, boost, temps, tyres, a G-meter and a 0-60 timer",
+      "description": "在中控选择自定义仪表主题，配置读数、换挡灯、G 值和 Waze 显示等选项。",
       "version": "0.14.6",
       "artifact": {
         "name": "cluster_themes@0.14.6.tgz",
@@ -780,7 +812,8 @@
         "ID7"
       ],
       "icon": "cluster_themes.png",
-      "iconSha256": "01689a8688cafb36e95954753f93d7f3f1070ee9d99352756007decae6f4c6c8"
+      "iconSha256": "01689a8688cafb36e95954753f93d7f3f1070ee9d99352756007decae6f4c6c8",
+      "author": "bimmer-lab · 汉化 小白151"
     },
     {
       "id": "flash8523_bmw_weather",
@@ -798,13 +831,14 @@
       "uninstallable": true,
       "mguHmi": [
         "ID7"
-      ]
+      ],
+      "author": "flash8523 · 汉化 小白151"
     },
     {
       "id": "mgu_browser",
       "kind": "app",
       "title": "MGU Browser · 简体中文",
-      "description": "Browser mit Startseite, Verlauf, Lesezeichen und iDrive-Steuerung",
+      "description": "iDrive 7 浏览器，支持起始页、历史、书签、旋钮操作和中文字体。界面跟随车机语言。",
       "version": "0.16.1",
       "artifact": {
         "name": "mgu_browser@0.16.1.tgz",
@@ -822,7 +856,8 @@
       "uninstallable": true,
       "mguHmi": [
         "ID7"
-      ]
+      ],
+      "author": "pllanaio · 汉化 小白151"
     },
     {
       "id": "jap-ridetube-d",
