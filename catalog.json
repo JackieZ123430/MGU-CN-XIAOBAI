@@ -823,7 +823,7 @@
       "version": "0.1.0",
       "artifact": {
         "name": "flash8523_bmw_weather@0.1.0.tgz",
-        "url": "packages/flash8523_bmw_weather@0.1.0.tgz",
+        "url": "packages/weather-pr/flash8523_bmw_weather@0.1.0.tgz",
         "size": 639627,
         "sha256": "6b194866dbd9740fa36137d1569901bcb7c49618ac96a518e3ca7b3ec4fbeaad"
       },
