@@ -1,0 +1,2067 @@
+{
+  "schema": 2,
+  "components": [
+    {
+      "id": "wechat_contact",
+      "kind": "app",
+      "title": "微信 ppppphhjjj",
+      "description": "仅展示联系方式，无安装包。",
+      "version": "1.0.0",
+      "artifact": {
+        "name": "wechat_contact@1.0.0.tgz",
+        "url": "not-downloadable/wechat_contact@1.0.0.tgz",
+        "size": 1,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "blocked": "仅展示联系方式，无法下载安装。"
+    },
+    {
+      "id": "ambient_config",
+      "kind": "app",
+      "title": "氛围灯配置",
+      "description": "The ambient light's colour: set it here, or let each driving mode choose one",
+      "version": "1.3.0",
+      "artifact": {
+        "name": "ambient_config@1.3.0.tgz",
+        "url": "packages/ambient_config@1.3.0.tgz",
+        "size": 961978,
+        "sha256": "7664412de55ef1d31b48f7f272317599119ae7de6fa2167b5700f40ed6166a1c"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "ambient_config.png",
+      "iconSha256": "bda3296b0077c8d9dc0b79fc06f9eac0de516f5b9fa2fe02afb4feede865830e"
+    },
+    {
+      "id": "brake_test",
+      "kind": "app",
+      "title": "制动测试",
+      "description": "100-0 and 200-0 braking distance, peak decel and brake-fade tracking",
+      "version": "1.5.19",
+      "artifact": {
+        "name": "brake_test@1.5.19.tgz",
+        "url": "packages/brake_test@1.5.19.tgz",
+        "size": 987014,
+        "sha256": "6ae894957744b8ff4a438c9df1e6efe001c782e67fb13a9f5e8c9412b18bcb80"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "brake_test.png",
+      "iconSha256": "c0d9bd3d5ec1b16c99ba947e5568a1867d50720aff80e2eefafab21a481b7e7f"
+    },
+    {
+      "id": "car_vitals",
+      "kind": "app",
+      "title": "车辆状态",
+      "description": "Live engine, thermal, intake / fuel / ignition, tyre and chassis gauges",
+      "version": "2.26.0",
+      "artifact": {
+        "name": "car_vitals@2.26.0.tgz",
+        "url": "packages/car_vitals@2.26.0.tgz",
+        "size": 1011706,
+        "sha256": "2bd76dc7bbccc001fb0367786391cc47d38a46e513a15be260a31d6b39bcaceb"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "car_vitals.png",
+      "iconSha256": "f4ed2c2cf8f3c7dce5929aadeade8989449e8e5389568e05c0c4f42f1daef37d"
+    },
+    {
+      "id": "doom",
+      "kind": "app",
+      "title": "毁灭战士",
+      "description": "Doom (Freedoom: Phase 1) on the iDrive. Main menu with all settings; the game drawn in full resolution across the whole screen, on the controller; BACK returns to the menu and saves",
+      "version": "1.7.19",
+      "artifact": {
+        "name": "doom@1.7.19.tgz",
+        "url": "packages/doom@1.7.19.tgz",
+        "size": 11973002,
+        "sha256": "60c4036e4bb03182c00013a095002dceee8df5d4a5b49c8793b7286beaf8a2dd"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "doom.png",
+      "iconSha256": "4e1059afa6ca3023f873d2d2c7c44843d959b9bd16d4c905da2a3dd05f2a37f2"
+    },
+    {
+      "id": "draggy",
+      "kind": "app",
+      "title": "加速测试",
+      "description": "0-100, 100-200 and 1/4 mile timer with best times",
+      "version": "2.5.19",
+      "artifact": {
+        "name": "draggy@2.5.19.tgz",
+        "url": "packages/draggy@2.5.19.tgz",
+        "size": 986993,
+        "sha256": "e6ce607a3a308c0566acc7c04ab034341180568bd269e2db4754e15af3363208"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "draggy.png",
+      "iconSha256": "4d57c4caa4dff86649f7395796c8fbd05eeac035efba6df067f95dd0cf6f160b"
+    },
+    {
+      "id": "dtc_scanner",
+      "kind": "app",
+      "title": "故障扫描",
+      "description": "Read and clear fault memory of every control unit, plus active Check Control messages",
+      "version": "2.9.6",
+      "artifact": {
+        "name": "dtc_scanner@2.9.6.tgz",
+        "url": "packages/dtc_scanner@2.9.6.tgz",
+        "size": 6555751,
+        "sha256": "efd18639ef247ef0d5bbbee68f62fb337eb4b9d05b8f68ac9c6fb7bffa0c3c56"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "dtc_scanner.png",
+      "iconSha256": "e32af9aae088f38d40d312aaff61f7e51b14835924b01328039b461d84192171"
+    },
+    {
+      "id": "dyno",
+      "kind": "app",
+      "title": "虚拟马力机",
+      "description": "Power and torque curves from a full-throttle pull, saved and compared",
+      "version": "1.5.2",
+      "artifact": {
+        "name": "dyno@1.5.2.tgz",
+        "url": "packages/dyno@1.5.2.tgz",
+        "size": 981741,
+        "sha256": "bd32f49189c3dc75de19963dcb0a71405941d9381e41abe338391d583f74f2ff"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "dyno.png",
+      "iconSha256": "18ba9e4356b444f2362ce1dc137cec038cfcfeb17f099f203acc4106401f74eb"
+    },
+    {
+      "id": "edrive",
+      "kind": "app",
+      "title": "电驱数据",
+      "description": "Real electric range, live battery power, cells and climate power, HV battery health (SOH) and energy, last charge, charge log, the 12 V battery (charge, voltage, what it does, regen, history) and a home-screen widget; on a 48 V mild hybrid its 48 V battery and DC/DC converter",
+      "version": "2.8.4",
+      "artifact": {
+        "name": "edrive@2.8.4.tgz",
+        "url": "packages/edrive@2.8.4.tgz",
+        "size": 1061663,
+        "sha256": "ddddae232bf7296a45c5e17eef5494e3c8ca462aa6bcc29b616c3d76d3241600"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "edrive.png",
+      "iconSha256": "5869ea41c3c995e8f085e2761277db3e5f5040b6042ad50ad185d9b3b52a824a"
+    },
+    {
+      "id": "gforce",
+      "kind": "app",
+      "title": "G 值仪表",
+      "description": "Friction circle with grip envelope, peak g per direction and session records",
+      "version": "1.6.20",
+      "artifact": {
+        "name": "gforce@1.6.20.tgz",
+        "url": "packages/gforce@1.6.20.tgz",
+        "size": 985724,
+        "sha256": "efc3a78b8bb5dfa3dce154a1b265659f688d7f697aa6ccfa6f3e09547055ca67"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "gforce.png",
+      "iconSha256": "89e9e46537580ac2ae0048720e39ac9a175c1c44f286c4f1d7fc1e1828e79318"
+    },
+    {
+      "id": "live_adjustments",
+      "kind": "app",
+      "title": "实时调节",
+      "description": "Engine Config for BMW MGU ID7. Exhaust Flap: OEM, OPEN and CLOSE over the car's own diagnostic link, or following the driving mode (Sport open, Eco Pro closed); held against the DME's timeout, Close handed back above a set engine speed. With BM3 or MHD picked in Settings: engine map switching, burbles, ASD and Max Cooling. Experimental: xDrive off until the ignition cycle (DSC LMV_FUNKTION), behind its own setting",
+      "version": "0.9.1",
+      "artifact": {
+        "name": "live_adjustments@0.9.1.tgz",
+        "url": "packages/live_adjustments@0.9.1.tgz",
+        "size": 1163621,
+        "sha256": "ab09b9cf449067c9b6cbb3434c2ecc4e116e79017ad8deab44f446c1a20b6bc8"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "live_adjustments.png",
+      "iconSha256": "a274ebbeb1cda6ed3e5af20cccaa6c4877ebd2e515880d20f81fa874606400c5"
+    },
+    {
+      "id": "live_data",
+      "kind": "app",
+      "title": "实时数据",
+      "description": "Read-only live values from the car and its control units, a trip computer with fuel cost, and gauge screens of your own, one of them as the home-screen widget",
+      "version": "1.0.8",
+      "artifact": {
+        "name": "live_data@1.0.8.tgz",
+        "url": "packages/live_data@1.0.8.tgz",
+        "size": 1057900,
+        "sha256": "6f3faf795bb2622e42e58946857ad248f78002897971fa6440cda8210246266c"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "live_data.png",
+      "iconSha256": "27a70f2f4fd94b447938d83ee479ec8060c0d4d5d9ac65e978f14fe273b17c7d"
+    },
+    {
+      "id": "redline",
+      "kind": "app",
+      "title": "换挡提示",
+      "description": "Full-screen rev tach with shift lights, gear, shift scoring and cold-engine rev guard; HUD by @biscotit",
+      "version": "1.16.8",
+      "artifact": {
+        "name": "redline@1.16.8.tgz",
+        "url": "packages/redline@1.16.8.tgz",
+        "size": 1107364,
+        "sha256": "5da16ad733c47da6ae8544a162519369664af2286b91ece9fa0d4d3257f15410"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "redline.png",
+      "iconSha256": "9c2a029af517d3542604f40a56189c0ecb59d580ba9968ee63fddde35c02cf1d"
+    },
+    {
+      "id": "service",
+      "kind": "app",
+      "title": "保养信息",
+      "description": "Service requirements from the instrument cluster: oil, brakes, brake fluid, vehicle check, inspection - distance, date, details; brake fluid and vehicle check reset",
+      "version": "1.6.0",
+      "artifact": {
+        "name": "service@1.6.0.tgz",
+        "url": "packages/service@1.6.0.tgz",
+        "size": 985358,
+        "sha256": "3b1d65aae5b27dd562a0325123a5cb21356dc25f003ec6534f93d708d1e973e4"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "service.png",
+      "iconSha256": "606928ba45bd2f212eb81d87a5ae8ff4fc9d0129c6973e0d70a51ef861179ee9"
+    },
+    {
+      "id": "warmup",
+      "kind": "app",
+      "title": "暖机监测",
+      "description": "Oil and coolant warm-up calculator (time to ready), safe rev limit and turbo cool-down",
+      "version": "1.7.3",
+      "artifact": {
+        "name": "warmup@1.7.3.tgz",
+        "url": "packages/warmup@1.7.3.tgz",
+        "size": 976547,
+        "sha256": "cc9c8ff9c98db4a6d477c90800c15da63e91bc1b256dbe1892b82cc233378c21"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "warmup.png",
+      "iconSha256": "712aa342b103c39b3be8879ba071d0d0294620bd3e5abbc8e5bbc7ea67ee15e5"
+    },
+    {
+      "id": "zf8hp",
+      "kind": "app",
+      "title": "ZF 8HP 变速箱",
+      "description": "Transmission Config, experimental ZF 8HP monitor: live data, clutch fill adaptations, shift maps and temperature history",
+      "version": "1.5.5",
+      "artifact": {
+        "name": "zf8hp@1.5.5.tgz",
+        "url": "packages/zf8hp@1.5.5.tgz",
+        "size": 977349,
+        "sha256": "bc8983538f66f9f6600f9c5e768302d5c82af0765e3dd99bd0d04d04d82b5591"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "zf8hp.png",
+      "iconSha256": "5bdfb5f5579ee5f14be0120e06e9c8feafd0db6a3940421bf7ab44d0005aa1b0"
+    },
+    {
+      "id": "ambient_studio_full",
+      "kind": "app",
+      "title": "氛围灯工作室",
+      "description": "全屏设置驾驶模式配色和氛围灯提醒",
+      "version": "0.1.5",
+      "artifact": {
+        "name": "ambient_studio_full@0.1.5.tgz",
+        "url": "packages/ambient_studio_full@0.1.5.tgz",
+        "size": 957143,
+        "sha256": "87973e4c5c975de11a54db02f4b943517138495215f388745bd0f2af0192ae41"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "ambient_studio_full.png",
+      "iconSha256": "c296c5f480b6140ea1fcff60052f96a21a2aa81ee5ad133896941619ef067fd0"
+    },
+    {
+      "id": "dpf_monitor",
+      "kind": "app",
+      "title": "颗粒捕集器监测",
+      "description": "只读监测柴油颗粒捕集器积碳、再生进度、温度、压差及历史记录",
+      "version": "0.3.2",
+      "artifact": {
+        "name": "dpf_monitor@0.3.2.tgz",
+        "url": "packages/dpf_monitor@0.3.2.tgz",
+        "size": 953680,
+        "sha256": "92edcd5b87d868ad45a878d75b5c1ab1253d4c5f485ba0f3e2ee32921ee2e524"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "dpf_monitor.png",
+      "iconSha256": "099d5a112273728088a29750269cb30bf9060c08ea7c3ecaa6b2fb8645847977"
+    },
+    {
+      "id": "drive_hud_full",
+      "kind": "app",
+      "title": "抬头显示助手",
+      "description": "全屏设置 HUD 转向箭头、运动挡位和转速、换挡提示及发动机暖机信息",
+      "version": "0.1.6",
+      "artifact": {
+        "name": "drive_hud_full@0.1.6.tgz",
+        "url": "packages/drive_hud_full@0.1.6.tgz",
+        "size": 949704,
+        "sha256": "7902d97f63b340a05320315f4898abbd3b5f9d5287431f6a07bcde6d128777fc"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.3.10"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "drive_hud_full.png",
+      "iconSha256": "0126b1337d6c0c7660a8aaa9bd50aa8e6c9982e27ac3001f018bbcb08cf34c6b"
+    },
+    {
+      "id": "front_camera_cluster",
+      "kind": "app",
+      "title": "仪表夜视",
+      "description": "全屏控制宝马夜视和泊车摄像头在仪表中的显示",
+      "version": "0.2.1",
+      "artifact": {
+        "name": "front_camera_cluster@0.2.1.tgz",
+        "url": "packages/front_camera_cluster@0.2.1.tgz",
+        "size": 946450,
+        "sha256": "6b6e865bd6ecc6aa8192bc71e917c338fbc813da47cce09cbf8ff55784a1a15e"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "front-camera-cluster-helper": "0.2.1"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "front_camera_cluster.png",
+      "iconSha256": "0e8ce500fa378cfbc9fcd5b86bf73d74fb5fba91ea889887ab1f548938e312e5"
+    },
+    {
+      "id": "green_light_alert",
+      "kind": "app",
+      "title": "绿灯起步提醒",
+      "description": "监测 KAFAS 原始红绿灯信号，并以宝马已验证的显示信号作为后备",
+      "version": "0.2.5",
+      "artifact": {
+        "name": "green_light_alert@0.2.5.tgz",
+        "url": "packages/green_light_alert@0.2.5.tgz",
+        "size": 954820,
+        "sha256": "629f175e0af2eb796fb475dd6c8de4ee45fdce18366d3d819ff84ff938ddab9d"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "green_light_alert.png",
+      "iconSha256": "74cf497bc02ecd3bfd6cb84bc2ee46efe7d42f4e4d2a4fd16ff569fcc267bb45"
+    },
+    {
+      "id": "hotspot_studio",
+      "kind": "app",
+      "title": "热点工作室",
+      "description": "通过宝马热点提供华为网络代理，并按需开启单客户端限时 ENET 转发",
+      "version": "0.1.5",
+      "artifact": {
+        "name": "hotspot_studio@0.1.5.tgz",
+        "url": "packages/hotspot_studio@0.1.5.tgz",
+        "size": 967264,
+        "sha256": "a07e0389b9761991d3e259e7594640f7d6c4f635854031acea73a385107e06af"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "hotspot-studio-helper": "0.1.7"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "hotspot_studio.png",
+      "iconSha256": "47ab652dd92b4ae2aea8d2501b38ebb148d5be9548a5b35635ebed3232e16365"
+    },
+    {
+      "id": "parking_clearance",
+      "kind": "app",
+      "title": "泊车距离",
+      "description": "只读显示 PDC 距离、转向轨迹和悬架姿态",
+      "version": "0.1.8",
+      "artifact": {
+        "name": "parking_clearance@0.1.8.tgz",
+        "url": "packages/parking_clearance@0.1.8.tgz",
+        "size": 1176286,
+        "sha256": "7d7e0cc4c5ae8e2bd47f778226202d784a9e7813d73d47cf84a7bef366ae2b08"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "parking_clearance.png",
+      "iconSha256": "4debd25a4ff305e2fd7a3bf6944b1ccbe17f50cc0c538d707fe64cfe19da633a"
+    },
+    {
+      "id": "rear_comfort",
+      "kind": "app",
+      "title": "后排舒适控制",
+      "description": "G12 行政座舱后排空调、舒适座椅、按摩、遮阳帘及娱乐控制",
+      "version": "0.4.4",
+      "artifact": {
+        "name": "rear_comfort@0.4.4.tgz",
+        "url": "packages/rear_comfort@0.4.4.tgz",
+        "size": 5490736,
+        "sha256": "bf1bd20c03b3c78ba055528f81fb35b8a390b74cdb50d537a16fe82a2ed8719f"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "rear_comfort.png",
+      "iconSha256": "1e4729deebc48e40735de3ed7ae9c6eea046f1f93a4fc6df1931889c2a2ac1af"
+    },
+    {
+      "id": "ride_height",
+      "kind": "app",
+      "title": "车身高度工作室",
+      "description": "全屏设置 VDP 预设及前后空气弹簧充放气",
+      "version": "0.6.0",
+      "artifact": {
+        "name": "ride_height@0.6.0.tgz",
+        "url": "packages/ride_height@0.6.0.tgz",
+        "size": 949855,
+        "sha256": "ba236f978c837ec915c878f513cf1c09ceb6ec27a607e903e36ec4e69d57cd96"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "ride_height.png",
+      "iconSha256": "732083e3f98a7888e05b598f8f9fe9324255c3cd559a8cf5be4362c5271b7af1"
+    },
+    {
+      "id": "road_trip_computer",
+      "kind": "app",
+      "title": "行程电脑",
+      "description": "全屏显示行程历史、油耗、油价、费用、续航、车外温度和 GPS 海拔",
+      "version": "1.0.0",
+      "artifact": {
+        "name": "road_trip_computer@1.0.0.tgz",
+        "url": "packages/road_trip_computer@1.0.0.tgz",
+        "size": 1053377,
+        "sha256": "f98156ee7f7654c50254377f2c119c3e8046cb9203af60240f2be570c4f924b2"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "road_trip_computer.png",
+      "iconSha256": "6148be6ea376d61b6cc00e6aabcd09abd7d7a840f6948704b42af14af1704eb8"
+    },
+    {
+      "id": "start_stop_insight",
+      "kind": "app",
+      "title": "自动启停状态",
+      "description": "显示当前及最近十条自动启停抑制状态，以及实时用电负载",
+      "version": "0.1.3",
+      "artifact": {
+        "name": "start_stop_insight@0.1.3.tgz",
+        "url": "packages/start_stop_insight@0.1.3.tgz",
+        "size": 949829,
+        "sha256": "853b3d62685b99dbe3bf54733e8651c21cacc037e8a1bc37e178ca4919d9a888"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "start_stop_insight.png",
+      "iconSha256": "064b605ea22d7c81f66a6a1cb3507fa231a83662c79a98e85bc094227dd379d0"
+    },
+    {
+      "id": "telemetry_studio",
+      "kind": "app",
+      "title": "车辆遥测",
+      "description": "分类全屏显示动力、热管理、底盘、轮胎、空调和电气实时数据",
+      "version": "0.2.0",
+      "artifact": {
+        "name": "telemetry_studio@0.2.0.tgz",
+        "url": "packages/telemetry_studio@0.2.0.tgz",
+        "size": 980981,
+        "sha256": "2411b1f51159a151c6ceebf9ff84e2a1396b3d6ab8380d7c673b5e3b5b65a3e3"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "telemetry_studio.png",
+      "iconSha256": "10fe4e83ea4e7a2c7bdc72a649ac56210850c0c3ab5b9a4889229b648f129e08"
+    },
+    {
+      "id": "vehicle_health",
+      "kind": "app",
+      "title": "车辆健康中心",
+      "description": "只读查看轮胎、油液、温度、保养需求、检查控制、DPF 和当前故障",
+      "version": "0.1.9",
+      "artifact": {
+        "name": "vehicle_health@0.1.9.tgz",
+        "url": "packages/vehicle_health@0.1.9.tgz",
+        "size": 951226,
+        "sha256": "e4e8bad27a20bfe54955fea6f4c1812d2c3cec8eac6a33946177a8ded6b8cb4c"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "vehicle_health.png",
+      "iconSha256": "937c1b44f7062fcf39f7312468925b0c97eccb5e8242f60fed6a81f1d779683a"
+    },
+    {
+      "id": "vehicle_network",
+      "kind": "app",
+      "title": "车辆网络",
+      "description": "显示 MGU 网络接口、观测到的车辆网络设备和电脑 IPv4 设置",
+      "version": "0.1.3",
+      "artifact": {
+        "name": "vehicle_network@0.1.3.tgz",
+        "url": "packages/vehicle_network@0.1.3.tgz",
+        "size": 954333,
+        "sha256": "b386f413627675ad03e1cf3828052aa02b92b78f437174620a47b394ae97385d"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "vehicle-network-observer": "0.1.2"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "vehicle_network.png",
+      "iconSha256": "fee355d9e52e81331470c91aaf021c10158b42a03b1bd56be124ec053fb2067a"
+    },
+    {
+      "id": "xdrive_studio",
+      "kind": "app",
+      "title": "xDrive 动力分配",
+      "description": "只读查看 xDrive 扭矩分配、分动箱扭矩、车轮滑差和底盘动态",
+      "version": "0.1.5",
+      "artifact": {
+        "name": "xdrive_studio@0.1.5.tgz",
+        "url": "packages/xdrive_studio@0.1.5.tgz",
+        "size": 1081667,
+        "sha256": "441281c06346486b0aaa285f200047a532f9111e21327ce3e0f1a93a0bf30278"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "xdrive_studio.png",
+      "iconSha256": "c9e4fe60e30aeb0398010bdee628d43a38676d9a22236e6c998fcff04a937185"
+    },
+    {
+      "id": "jap_ridetube",
+      "kind": "app",
+      "title": "RideTube · 简体中文",
+      "description": "ID7 非官方 YouTube 客户端，支持搜索、频道、章节及登录后的首页、订阅和稍后观看。通过车机播放声音，默认停车时显示画面。需要 jap-ridetube-d 服务。",
+      "version": "0.3.8",
+      "artifact": {
+        "name": "jap_ridetube@0.3.8.tgz",
+        "url": "packages/jap_ridetube@0.3.8.tgz",
+        "size": 1938655,
+        "sha256": "d60231ab44b6dfadf2d850fdb880b904052ac83b9e903bed3a9f5ef67599ec99"
+      },
+      "requires": {
+        "jap-ridetube-d": "0.3.9",
+        "mgu-render": "0.6.11",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "jap_ridetube.png",
+      "iconSha256": "afbf63c28de964d4f249f062bdbddf853fe1e676cc8d62f59028ea0f1c6a9876"
+    },
+    {
+      "id": "spotify",
+      "kind": "app",
+      "title": "Spotify · 简体中文",
+      "description": "BMW iDrive 7 的 Spotify Connect 播放控制和曲库浏览应用",
+      "version": "1.0.23",
+      "artifact": {
+        "name": "spotify@1.0.23.tgz",
+        "url": "packages/spotify@1.0.23.tgz",
+        "size": 1807894,
+        "sha256": "f3b9a58453a14296e206c0a30b2feef7cd6ff04505fbec4bc94dabbf5a628e50"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "spotify.png",
+      "iconSha256": "7e7e06848570f5ae181d497ee276a92e636ec4c7129228b52525503a6a2869c9"
+    },
+    {
+      "id": "cluster_themes",
+      "kind": "app",
+      "title": "仪表主题 · Cluster Themes",
+      "description": "Redraws the instrument cluster: GT3 race dash, M-style, Sport, Minimal, Roadster, Track, Drag, Rally, Retro 80s, Cruise or Dyno (BMW-coloured readout tiles), with shift lights, boost, temps, tyres, a G-meter and a 0-60 timer",
+      "version": "0.14.6",
+      "artifact": {
+        "name": "cluster_themes@0.14.6.tgz",
+        "url": "packages/cluster_themes@0.14.6.tgz",
+        "size": 2046177,
+        "sha256": "ef6a4c17b1ad30a524172bf0a49ced2fe414f979567c001a111eeebd55c0c55c"
+      },
+      "requires": {
+        "cluster-render": "0.5.1"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "cluster_themes.png",
+      "iconSha256": "01689a8688cafb36e95954753f93d7f3f1070ee9d99352756007decae6f4c6c8"
+    },
+    {
+      "id": "flash8523_bmw_weather",
+      "kind": "app",
+      "title": "BMW 天气",
+      "description": "宝马 ID7 天气预报和主页小组件",
+      "version": "0.1.0",
+      "artifact": {
+        "name": "flash8523_bmw_weather@0.1.0.tgz",
+        "url": "packages/flash8523_bmw_weather@0.1.0.tgz",
+        "size": 976323,
+        "sha256": "a88c4c476744cecf72f3afe1e5c87c0b5c175bbdc0fc0c1843ed421ad2c46454"
+      },
+      "requires": {},
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ]
+    },
+    {
+      "id": "mgu_browser",
+      "kind": "app",
+      "title": "MGU Browser · 简体中文",
+      "description": "Browser mit Startseite, Verlauf, Lesezeichen und iDrive-Steuerung",
+      "version": "0.16.1",
+      "artifact": {
+        "name": "mgu_browser@0.16.1.tgz",
+        "url": "packages/mgu_browser@0.16.1.tgz",
+        "size": 1986642,
+        "sha256": "9253b9baec19ef31d4bbe915063c35048bafeeb71bcfe0f213196bc9ffc2f93f"
+      },
+      "requires": {
+        "mgu-browser": "0.16.1",
+        "mgu-browser-engine": "0.1.0",
+        "mgu-uplink": "0.7.3",
+        "mgu-render": "0.6.11",
+        "mgu-deploy": "0.7.17"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ]
+    },
+    {
+      "id": "jap-ridetube-d",
+      "kind": "tool",
+      "title": "RideTube service",
+      "description": "The car side of RideTube, an unofficial client for YouTube: yt-dlp (from its official release, run in mgu-python) fetches as the daemon's own internet uid; search, feeds and thumbnails on the car (jap-node22); audio through the BMW MediaPlayer, video decoded by ytdec into the mgu-render video layer; TV device sign-in; controlled by the RideTube app over /run/jap-ridetube-d/ctl.sock",
+      "version": "0.3.9",
+      "artifact": {
+        "name": "jap-ridetube-d@0.3.9.tgz",
+        "size": 8777546,
+        "sha256": "63dc4d7deb18849662d7d90efb41017483db5f835e6124fb90e6f5cd45300f5d",
+        "url": "packages/jap-ridetube-d@0.3.9.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "mgu-python": "1.0.2",
+        "jap-node22": "22.23.4",
+        "mgu-render": "0.6.11"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ]
+    },
+    {
+      "id": "mgu-browser",
+      "kind": "tool",
+      "version": "0.16.1",
+      "title": "Browser runtime (experimental)",
+      "mguHmi": [
+        "ID7"
+      ],
+      "artifact": {
+        "name": "mgu-browser@0.16.1.tgz",
+        "size": 406404,
+        "sha256": "dac91634fe5ff877913b66add4205895a86f90800d48e8a9897c6cd75cf157aa",
+        "url": "packages/mgu-browser@0.16.1.tgz"
+      },
+      "requires": {
+        "mgu-browser-engine": "0.1.0",
+        "mgu-uplink": "0.7.3",
+        "mgu-deploy": "0.7.17"
+      },
+      "uninstallable": true,
+      "author": "Leon Pllana"
+    },
+    {
+      "id": "mgu-browser-engine",
+      "kind": "tool",
+      "version": "0.1.0",
+      "title": "Browser Chromium engine (experimental)",
+      "mguHmi": [
+        "ID7"
+      ],
+      "artifact": {
+        "name": "mgu-browser-engine@0.1.0.tgz",
+        "size": 181048639,
+        "sha256": "0b6a73c964354214262d01f2d9bec2d0ab253cac8d27de04708912e804ef0874",
+        "url": "https://github.com/pllanaio/mgu-browser/releases/download/v0.10.0/mgu-browser-engine%400.1.0.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.17"
+      },
+      "uninstallable": true,
+      "author": "Leon Pllana"
+    },
+    {
+      "id": "idrive7-renderd",
+      "kind": "tool",
+      "version": "2.1.11",
+      "title": "GPU renderer",
+      "description": "The apps' own GPU renderer (mgu-render): draws them at 60 fps, beside the MGU Store's Renderer; installed with the apps",
+      "requires": {
+        "mgu-deploy": "0.6.1"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "mguNeeds": null,
+      "mguProvides": "renderer",
+      "optional": true,
+      "uninstallable": true,
+      "artifact": {
+        "name": "idrive7-renderd@2.1.11.tgz",
+        "url": "packages/idrive7-renderd@2.1.11.tgz",
+        "size": 94236,
+        "sha256": "f557df49dfce320261ff10bb66f409b5cda39b3854f29f74a408ad596690183b"
+      }
+    },
+    {
+      "id": "mgu-inputgate",
+      "kind": "tool",
+      "version": "1.0.0",
+      "title": "Controller gate",
+      "description": "Lets the apps have the iDrive controller (tabs, page buttons, settings, Doom); loads into the HMI at the next start",
+      "requires": {
+        "mgu-deploy": "0.3.2"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "mguNeeds": [
+        "renderer"
+      ],
+      "mguProvides": null,
+      "optional": false,
+      "uninstallable": true,
+      "artifact": {
+        "name": "mgu-inputgate@1.0.0.tgz",
+        "url": "packages/mgu-inputgate@1.0.0.tgz",
+        "size": 7011,
+        "sha256": "d45096403723b1cf27defd1001cde0dc59d788875387780598db7a9bfbf9088e"
+      }
+    },
+    {
+      "id": "robertn_store",
+      "kind": "app",
+      "title": "Store",
+      "description": "The apps and head-unit tools of every source with their state, and the sources; installs, updates and removes them through mgu-updater",
+      "version": "0.9.40",
+      "artifact": {
+        "name": "robertn_store@0.9.40.tgz",
+        "size": 4339265,
+        "sha256": "a4e19ccd04cd11cd5b833f5d1da9a256d084f7de92759e12172a6d45adcd2153",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/robertn_store%400.9.40/robertn_store%400.9.40.tgz"
+      },
+      "build": "unit",
+      "requires": {
+        "mgu-deploy": "0.8.12",
+        "mgu-updater": "0.8.28",
+        "mgu-render": "0.3.1"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "texts": {
+        "ar": {
+          "title": "Store",
+          "description": "تطبيقات وأدوات الوحدة الرئيسية من كل مصدر مع حالتها، والمصادر نفسها؛ يثبّتها ويحدّثها ويزيلها عبر mgu-updater"
+        },
+        "cs": {
+          "title": "Store",
+          "description": "Aplikace a nástroje hlavní jednotky ze všech zdrojů s jejich stavem a zdroje; instaluje, aktualizuje a odebírá je přes mgu-updater"
+        },
+        "da": {
+          "title": "Store",
+          "description": "Apps og hovedenhedsværktøjer fra hver kilde med deres status samt kilderne; installerer, opdaterer og fjerner dem via mgu-updater"
+        },
+        "de": {
+          "title": "Store",
+          "description": "Die Apps und Headunit-Tools aller Quellen mit ihrem Status sowie die Quellen; installiert, aktualisiert und entfernt sie über mgu-updater"
+        },
+        "el": {
+          "title": "Store",
+          "description": "Οι εφαρμογές και τα εργαλεία κεντρικής μονάδας κάθε πηγής με την κατάστασή τους, καθώς και οι πηγές· τα εγκαθιστά, ενημερώνει και καταργεί μέσω του mgu-updater"
+        },
+        "es-US": {
+          "title": "Store",
+          "description": "Las apps y herramientas de la unidad principal de cada fuente con su estado, y las fuentes; las instala, actualiza y elimina mediante mgu-updater"
+        },
+        "es": {
+          "title": "Store",
+          "description": "Las apps y herramientas de la unidad principal de cada fuente con su estado, y las fuentes; las instala, actualiza y elimina mediante mgu-updater"
+        },
+        "fi": {
+          "title": "Store",
+          "description": "Jokaisen lähteen sovellukset ja pääyksikön työkalut tiloineen sekä lähteet; asentaa, päivittää ja poistaa ne mgu-updaterin kautta"
+        },
+        "fr-CA": {
+          "title": "Store",
+          "description": "Les applis et outils système de chaque source avec leur état, ainsi que les sources; les installe, met à jour et supprime via mgu-updater"
+        },
+        "fr": {
+          "title": "Store",
+          "description": "Les apps et outils système de chaque source avec leur état, ainsi que les sources ; les installe, met à jour et supprime via mgu-updater"
+        },
+        "he": {
+          "title": "Store",
+          "description": "האפליקציות וכלי המערכת מכל מקור עם מצבם, והמקורות עצמם; מתקין, מעדכן ומסיר אותם באמצעות mgu-updater"
+        },
+        "hu": {
+          "title": "Store",
+          "description": "Az összes forrás alkalmazásai és fejegység-eszközei az állapotukkal, valamint maguk a források; az mgu-updater segítségével telepíti, frissíti és eltávolítja őket"
+        },
+        "id": {
+          "title": "Store",
+          "description": "Aplikasi dan alat head unit dari setiap sumber beserta statusnya, serta sumbernya; menginstal, memperbarui, dan menghapusnya melalui mgu-updater"
+        },
+        "it": {
+          "title": "Store",
+          "description": "Le app e gli strumenti di sistema di ogni fonte con il loro stato, e le fonti; li installa, aggiorna e rimuove tramite mgu-updater"
+        },
+        "ja": {
+          "title": "Store",
+          "description": "すべてのソースのアプリとヘッドユニットツールをその状態とともに表示し、ソースも管理して、mgu-updater を通じてインストール、アップデート、削除を行います"
+        },
+        "ko": {
+          "title": "Store",
+          "description": "모든 소스의 앱과 헤드 유닛 도구를 상태와 함께 보여 주고 소스를 관리하며, mgu-updater를 통해 설치, 업데이트, 제거합니다"
+        },
+        "nb": {
+          "title": "Store",
+          "description": "Appene og hovedenhetsverktøyene fra hver kilde med status, og kildene; installerer, oppdaterer og fjerner dem via mgu-updater"
+        },
+        "nl": {
+          "title": "Store",
+          "description": "De apps en headunit-tools van elke bron met hun status, en de bronnen; installeert, werkt bij en verwijdert ze via mgu-updater"
+        },
+        "pl": {
+          "title": "Store",
+          "description": "Aplikacje i narzędzia jednostki głównej ze wszystkich źródeł wraz ze stanem oraz same źródła; instaluje, aktualizuje i usuwa je przez mgu-updater"
+        },
+        "pt-BR": {
+          "title": "Store",
+          "description": "Os apps e ferramentas da unidade principal de cada fonte com seu status, e as fontes; instala, atualiza e remove esses itens por meio do mgu-updater"
+        },
+        "pt": {
+          "title": "Store",
+          "description": "As apps e ferramentas da unidade principal de cada fonte com o seu estado, e as fontes; instala-as, atualiza-as e remove-as através do mgu-updater"
+        },
+        "ro": {
+          "title": "Store",
+          "description": "Aplicațiile și instrumentele unității principale din fiecare sursă, cu starea lor, și sursele; le instalează, actualizează și elimină prin mgu-updater"
+        },
+        "ru": {
+          "title": "Store",
+          "description": "Приложения и системные утилиты головного устройства из всех источников с их состоянием, а также сами источники; устанавливает, обновляет и удаляет их через mgu-updater"
+        },
+        "sk": {
+          "title": "Store",
+          "description": "Aplikácie a nástroje hlavnej jednotky zo všetkých zdrojov s ich stavom a samotné zdroje; inštaluje, aktualizuje a odstraňuje ich cez mgu-updater"
+        },
+        "sl": {
+          "title": "Store",
+          "description": "Aplikacije in orodja glavne enote iz vseh virov z njihovim stanjem ter viri; namešča, posodablja in odstranjuje jih prek mgu-updater"
+        },
+        "sv": {
+          "title": "Store",
+          "description": "Appar och huvudenhetsverktyg från varje källa med deras status, samt källorna; installerar, uppdaterar och tar bort dem via mgu-updater"
+        },
+        "th": {
+          "title": "Store",
+          "description": "แอปและเครื่องมือเฮดยูนิตจากทุกแหล่งที่มาพร้อมสถานะ และแหล่งที่มาเอง ติดตั้ง อัปเดต และลบผ่าน mgu-updater"
+        },
+        "tr": {
+          "title": "Store",
+          "description": "Her kaynağın uygulamalarını ve ana ünite araçlarını durumlarıyla birlikte, kaynakları da gösterir; bunları mgu-updater üzerinden yükler, günceller ve kaldırır"
+        },
+        "uk": {
+          "title": "Store",
+          "description": "Програми й системні утиліти головного пристрою з усіх джерел з їхнім станом, а також самі джерела; встановлює, оновлює та видаляє їх через mgu-updater"
+        },
+        "vi": {
+          "title": "Store",
+          "description": "Các ứng dụng và công cụ hệ thống của mọi nguồn cùng trạng thái của chúng, và các nguồn; cài đặt, cập nhật và gỡ bỏ chúng qua mgu-updater"
+        },
+        "zh-CN": {
+          "title": "应用商店",
+          "description": "列出每个来源的应用和主机工具及其状态，以及各来源；通过 mgu-updater 安装、更新和移除它们"
+        },
+        "zh-TW": {
+          "title": "Store",
+          "description": "列出每個來源的應用程式與主機工具及其狀態，以及各來源；透過 mgu-updater 安裝、更新及移除它們"
+        }
+      }
+    },
+    {
+      "id": "mgu-deploy",
+      "kind": "tool",
+      "title": "Deploy tool",
+      "description": "Installs, updates, rolls back and removes our tools and apps on the head unit, with a snapshot before every change",
+      "version": "0.8.19",
+      "artifact": {
+        "name": "mgu-deploy@0.8.19.tgz",
+        "size": 159287,
+        "sha256": "b649fa192c39e1023057c427b19d9dc77d01b1a26900d78e49815d4b1206749e",
+        "url": "packages/mgu-deploy@0.8.19.tgz"
+      },
+      "texts": {
+        "ar": {
+          "title": "أداة النشر",
+          "description": "تثبّت أدواتنا وتطبيقاتنا على الوحدة الرئيسية وتحدّثها وتستعيد إصداراتها السابقة وتزيلها، مع لقطة قبل كل تغيير"
+        },
+        "cs": {
+          "title": "Nástroj nasazení",
+          "description": "Instaluje, aktualizuje, vrací zpět a odebírá naše nástroje a aplikace na hlavní jednotce a před každou změnou pořizuje snímek"
+        },
+        "da": {
+          "title": "Installationsværktøj",
+          "description": "Installerer, opdaterer, ruller tilbage og fjerner vores værktøjer og apps på hovedenheden, med et snapshot før hver ændring"
+        },
+        "de": {
+          "title": "Deploy-Tool",
+          "description": "Installiert, aktualisiert, setzt zurück und entfernt unsere Tools und Apps auf der Headunit, mit einem Snapshot vor jeder Änderung"
+        },
+        "el": {
+          "title": "Εργαλείο εγκατάστασης",
+          "description": "Εγκαθιστά, ενημερώνει, επαναφέρει και καταργεί τα εργαλεία και τις εφαρμογές μας στην κεντρική μονάδα, με στιγμιότυπο πριν από κάθε αλλαγή"
+        },
+        "es-US": {
+          "title": "Herramienta de implementación",
+          "description": "Instala, actualiza, revierte y elimina nuestras herramientas y apps en la unidad principal, con una instantánea antes de cada cambio"
+        },
+        "es": {
+          "title": "Herramienta de despliegue",
+          "description": "Instala, actualiza, revierte y elimina nuestras herramientas y apps en la unidad principal, con una instantánea antes de cada cambio"
+        },
+        "fi": {
+          "title": "Asennustyökalu",
+          "description": "Asentaa, päivittää, palauttaa ja poistaa työkalumme ja sovelluksemme pääyksikössä ja ottaa tilannevedoksen ennen jokaista muutosta"
+        },
+        "fr-CA": {
+          "title": "Outil de déploiement",
+          "description": "Installe, met à jour, restaure et supprime nos outils et applis sur le système, avec un instantané avant chaque modification"
+        },
+        "fr": {
+          "title": "Outil de déploiement",
+          "description": "Installe, met à jour, restaure et supprime nos outils et apps sur le système, avec un instantané avant chaque modification"
+        },
+        "he": {
+          "title": "כלי הפריסה",
+          "description": "מתקין, מעדכן, משחזר גרסה קודמת ומסיר את הכלים והאפליקציות שלנו במערכת, עם תמונת מצב לפני כל שינוי"
+        },
+        "hu": {
+          "title": "Telepítőeszköz",
+          "description": "Telepíti, frissíti, visszaállítja és eltávolítja eszközeinket és alkalmazásainkat a fejegységen, minden változtatás előtt pillanatképet készítve"
+        },
+        "id": {
+          "title": "Alat deploy",
+          "description": "Menginstal, memperbarui, mengembalikan, dan menghapus alat serta aplikasi kami di head unit, dengan snapshot sebelum setiap perubahan"
+        },
+        "it": {
+          "title": "Strumento di distribuzione",
+          "description": "Installa, aggiorna, ripristina e rimuove i nostri strumenti e app sul sistema, con uno snapshot prima di ogni modifica"
+        },
+        "ja": {
+          "title": "デプロイツール",
+          "description": "ヘッドユニット上の当方のツールとアプリをインストール、アップデート、ロールバック、削除し、変更のたびに事前にスナップショットを作成します"
+        },
+        "ko": {
+          "title": "배포 도구",
+          "description": "헤드 유닛에서 자체 도구와 앱을 설치, 업데이트, 롤백, 제거하며 변경할 때마다 먼저 스냅샷을 만듭니다"
+        },
+        "nb": {
+          "title": "Installasjonsverktøy",
+          "description": "Installerer, oppdaterer, ruller tilbake og fjerner verktøyene og appene våre på hovedenheten, med et øyeblikksbilde før hver endring"
+        },
+        "nl": {
+          "title": "Deploy-tool",
+          "description": "Installeert, werkt bij, zet terug en verwijdert onze tools en apps op de headunit, met een snapshot vóór elke wijziging"
+        },
+        "pl": {
+          "title": "Narzędzie wdrażania",
+          "description": "Instaluje, aktualizuje, przywraca i usuwa nasze narzędzia i aplikacje na jednostce głównej, tworząc migawkę przed każdą zmianą"
+        },
+        "pt-BR": {
+          "title": "Ferramenta de implantação",
+          "description": "Instala, atualiza, reverte e remove nossas ferramentas e apps na unidade principal, com um snapshot antes de cada alteração"
+        },
+        "pt": {
+          "title": "Ferramenta de implementação",
+          "description": "Instala, atualiza, reverte e remove as nossas ferramentas e apps na unidade principal, com um instantâneo antes de cada alteração"
+        },
+        "ro": {
+          "title": "Instrument de implementare",
+          "description": "Instalează, actualizează, readuce la versiunea anterioară și elimină instrumentele și aplicațiile noastre de pe unitatea principală, cu un snapshot înaintea fiecărei modificări"
+        },
+        "ru": {
+          "title": "Инструмент установки",
+          "description": "Устанавливает, обновляет, откатывает и удаляет наши утилиты и приложения на головном устройстве, создавая снимок перед каждым изменением"
+        },
+        "sk": {
+          "title": "Nástroj nasadenia",
+          "description": "Inštaluje, aktualizuje, vracia späť a odstraňuje naše nástroje a aplikácie na hlavnej jednotke, pred každou zmenou so snímkou stavu"
+        },
+        "sl": {
+          "title": "Orodje za namestitev",
+          "description": "Namešča, posodablja, povrača in odstranjuje naša orodja in aplikacije na glavni enoti, pred vsako spremembo s posnetkom stanja"
+        },
+        "sv": {
+          "title": "Installationsverktyg",
+          "description": "Installerar, uppdaterar, återställer och tar bort våra verktyg och appar på huvudenheten, med en ögonblicksbild före varje ändring"
+        },
+        "th": {
+          "title": "เครื่องมือติดตั้ง",
+          "description": "ติดตั้ง อัปเดต ย้อนกลับ และลบเครื่องมือและแอปของเราบนเฮดยูนิต พร้อมสแนปช็อตก่อนทุกการเปลี่ยนแปลง"
+        },
+        "tr": {
+          "title": "Dağıtım aracı",
+          "description": "Araçlarımızı ve uygulamalarımızı ana ünitede yükler, günceller, geri alır ve kaldırır; her değişiklikten önce anlık görüntü alır"
+        },
+        "uk": {
+          "title": "Інструмент встановлення",
+          "description": "Встановлює, оновлює, відкочує та видаляє наші утиліти й програми на головному пристрої, створюючи знімок перед кожною зміною"
+        },
+        "vi": {
+          "title": "Công cụ triển khai",
+          "description": "Cài đặt, cập nhật, khôi phục bản trước và gỡ bỏ các công cụ và ứng dụng của chúng tôi trên hệ thống, kèm bản chụp nhanh trước mỗi thay đổi"
+        },
+        "zh-CN": {
+          "title": "部署工具",
+          "description": "在主机上安装、更新、回滚和移除我们的工具和应用，每次更改前都会创建快照"
+        },
+        "zh-TW": {
+          "title": "部署工具",
+          "description": "在主機上安裝、更新、回復及移除我們的工具與應用程式，每次變更前都會建立快照"
+        }
+      }
+    },
+    {
+      "id": "mgu-updater",
+      "kind": "tool",
+      "title": "Updater",
+      "description": "Installs, updates and removes apps and head-unit tools from its sources",
+      "version": "0.8.45",
+      "artifact": {
+        "name": "mgu-updater@0.8.45.tgz",
+        "size": 138624,
+        "sha256": "7901aa4e01dde87645b35dcb3d70bcb442ef91ec088303315e88d020736e2680",
+        "url": "packages/mgu-updater@0.8.45.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.8.4",
+        "mgu-python": "1.0.2"
+      },
+      "texts": {
+        "ar": {
+          "title": "أداة التحديث",
+          "description": "تثبّت التطبيقات وأدوات الوحدة الرئيسية من مصادرها وتحدّثها وتزيلها"
+        },
+        "cs": {
+          "title": "Služba aktualizací",
+          "description": "Instaluje, aktualizuje a odebírá aplikace a nástroje hlavní jednotky ze svých zdrojů"
+        },
+        "da": {
+          "title": "Updater",
+          "description": "Installerer, opdaterer og fjerner apps og hovedenhedsværktøjer fra sine kilder"
+        },
+        "de": {
+          "title": "Updater",
+          "description": "Installiert, aktualisiert und entfernt Apps und Headunit-Tools aus seinen Quellen"
+        },
+        "el": {
+          "title": "Πρόγραμμα ενημέρωσης",
+          "description": "Εγκαθιστά, ενημερώνει και καταργεί εφαρμογές και εργαλεία της κεντρικής μονάδας από τις πηγές του"
+        },
+        "es-US": {
+          "title": "Actualizador",
+          "description": "Instala, actualiza y elimina apps y herramientas de la unidad principal desde sus fuentes"
+        },
+        "es": {
+          "title": "Actualizador",
+          "description": "Instala, actualiza y elimina apps y herramientas de la unidad principal desde sus fuentes"
+        },
+        "fi": {
+          "title": "Päivityspalvelu",
+          "description": "Asentaa, päivittää ja poistaa sovelluksia ja pääyksikön työkaluja lähteistään"
+        },
+        "fr-CA": {
+          "title": "Service de mise à jour",
+          "description": "Installe, met à jour et supprime les applis et outils système depuis ses sources"
+        },
+        "fr": {
+          "title": "Service de mise à jour",
+          "description": "Installe, met à jour et supprime les apps et outils système depuis ses sources"
+        },
+        "he": {
+          "title": "שירות העדכון",
+          "description": "מתקין, מעדכן ומסיר אפליקציות וכלי מערכת מהמקורות שלו"
+        },
+        "hu": {
+          "title": "Frissítő",
+          "description": "Forrásaiból telepíti, frissíti és eltávolítja az alkalmazásokat és a fejegység-eszközöket"
+        },
+        "id": {
+          "title": "Updater",
+          "description": "Menginstal, memperbarui, dan menghapus aplikasi serta alat head unit dari sumbernya"
+        },
+        "it": {
+          "title": "Servizio aggiornamenti",
+          "description": "Installa, aggiorna e rimuove app e strumenti di sistema dalle sue fonti"
+        },
+        "ja": {
+          "title": "アップデーター",
+          "description": "ソースからアプリとヘッドユニットツールをインストール、アップデート、削除します"
+        },
+        "ko": {
+          "title": "업데이터",
+          "description": "소스에서 앱과 헤드 유닛 도구를 설치, 업데이트, 제거합니다"
+        },
+        "nb": {
+          "title": "Oppdateringstjeneste",
+          "description": "Installerer, oppdaterer og fjerner apper og hovedenhetsverktøy fra kildene sine"
+        },
+        "nl": {
+          "title": "Updater",
+          "description": "Installeert, werkt bij en verwijdert apps en headunit-tools uit zijn bronnen"
+        },
+        "pl": {
+          "title": "Usługa aktualizacji",
+          "description": "Instaluje, aktualizuje i usuwa aplikacje oraz narzędzia jednostki głównej ze swoich źródeł"
+        },
+        "pt-BR": {
+          "title": "Atualizador",
+          "description": "Instala, atualiza e remove apps e ferramentas da unidade principal a partir das suas fontes"
+        },
+        "pt": {
+          "title": "Atualizador",
+          "description": "Instala, atualiza e remove apps e ferramentas da unidade principal a partir das suas fontes"
+        },
+        "ro": {
+          "title": "Actualizator",
+          "description": "Instalează, actualizează și elimină aplicații și instrumente ale unității principale din sursele sale"
+        },
+        "ru": {
+          "title": "Сервис обновлений",
+          "description": "Устанавливает, обновляет и удаляет приложения и системные утилиты головного устройства из своих источников"
+        },
+        "sk": {
+          "title": "Aktualizátor",
+          "description": "Inštaluje, aktualizuje a odstraňuje aplikácie a nástroje hlavnej jednotky zo svojich zdrojov"
+        },
+        "sl": {
+          "title": "Posodobilnik",
+          "description": "Iz svojih virov namešča, posodablja in odstranjuje aplikacije in orodja glavne enote"
+        },
+        "sv": {
+          "title": "Updater",
+          "description": "Installerar, uppdaterar och tar bort appar och huvudenhetsverktyg från sina källor"
+        },
+        "th": {
+          "title": "ตัวอัปเดต",
+          "description": "ติดตั้ง อัปเดต และลบแอปและเครื่องมือเฮดยูนิตจากแหล่งที่มา"
+        },
+        "tr": {
+          "title": "Güncelleyici",
+          "description": "Uygulamaları ve ana ünite araçlarını kaynaklarından yükler, günceller ve kaldırır"
+        },
+        "uk": {
+          "title": "Служба оновлень",
+          "description": "Встановлює, оновлює та видаляє програми й системні утиліти головного пристрою зі своїх джерел"
+        },
+        "vi": {
+          "title": "Trình cập nhật",
+          "description": "Cài đặt, cập nhật và gỡ bỏ ứng dụng và công cụ hệ thống từ các nguồn của nó"
+        },
+        "zh-CN": {
+          "title": "更新服务",
+          "description": "从其来源安装、更新和移除应用及主机工具"
+        },
+        "zh-TW": {
+          "title": "更新服務",
+          "description": "從其來源安裝、更新及移除應用程式與主機工具"
+        }
+      }
+    },
+    {
+      "id": "mgu-python",
+      "kind": "tool",
+      "title": "Python",
+      "description": "Python 3.12 for apps that build on the head unit with Python",
+      "version": "1.0.3",
+      "artifact": {
+        "name": "mgu-python@1.0.3.tgz",
+        "size": 14441404,
+        "sha256": "98ce27bcee265ba6846446ad7867193fbdc9e0447195dbf22bcfaabf7e2f2533",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-python%401.0.3/mgu-python%401.0.3.tgz"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "texts": {
+        "ar": {
+          "title": "Python",
+          "description": "Python 3.12 للتطبيقات التي تُبنى على الوحدة الرئيسية باستخدام Python"
+        },
+        "cs": {
+          "title": "Python",
+          "description": "Python 3.12 pro aplikace, které se na hlavní jednotce sestavují v Pythonu"
+        },
+        "da": {
+          "title": "Python",
+          "description": "Python 3.12 til apps, der bygges på hovedenheden med Python"
+        },
+        "de": {
+          "title": "Python",
+          "description": "Python 3.12 für Apps, die auf der Headunit mit Python gebaut werden"
+        },
+        "el": {
+          "title": "Python",
+          "description": "Python 3.12 για εφαρμογές που μεταγλωττίζονται στην κεντρική μονάδα με Python"
+        },
+        "es-US": {
+          "title": "Python",
+          "description": "Python 3.12 para apps que se compilan en la unidad principal con Python"
+        },
+        "es": {
+          "title": "Python",
+          "description": "Python 3.12 para apps que se compilan en la unidad principal con Python"
+        },
+        "fi": {
+          "title": "Python",
+          "description": "Python 3.12 sovelluksille, jotka koostetaan pääyksikössä Pythonilla"
+        },
+        "fr-CA": {
+          "title": "Python",
+          "description": "Python 3.12 pour les applis compilées sur le système avec Python"
+        },
+        "fr": {
+          "title": "Python",
+          "description": "Python 3.12 pour les apps compilées sur le système avec Python"
+        },
+        "he": {
+          "title": "Python",
+          "description": "Python 3.12 לאפליקציות שנבנות במערכת באמצעות Python"
+        },
+        "hu": {
+          "title": "Python",
+          "description": "Python 3.12 azokhoz az alkalmazásokhoz, amelyek Pythonnal épülnek a fejegységen"
+        },
+        "id": {
+          "title": "Python",
+          "description": "Python 3.12 untuk aplikasi yang dibangun di head unit dengan Python"
+        },
+        "it": {
+          "title": "Python",
+          "description": "Python 3.12 per le app che vengono compilate sul sistema con Python"
+        },
+        "ja": {
+          "title": "Python",
+          "description": "ヘッドユニット上で Python を使ってビルドされるアプリ用の Python 3.12"
+        },
+        "ko": {
+          "title": "Python",
+          "description": "헤드 유닛에서 Python으로 빌드되는 앱을 위한 Python 3.12"
+        },
+        "nb": {
+          "title": "Python",
+          "description": "Python 3.12 for apper som bygges på hovedenheten med Python"
+        },
+        "nl": {
+          "title": "Python",
+          "description": "Python 3.12 voor apps die op de headunit met Python worden gebouwd"
+        },
+        "pl": {
+          "title": "Python",
+          "description": "Python 3.12 dla aplikacji budowanych na jednostce głównej w Pythonie"
+        },
+        "pt-BR": {
+          "title": "Python",
+          "description": "Python 3.12 para apps que são compilados na unidade principal com Python"
+        },
+        "pt": {
+          "title": "Python",
+          "description": "Python 3.12 para apps que são compiladas na unidade principal com Python"
+        },
+        "ro": {
+          "title": "Python",
+          "description": "Python 3.12 pentru aplicațiile care se compilează pe unitatea principală cu Python"
+        },
+        "ru": {
+          "title": "Python",
+          "description": "Python 3.12 для приложений, которые собираются на головном устройстве с помощью Python"
+        },
+        "sk": {
+          "title": "Python",
+          "description": "Python 3.12 pre aplikácie, ktoré sa na hlavnej jednotke zostavujú pomocou Pythonu"
+        },
+        "sl": {
+          "title": "Python",
+          "description": "Python 3.12 za aplikacije, ki se na glavni enoti gradijo s Pythonom"
+        },
+        "sv": {
+          "title": "Python",
+          "description": "Python 3.12 för appar som byggs på huvudenheten med Python"
+        },
+        "th": {
+          "title": "Python",
+          "description": "Python 3.12 สำหรับแอปที่บิลด์บนเฮดยูนิตด้วย Python"
+        },
+        "tr": {
+          "title": "Python",
+          "description": "Ana ünitede Python ile derlenen uygulamalar için Python 3.12"
+        },
+        "uk": {
+          "title": "Python",
+          "description": "Python 3.12 для програм, які збираються на головному пристрої за допомогою Python"
+        },
+        "vi": {
+          "title": "Python",
+          "description": "Python 3.12 cho các ứng dụng được dựng trên hệ thống bằng Python"
+        },
+        "zh-CN": {
+          "title": "Python",
+          "description": "为在主机上用 Python 构建的应用提供 Python 3.12"
+        },
+        "zh-TW": {
+          "title": "Python",
+          "description": "為在主機上以 Python 建置的應用程式提供 Python 3.12"
+        }
+      }
+    },
+    {
+      "id": "mgu-render",
+      "kind": "tool",
+      "title": "Renderer",
+      "description": "Draws apps' screens on the GPU, over the HMI or inside the app's page",
+      "version": "0.6.21",
+      "artifact": {
+        "name": "mgu-render@0.6.21.tgz",
+        "size": 101309,
+        "sha256": "fc5fbcd9caca59f9b8a03fd7dc84545c12dd1e89c90c73860ffe492a2586ec4b",
+        "url": "packages/mgu-render@0.6.21.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.6.9"
+      },
+      "optional": true,
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "mguProvides": "renderer",
+      "texts": {
+        "ar": {
+          "title": "العارض",
+          "description": "يرسم شاشات التطبيقات باستخدام وحدة معالجة الرسومات، فوق واجهة HMI أو داخل صفحة التطبيق"
+        },
+        "cs": {
+          "title": "Renderer",
+          "description": "Vykresluje obrazovky aplikací na GPU, nad HMI nebo uvnitř stránky aplikace"
+        },
+        "da": {
+          "title": "Renderer",
+          "description": "Tegner apps' skærme på GPU'en, oven på HMI'en eller inde på appens side"
+        },
+        "de": {
+          "title": "Renderer",
+          "description": "Zeichnet die Bildschirme von Apps auf der GPU, über dem HMI oder in der Seite der App"
+        },
+        "el": {
+          "title": "Απόδοση γραφικών",
+          "description": "Σχεδιάζει τις οθόνες των εφαρμογών στη GPU, πάνω από το HMI ή μέσα στη σελίδα της εφαρμογής"
+        },
+        "es-US": {
+          "title": "Renderizador",
+          "description": "Dibuja las pantallas de las apps en la GPU, sobre el HMI o dentro de la página de la app"
+        },
+        "es": {
+          "title": "Renderizador",
+          "description": "Dibuja las pantallas de las apps en la GPU, sobre el HMI o dentro de la página de la app"
+        },
+        "fi": {
+          "title": "Renderöijä",
+          "description": "Piirtää sovellusten näkymät GPU:lla HMI:n päälle tai sovelluksen sivulle"
+        },
+        "fr-CA": {
+          "title": "Moteur de rendu",
+          "description": "Dessine les écrans des applis sur le GPU, par-dessus l'IHM ou dans la page de l'appli"
+        },
+        "fr": {
+          "title": "Moteur de rendu",
+          "description": "Dessine les écrans des apps sur le GPU, par-dessus l'IHM ou dans la page de l'app"
+        },
+        "he": {
+          "title": "מנוע רינדור",
+          "description": "מצייר את מסכי האפליקציות במעבד הגרפי, מעל ממשק ה-HMI או בתוך דף האפליקציה"
+        },
+        "hu": {
+          "title": "Renderelő",
+          "description": "Az alkalmazások képernyőit a GPU-n rajzolja, a HMI fölé vagy az alkalmazás oldalán belül"
+        },
+        "id": {
+          "title": "Renderer",
+          "description": "Menggambar layar aplikasi di GPU, di atas HMI atau di dalam halaman aplikasi"
+        },
+        "it": {
+          "title": "Renderer",
+          "description": "Disegna le schermate delle app sulla GPU, sopra l'HMI o nella pagina dell'app"
+        },
+        "ja": {
+          "title": "レンダラー",
+          "description": "アプリの画面を GPU で描画し、HMI の上またはアプリのページ内に表示します"
+        },
+        "ko": {
+          "title": "렌더러",
+          "description": "GPU로 앱 화면을 그려 HMI 위 또는 앱 페이지 안에 표시합니다"
+        },
+        "nb": {
+          "title": "Gjengiver",
+          "description": "Tegner appenes skjermbilder med GPU-en, over HMI-en eller inne på appens side"
+        },
+        "nl": {
+          "title": "Renderer",
+          "description": "Tekent de schermen van apps op de GPU, over de HMI of binnen de pagina van de app"
+        },
+        "pl": {
+          "title": "Renderer",
+          "description": "Rysuje ekrany aplikacji na GPU, nad HMI lub wewnątrz strony aplikacji"
+        },
+        "pt-BR": {
+          "title": "Renderizador",
+          "description": "Desenha as telas dos apps na GPU, sobre o HMI ou dentro da página do app"
+        },
+        "pt": {
+          "title": "Renderizador",
+          "description": "Desenha os ecrãs das apps na GPU, sobre o HMI ou dentro da página da app"
+        },
+        "ro": {
+          "title": "Renderer",
+          "description": "Desenează ecranele aplicațiilor pe GPU, peste HMI sau în pagina aplicației"
+        },
+        "ru": {
+          "title": "Рендерер",
+          "description": "Отрисовывает экраны приложений на GPU поверх HMI или внутри страницы приложения"
+        },
+        "sk": {
+          "title": "Renderer",
+          "description": "Vykresľuje obrazovky aplikácií na GPU, nad HMI alebo vnútri stránky aplikácie"
+        },
+        "sl": {
+          "title": "Renderer",
+          "description": "Riše zaslone aplikacij na GPU, nad HMI ali znotraj strani aplikacije"
+        },
+        "sv": {
+          "title": "Renderare",
+          "description": "Ritar appars skärmar på GPU:n, ovanpå HMI:t eller inuti appens sida"
+        },
+        "th": {
+          "title": "ตัวเรนเดอร์",
+          "description": "วาดหน้าจอของแอปด้วย GPU บน HMI หรือภายในหน้าของแอป"
+        },
+        "tr": {
+          "title": "Oluşturucu",
+          "description": "Uygulama ekranlarını GPU üzerinde, HMI'ın üstünde veya uygulamanın sayfasında çizer"
+        },
+        "uk": {
+          "title": "Рендерер",
+          "description": "Відмальовує екрани програм на GPU поверх HMI або всередині сторінки програми"
+        },
+        "vi": {
+          "title": "Trình kết xuất",
+          "description": "Vẽ màn hình của ứng dụng bằng GPU, đè lên HMI hoặc bên trong trang của ứng dụng"
+        },
+        "zh-CN": {
+          "title": "渲染器",
+          "description": "在 GPU 上绘制应用画面，叠加在 HMI 之上或显示在应用页面内"
+        },
+        "zh-TW": {
+          "title": "渲染器",
+          "description": "在 GPU 上繪製應用程式畫面，疊加於 HMI 之上或顯示在應用程式頁面內"
+        }
+      }
+    },
+    {
+      "id": "cluster-render",
+      "kind": "tool",
+      "title": "Cluster renderer",
+      "description": "Draws every app's layers on the instrument cluster and the HUD, sharing the display slots and one upload budget",
+      "version": "0.6.0",
+      "artifact": {
+        "name": "cluster-render@0.6.0.tgz",
+        "size": 9880714,
+        "sha256": "2ab26abde227a8c9021882477494f775f22c76735c51564a22017ab5a436942c",
+        "url": "https://github.com/robertnisipeanu/idrive-apps/releases/download/cluster-render%400.6.0/cluster-render%400.6.0.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.4.0"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "uninstallable": true,
+      "texts": {
+        "ar": {
+          "title": "عارض لوحة العدادات",
+          "description": "يرسم طبقات جميع التطبيقات على لوحة العدادات وشاشة HUD، مع مشاركة خانات العرض وحصة رفع واحدة"
+        },
+        "cs": {
+          "title": "Renderer přístrojového štítu",
+          "description": "Kreslí vrstvy všech aplikací na přístrojový štít a HUD a sdílí přitom pozice na displeji a jeden společný rozpočet nahrávání"
+        },
+        "da": {
+          "title": "Instrumentpanel-renderer",
+          "description": "Tegner alle apps' lag på instrumentpanelet og HUD'en og deler visningspladserne og ét fælles uploadbudget"
+        },
+        "de": {
+          "title": "Kombi-Renderer",
+          "description": "Zeichnet die Ebenen aller Apps im Kombiinstrument und im HUD und teilt dabei die Anzeigeplätze und ein gemeinsames Upload-Budget auf"
+        },
+        "el": {
+          "title": "Μηχανή απόδοσης πίνακα οργάνων",
+          "description": "Σχεδιάζει τα επίπεδα όλων των εφαρμογών στον πίνακα οργάνων και στο HUD, μοιράζοντας τις θέσεις της οθόνης και ένα κοινό όριο μεταφόρτωσης"
+        },
+        "es-US": {
+          "title": "Renderizador del tablero",
+          "description": "Dibuja las capas de todas las apps en el tablero de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
+        },
+        "es": {
+          "title": "Renderizador del cuadro",
+          "description": "Dibuja las capas de todas las apps en el cuadro de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
+        },
+        "fi": {
+          "title": "Mittariston piirtäjä",
+          "description": "Piirtää kaikkien sovellusten tasot mittaristoon ja HUD-näyttöön ja jakaa näyttöpaikat ja yhteisen latausbudjetin"
+        },
+        "fr-CA": {
+          "title": "Rendu du combiné",
+          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
+        },
+        "fr": {
+          "title": "Rendu du combiné",
+          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
+        },
+        "he": {
+          "title": "מנוע התצוגה של לוח המחוונים",
+          "description": "מצייר את השכבות של כל האפליקציות בלוח המחוונים וב-HUD, תוך שיתוף משבצות התצוגה ומכסת העלאה אחת"
+        },
+        "hu": {
+          "title": "Műszerfal-megjelenítő",
+          "description": "Minden alkalmazás rétegeit megjeleníti a műszerfalon és a HUD-on, közösen használva a megjelenítési helyeket és egyetlen feltöltési keretet"
+        },
+        "id": {
+          "title": "Perender panel instrumen",
+          "description": "Menggambar lapisan setiap aplikasi di panel instrumen dan HUD, berbagi slot layar dan satu kuota unggahan"
+        },
+        "it": {
+          "title": "Renderer del quadro",
+          "description": "Disegna i livelli di tutte le app sul quadro strumenti e sull'HUD, condividendo gli slot di visualizzazione e un unico budget di trasferimento"
+        },
+        "ja": {
+          "title": "メーターレンダラー",
+          "description": "すべてのアプリのレイヤーをメーターとHUDに描画し、表示スロットと共通のアップロード枠を共有します"
+        },
+        "ko": {
+          "title": "계기판 렌더러",
+          "description": "모든 앱의 레이어를 계기판과 HUD에 그리며, 디스플레이 슬롯과 하나의 업로드 예산을 공유합니다"
+        },
+        "nb": {
+          "title": "Instrumentpanel-renderer",
+          "description": "Tegner alle appers lag i instrumentpanelet og på HUD-en og deler visningsplassene og ett felles opplastingsbudsjett"
+        },
+        "nl": {
+          "title": "Instrumentpaneel-renderer",
+          "description": "Tekent de lagen van alle apps op het instrumentpaneel en de HUD en verdeelt de weergaveplaatsen en één gedeeld uploadbudget"
+        },
+        "pl": {
+          "title": "Renderer zestawu wskaźników",
+          "description": "Rysuje warstwy wszystkich aplikacji na zestawie wskaźników i wyświetlaczu HUD, dzieląc miejsca na ekranie i jeden wspólny budżet przesyłania"
+        },
+        "pt-BR": {
+          "title": "Renderizador do painel",
+          "description": "Desenha as camadas de todos os apps no painel de instrumentos e no HUD, compartilhando as posições da tela e um único orçamento de envio"
+        },
+        "pt": {
+          "title": "Renderizador do quadrante",
+          "description": "Desenha as camadas de todas as apps no quadrante de instrumentos e no HUD, partilhando as posições do ecrã e um único orçamento de carregamento"
+        },
+        "ro": {
+          "title": "Randare bord",
+          "description": "Desenează straturile tuturor aplicațiilor pe bordul digital și pe HUD, împărțind pozițiile de afișare și un singur buget de transfer"
+        },
+        "ru": {
+          "title": "Рендерер приборной панели",
+          "description": "Отрисовывает слои всех приложений на приборной панели и HUD, распределяя места на экране и общий лимит загрузки"
+        },
+        "sk": {
+          "title": "Vykresľovanie prístrojovej dosky",
+          "description": "Vykresľuje vrstvy všetkých aplikácií na prístrojovej doske a HUD, so spoločnými zobrazovacími pozíciami a jedným spoločným limitom prenosu"
+        },
+        "sl": {
+          "title": "Izris na armaturi",
+          "description": "Izriše plasti vseh aplikacij na armaturni plošči in HUD ter si deli mesta prikaza in en skupni proračun prenosa"
+        },
+        "sv": {
+          "title": "Kombiinstrumentets renderare",
+          "description": "Ritar alla appars lager i kombiinstrumentet och på HUD:en och delar på visningsplatserna och en gemensam uppladdningsbudget"
+        },
+        "th": {
+          "title": "ตัวเรนเดอร์หน้าปัด",
+          "description": "วาดเลเยอร์ของทุกแอปบนหน้าปัดและ HUD โดยใช้ช่องแสดงผลและโควตาการอัปโหลดร่วมกัน"
+        },
+        "tr": {
+          "title": "Gösterge oluşturucu",
+          "description": "Tüm uygulamaların katmanlarını gösterge panelinde ve HUD'da çizer; ekran yuvalarını ve tek bir aktarım bütçesini paylaşır"
+        },
+        "uk": {
+          "title": "Рендерер панелі приладів",
+          "description": "Відображає шари всіх програм на панелі приладів і HUD, розподіляючи місця на екрані та спільний ліміт завантаження"
+        },
+        "vi": {
+          "title": "Trình hiển thị bảng đồng hồ",
+          "description": "Vẽ các lớp của mọi ứng dụng trên bảng đồng hồ và HUD, dùng chung các vị trí hiển thị và một hạn mức tải lên"
+        },
+        "zh-CN": {
+          "title": "仪表盘渲染器",
+          "description": "在仪表盘和 HUD 上绘制所有应用的图层，共享显示槽位和同一上传额度"
+        },
+        "zh-TW": {
+          "title": "儀表板繪製器",
+          "description": "在儀表板與 HUD 上繪製所有應用程式的圖層，共用顯示欄位與同一份上傳額度"
+        }
+      }
+    },
+    {
+      "id": "front-camera-cluster-helper",
+      "kind": "tool",
+      "version": "0.2.1",
+      "title": "Night Vision cluster helper",
+      "description": "Mirrors BMW's protected Night Vision or parking-camera surface into the instrument cluster",
+      "mguHmi": [
+        "ID7"
+      ],
+      "artifact": {
+        "name": "front-camera-cluster-helper@0.2.1.tgz",
+        "size": 4006,
+        "sha256": "394076ef83aa204b6902ee20afe9a839f19f67296a6c8b530885df6ae1e07dd4",
+        "url": "packages/front-camera-cluster-helper@0.2.1.tgz"
+      },
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.11",
+        "cluster-render": "0.3.10"
+      }
+    },
+    {
+      "id": "hotspot-studio-helper",
+      "kind": "tool",
+      "version": "0.1.7",
+      "title": "Hotspot Studio helper",
+      "description": "Shares the MGU LTE uplink with BMW's hotspot and provides a guarded single-client ENET gateway",
+      "mguHmi": [
+        "ID7"
+      ],
+      "artifact": {
+        "name": "hotspot-studio-helper@0.1.7.tgz",
+        "size": 9437,
+        "sha256": "a2350a9d330008649f3cbe948f48d018be3a97f5cf179a5ab0305b1198ab135a",
+        "url": "packages/hotspot-studio-helper@0.1.7.tgz"
+      },
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.11",
+        "mgu-python": "1.0.2",
+        "mgu-uplink": "0.7.3"
+      }
+    },
+    {
+      "id": "mgu-uplink",
+      "kind": "tool",
+      "title": "Internet uplink",
+      "description": "Internet for selected apps through a USB network adapter, an LTE stick, a USB-tethered phone or Wi-Fi",
+      "version": "0.7.12",
+      "artifact": {
+        "name": "mgu-uplink@0.7.12.tgz",
+        "size": 3604053,
+        "sha256": "21ed6dad1b0e413572dedc67f05a9f44a3a4ee4eb7cc40d31d93d9b076a5082a",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-uplink%400.7.12/mgu-uplink%400.7.12.tgz"
+      },
+      "requires": {
+        "mgu-updater": "0.7.2"
+      },
+      "optional": true,
+      "texts": {
+        "ar": {
+          "title": "اتصال الإنترنت",
+          "description": "إنترنت للتطبيقات المحددة عبر محول شبكة USB أو مودم LTE أو هاتف يشارك اتصاله بالإنترنت عبر USB أو Wi-Fi"
+        },
+        "cs": {
+          "title": "Připojení k internetu",
+          "description": "Internet pro vybrané aplikace přes síťový adaptér USB, LTE modem, telefon sdílející internet přes USB nebo Wi-Fi"
+        },
+        "da": {
+          "title": "Internetforbindelse",
+          "description": "Internet til udvalgte apps via en USB-netværksadapter, en LTE-nøgle, en telefon med USB-tethering eller Wi-Fi"
+        },
+        "de": {
+          "title": "Internet-Uplink",
+          "description": "Internet für ausgewählte Apps über einen USB-Netzwerkadapter, einen LTE-Stick, ein per USB-Tethering verbundenes Telefon oder Wi-Fi"
+        },
+        "el": {
+          "title": "Σύνδεση Internet",
+          "description": "Internet για επιλεγμένες εφαρμογές μέσω προσαρμογέα δικτύου USB, USB stick LTE, τηλεφώνου που μοιράζεται τη σύνδεσή του μέσω USB ή δικτύου Wi-Fi"
+        },
+        "es-US": {
+          "title": "Conexión a Internet",
+          "description": "Internet para las apps seleccionadas mediante un adaptador de red USB, un módem LTE, un teléfono con conexión compartida por USB o una red Wi-Fi"
+        },
+        "es": {
+          "title": "Conexión a Internet",
+          "description": "Internet para las apps seleccionadas mediante un adaptador de red USB, un módem LTE, un móvil con conexión compartida por USB o una red Wi-Fi"
+        },
+        "fi": {
+          "title": "Internet-yhteys",
+          "description": "Internet valituille sovelluksille USB-verkkosovittimen, LTE-tikun, USB:llä internetyhteyttä jakavan puhelimen tai Wi-Fin kautta"
+        },
+        "fr-CA": {
+          "title": "Accès Internet",
+          "description": "Internet pour certaines applis via un adaptateur réseau USB, une clé LTE, un cellulaire en partage de connexion USB ou le Wi-Fi"
+        },
+        "fr": {
+          "title": "Accès Internet",
+          "description": "Internet pour certaines apps via un adaptateur réseau USB, une clé LTE, un téléphone en partage de connexion USB ou le Wi-Fi"
+        },
+        "he": {
+          "title": "חיבור לאינטרנט",
+          "description": "אינטרנט לאפליקציות נבחרות דרך מתאם רשת USB, מודם LTE, טלפון בשיתוף USB או Wi-Fi"
+        },
+        "hu": {
+          "title": "Internetkapcsolat",
+          "description": "Internet a kiválasztott alkalmazásoknak USB-hálózati adapteren, LTE-modemen, USB-n csatlakoztatott telefonon vagy Wi-Fi-n keresztül"
+        },
+        "id": {
+          "title": "Koneksi internet",
+          "description": "Internet untuk aplikasi terpilih melalui adaptor jaringan USB, modem LTE, ponsel dengan tethering USB, atau Wi-Fi"
+        },
+        "it": {
+          "title": "Connessione Internet",
+          "description": "Internet per le app selezionate tramite un adattatore di rete USB, una chiavetta LTE, un telefono in tethering USB o il Wi-Fi"
+        },
+        "ja": {
+          "title": "インターネット接続",
+          "description": "USB ネットワークアダプター、LTE スティック、USB テザリングしたスマートフォン、または Wi-Fi を通じて、選択したアプリにインターネットを提供します"
+        },
+        "ko": {
+          "title": "인터넷 연결",
+          "description": "USB 네트워크 어댑터, LTE 동글, USB 테더링 휴대폰 또는 Wi-Fi를 통해 선택한 앱에 인터넷을 제공합니다"
+        },
+        "nb": {
+          "title": "Internettilkobling",
+          "description": "Internett for utvalgte apper via en USB-nettverksadapter, en LTE-pinne, en telefon som deler internett via USB, eller Wi-Fi"
+        },
+        "nl": {
+          "title": "Internet-uplink",
+          "description": "Internet voor geselecteerde apps via een USB-netwerkadapter, een LTE-stick, een via USB-tethering verbonden telefoon of Wi-Fi"
+        },
+        "pl": {
+          "title": "Łącze internetowe",
+          "description": "Internet dla wybranych aplikacji przez kartę sieciową USB, modem LTE, telefon udostępniający internet przez USB lub Wi-Fi"
+        },
+        "pt-BR": {
+          "title": "Conexão à Internet",
+          "description": "Internet para os apps selecionados por meio de um adaptador de rede USB, um modem LTE, um celular com compartilhamento de Internet via USB ou uma rede Wi-Fi"
+        },
+        "pt": {
+          "title": "Ligação à Internet",
+          "description": "Internet para as apps selecionadas através de um adaptador de rede USB, uma pen LTE, um telemóvel com partilha de Internet por USB ou uma rede Wi-Fi"
+        },
+        "ro": {
+          "title": "Conexiune la internet",
+          "description": "Internet pentru aplicațiile selectate printr-un adaptor de rețea USB, un stick LTE, un telefon conectat prin USB sau Wi-Fi"
+        },
+        "ru": {
+          "title": "Интернет-канал",
+          "description": "Интернет для выбранных приложений через сетевой USB-адаптер, LTE-модем, телефон в режиме USB-модема или Wi-Fi"
+        },
+        "sk": {
+          "title": "Internetové pripojenie",
+          "description": "Internet pre vybrané aplikácie cez sieťový USB adaptér, LTE modem, telefón pripojený cez USB alebo Wi-Fi"
+        },
+        "sl": {
+          "title": "Internetna povezava",
+          "description": "Internet za izbrane aplikacije prek omrežnega adapterja USB, ključka LTE, telefona, povezanega prek USB, ali Wi-Fi"
+        },
+        "sv": {
+          "title": "Internetanslutning",
+          "description": "Internet för valda appar via en USB-nätverksadapter, ett LTE-modem, en telefon med USB-delning eller Wi-Fi"
+        },
+        "th": {
+          "title": "อินเทอร์เน็ต",
+          "description": "อินเทอร์เน็ตสำหรับแอปที่เลือก ผ่านอะแดปเตอร์เครือข่าย USB, ดองเกิล LTE, โทรศัพท์ที่แชร์เน็ตผ่าน USB หรือ Wi-Fi"
+        },
+        "tr": {
+          "title": "İnternet bağlantısı",
+          "description": "Seçili uygulamalara USB ağ adaptörü, LTE modem, USB ile internet paylaşan telefon veya Wi-Fi üzerinden internet sağlar"
+        },
+        "uk": {
+          "title": "Інтернет-канал",
+          "description": "Інтернет для вибраних програм через мережевий USB-адаптер, LTE-модем, телефон у режимі USB-модема або Wi-Fi"
+        },
+        "vi": {
+          "title": "Kết nối Internet",
+          "description": "Internet cho các ứng dụng được chọn qua bộ chuyển đổi mạng USB, USB LTE, điện thoại chia sẻ mạng qua USB hoặc Wi-Fi"
+        },
+        "zh-CN": {
+          "title": "互联网连接",
+          "description": "通过 USB 网卡、LTE 上网卡、USB 共享网络的手机或 Wi-Fi，为选定的应用提供互联网连接"
+        },
+        "zh-TW": {
+          "title": "網際網路連線",
+          "description": "透過 USB 網路卡、LTE 網卡、以 USB 網路共用的手機或 Wi-Fi，為選定的應用程式提供網際網路"
+        }
+      }
+    },
+    {
+      "id": "vehicle-network-observer",
+      "kind": "tool",
+      "version": "0.1.2",
+      "title": "Vehicle network observer",
+      "description": "Creates the passive network inventory consumed by the Vehicle Network app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "artifact": {
+        "name": "vehicle-network-observer@0.1.2.tgz",
+        "size": 5887,
+        "sha256": "216a50ffbe3e5b64524b7a2bb89a752a0f30aea197493455028236f9e690a715",
+        "url": "packages/vehicle-network-observer@0.1.2.tgz"
+      },
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.11",
+        "mgu-python": "1.0.2"
+      }
+    },
+    {
+      "id": "jap-node22",
+      "kind": "tool",
+      "title": "Node.js 22",
+      "description": "Node.js 22 LTS for the background services of Moonride and RideTube (BMW's apps keep the system Node 8)",
+      "author": "JustAnotherPU",
+      "version": "22.23.4",
+      "artifact": {
+        "name": "jap-node22@22.23.4.tgz",
+        "size": 49203293,
+        "sha256": "c62a8e2a3803b858b4d1020cb19746c8bd9ae8b753145f80c5adf7d781692743",
+        "url": "packages/jap-node22@22.23.4.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "optional": true
+    }
+  ]
+}
