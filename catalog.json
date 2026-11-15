@@ -22,8 +22,8 @@
     {
       "id": "ambient_config",
       "kind": "app",
-      "title": "氛围灯配置",
-      "description": "设置车内氛围灯颜色，可为不同驾驶模式分别指定配色。",
+      "title": "氛围灯设置",
+      "description": "The ambient light's colour: set it here, or let each driving mode choose one",
       "version": "1.3.0",
       "artifact": {
         "name": "ambient_config@1.3.0.tgz",
@@ -47,7 +47,7 @@
       "id": "brake_test",
       "kind": "app",
       "title": "制动测试",
-      "description": "记录 100–0 和 200–0 制动距离、峰值减速度及制动衰退。",
+      "description": "100-0 and 200-0 braking distance, peak decel and brake-fade tracking",
       "version": "1.5.19",
       "artifact": {
         "name": "brake_test@1.5.19.tgz",
@@ -70,8 +70,8 @@
     {
       "id": "car_vitals",
       "kind": "app",
-      "title": "车辆状态",
-      "description": "实时查看发动机、油液温度、进气、燃油、点火、轮胎和底盘数据。",
+      "title": "M 车辆仪表",
+      "description": "Live engine, thermal, intake / fuel / ignition, tyre and chassis gauges",
       "version": "2.26.0",
       "artifact": {
         "name": "car_vitals@2.26.0.tgz",
@@ -95,7 +95,7 @@
       "id": "doom",
       "kind": "app",
       "title": "毁灭战士",
-      "description": "在 iDrive 上运行 Freedoom 第一章，支持全屏游戏和车机设置菜单。",
+      "description": "Doom (Freedoom: Phase 1) on the iDrive. Main menu with all settings; the game drawn in full resolution across the whole screen, on the controller; BACK returns to the menu and saves",
       "version": "1.7.19",
       "artifact": {
         "name": "doom@1.7.19.tgz",
@@ -118,8 +118,8 @@
     {
       "id": "draggy",
       "kind": "app",
-      "title": "加速测试",
-      "description": "记录 0–100、100–200 和四分之一英里加速成绩，保留最佳记录。",
+      "title": "加速计时",
+      "description": "0-100, 100-200 and 1/4 mile timer with best times",
       "version": "2.5.19",
       "artifact": {
         "name": "draggy@2.5.19.tgz",
@@ -142,8 +142,8 @@
     {
       "id": "dtc_scanner",
       "kind": "app",
-      "title": "故障扫描",
-      "description": "读取及清除控制单元故障码，并查看当前的车辆检查控制消息。",
+      "title": "故障检测",
+      "description": "Read and clear fault memory of every control unit, plus active Check Control messages",
       "version": "2.9.6",
       "artifact": {
         "name": "dtc_scanner@2.9.6.tgz",
@@ -167,7 +167,7 @@
       "id": "dyno",
       "kind": "app",
       "title": "虚拟马力机",
-      "description": "记录加速过程中的功率和扭矩曲线，可保存和比较多次结果。",
+      "description": "Power and torque curves from a full-throttle pull, saved and compared",
       "version": "1.5.2",
       "artifact": {
         "name": "dyno@1.5.2.tgz",
@@ -190,8 +190,8 @@
     {
       "id": "edrive",
       "kind": "app",
-      "title": "电驱数据",
-      "description": "查看电动续航、电池功率和电芯数据、高压电池健康度及充电记录。",
+      "title": "EDrive助手",
+      "description": "Real electric range, live battery power, cells and climate power, HV battery health (SOH) and energy, last charge, charge log, the 12 V battery (charge, voltage, what it does, regen, history) and a home-screen widget; on a 48 V mild hybrid its 48 V battery and DC/DC converter",
       "version": "2.8.4",
       "artifact": {
         "name": "edrive@2.8.4.tgz",
@@ -215,7 +215,7 @@
       "id": "gforce",
       "kind": "app",
       "title": "G 值仪表",
-      "description": "显示摩擦圆、抓地力范围、各方向 G 值峰值及行程记录。",
+      "description": "Friction circle with grip envelope, peak g per direction and session records",
       "version": "1.6.20",
       "artifact": {
         "name": "gforce@1.6.20.tgz",
@@ -238,8 +238,8 @@
     {
       "id": "live_adjustments",
       "kind": "app",
-      "title": "实时调节",
-      "description": "发动机设置，包含排气阀门控制及兼容车辆的 BM3、MHD 功能。部分功能会向控制单元发送指令，需在应用设置中启用。",
+      "title": "发动机配置",
+      "description": "Engine Config for BMW MGU ID7. Exhaust Flap: OEM, OPEN and CLOSE over the car's own diagnostic link, or following the driving mode (Sport open, Eco Pro closed); held against the DME's timeout, Close handed back above a set engine speed. With BM3 or MHD picked in Settings: engine map switching, burbles, ASD and Max Cooling. Experimental: xDrive off until the ignition cycle (DSC LMV_FUNKTION), behind its own setting",
       "version": "0.9.1",
       "artifact": {
         "name": "live_adjustments@0.9.1.tgz",
@@ -263,7 +263,7 @@
       "id": "live_data",
       "kind": "app",
       "title": "实时数据",
-      "description": "只读查看车辆及控制单元实时数据，提供行程电脑、燃油费用和自定义仪表。",
+      "description": "Read-only live values from the car and its control units, a trip computer with fuel cost, and gauge screens of your own, one of them as the home-screen widget",
       "version": "1.0.8",
       "artifact": {
         "name": "live_data@1.0.8.tgz",
@@ -286,8 +286,8 @@
     {
       "id": "redline",
       "kind": "app",
-      "title": "换挡提示",
-      "description": "全屏转速表，带挡位、换挡灯、换挡评分及冷机转速保护提示。HUD 由 biscotit 制作。",
+      "title": "换挡转速",
+      "description": "Full-screen rev tach with shift lights, gear, shift scoring and cold-engine rev guard; HUD by @biscotit",
       "version": "1.16.8",
       "artifact": {
         "name": "redline@1.16.8.tgz",
@@ -311,7 +311,7 @@
       "id": "service",
       "kind": "app",
       "title": "保养信息",
-      "description": "读取车辆的机油、刹车片、制动液、车辆检查和年检等保养信息。",
+      "description": "Service requirements from the instrument cluster: oil, brakes, brake fluid, vehicle check, inspection - distance, date, details; brake fluid and vehicle check reset",
       "version": "1.6.0",
       "artifact": {
         "name": "service@1.6.0.tgz",
@@ -334,8 +334,8 @@
     {
       "id": "warmup",
       "kind": "app",
-      "title": "暖机监测",
-      "description": "跟踪机油和冷却液的暖机进度，显示预计完成时间、转速提示及涡轮冷却信息。",
+      "title": "暖机助手",
+      "description": "Oil and coolant warm-up calculator (time to ready), safe rev limit and turbo cool-down",
       "version": "1.7.3",
       "artifact": {
         "name": "warmup@1.7.3.tgz",
@@ -358,8 +358,8 @@
     {
       "id": "zf8hp",
       "kind": "app",
-      "title": "ZF 8HP 变速箱",
-      "description": "实验性的 ZF 8HP 变速箱监测，提供实时数据、离合器适配值、换挡图与温度历史。",
+      "title": "变速箱配置",
+      "description": "Transmission Config, experimental ZF 8HP monitor: live data, clutch fill adaptations, shift maps and temperature history",
       "version": "1.5.5",
       "artifact": {
         "name": "zf8hp@1.5.5.tgz",
@@ -746,7 +746,7 @@
     {
       "id": "jap_ridetube",
       "kind": "app",
-      "title": "RideTube · 简体中文",
+      "title": "RideTube",
       "description": "ID7 非官方 YouTube 客户端，支持搜索、频道、章节及登录后的首页、订阅和稍后观看。通过车机播放声音，默认停车时显示画面。需要 jap-ridetube-d 服务。",
       "version": "0.3.8",
       "artifact": {
@@ -771,7 +771,7 @@
     {
       "id": "spotify",
       "kind": "app",
-      "title": "Spotify · 简体中文",
+      "title": "Spotify",
       "description": "BMW iDrive 7 的 Spotify Connect 播放控制和曲库浏览应用",
       "version": "1.0.23",
       "artifact": {
@@ -795,8 +795,8 @@
     {
       "id": "cluster_themes",
       "kind": "app",
-      "title": "仪表主题 · Cluster Themes",
-      "description": "在中控选择自定义仪表主题，配置读数、换挡灯、G 值和 Waze 显示等选项。",
+      "title": "仪表主题",
+      "description": "Redraws the instrument cluster: GT3 race dash, M-style, Sport, Minimal, Roadster, Track, Drag, Rally, Retro 80s, Cruise or Dyno (BMW-coloured readout tiles), with shift lights, boost, temps, tyres, a G-meter and a 0-60 timer",
       "version": "0.14.6",
       "artifact": {
         "name": "cluster_themes@0.14.6.tgz",
@@ -824,8 +824,8 @@
       "artifact": {
         "name": "flash8523_bmw_weather@0.1.0.tgz",
         "url": "packages/flash8523_bmw_weather@0.1.0.tgz",
-        "size": 976323,
-        "sha256": "a88c4c476744cecf72f3afe1e5c87c0b5c175bbdc0fc0c1843ed421ad2c46454"
+        "size": 639627,
+        "sha256": "6b194866dbd9740fa36137d1569901bcb7c49618ac96a518e3ca7b3ec4fbeaad"
       },
       "requires": {},
       "uninstallable": true,
@@ -837,8 +837,8 @@
     {
       "id": "mgu_browser",
       "kind": "app",
-      "title": "MGU Browser · 简体中文",
-      "description": "iDrive 7 浏览器，支持起始页、历史、书签、旋钮操作和中文字体。界面跟随车机语言。",
+      "title": "Browser",
+      "description": "Browser mit Startseite, Verlauf, Lesezeichen und iDrive-Steuerung",
       "version": "0.16.1",
       "artifact": {
         "name": "mgu_browser@0.16.1.tgz",

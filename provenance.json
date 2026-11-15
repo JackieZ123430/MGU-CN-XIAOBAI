@@ -199,9 +199,10 @@
   },
   {
     "id": "flash8523_bmw_weather",
-    "build": "0.1.0-zh.cn.5",
+    "build": "0.1.0",
     "version": "0.1.0",
-    "upstream": "https://github.com/flash8523/bmw-weather-mgu/pull/1"
+    "upstream": "https://github.com/flash8523/bmw-weather-mgu/pull/1",
+    "sourceCommit": "153aabccd903130341a15e487268d0cd6ca49337"
   },
   {
     "id": "mgu_browser",
