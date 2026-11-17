@@ -359,5 +359,29 @@
       "sha256": "cbc2e0db8374186611cc45f81c970d15d770cda6704268836422b846146aba56",
       "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-steam%400.3.0/vizualyse-steam%400.3.0.tgz"
     }
+  },
+  {
+    "id": "true_time_cn",
+    "build": "0.3.1-zh.cn.1",
+    "version": "0.3.1",
+    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
+    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
+    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+  },
+  {
+    "id": "boostline_cn",
+    "build": "1.0.1-zh.cn.1",
+    "version": "1.0.1",
+    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
+    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
+    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+  },
+  {
+    "id": "dpf_id7_cn",
+    "build": "0.1.1-zh.cn.1",
+    "version": "0.1.1",
+    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
+    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
+    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
   }
 ]
