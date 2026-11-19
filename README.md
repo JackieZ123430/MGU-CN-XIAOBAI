@@ -40,13 +40,15 @@ https://raw.githubusercontent.com/JackieZ123430/MGU-CN-XIAOBAI/main/catalog.json
 - 配套 GPU renderer 更新至 2.1.18，Controller gate 更新至 1.1.0。
 - 已完成中文构建、小组件测试、实时数据测试和安装包校验，尚未车机实测。
 
-## 汽水音乐 Beta 0.2.2
+## 汽水音乐 Beta 0.2.4
 
-面向 BMW ID7，可从本源的 MGU Store 目录安装或更新。API 后台和音频转换组件随应用在车机运行，后台随应用按需启动。安装包通过本源的 [GitHub Beta 发布页](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/qishui-v0.2.2-beta)公开下载。Store 会按目录依赖安装 Node.js 22、联网组件和安装组件。
+面向 BMW ID7。API 后台和音频转换组件随应用在车机运行，使用车机的互联网连接。目录位于项目根目录的 `catalog.json`；应用、图标和所需组件均通过 GitHub 提供。
 
-本版增加应用内备用域名解析，修复系统默认解析不可用时的连接问题。车机需要可用的互联网连接和正确的系统日期；日期停留在旧年份时，HTTPS 服务器证书会因尚未生效而校验失败。本版保留正常的证书校验。
+本版修复界面初始化失败时的应用内恢复，并在界面就绪时绑定登录按钮。台架已验证应用实际登录按钮能够触发二维码请求、图片交给界面资源系统并进入扫码等待。本轮尚未重新验证实际屏幕渲染和歌曲播放。
 
-P18 台架已安装验证：内置后台启动、汽水/抖音 HTTPS 连接、登录二维码申请和二维码图片获取均通过。本轮尚未验证屏幕二维码显示、扫码后的账号登录、歌曲播放和重启后的时间保持。播放取决于账号权限及上游提供的完整音频，保持 Beta 标记。
+需要 Node.js 22、可用的互联网连接和正确的系统日期。Store 会按软件源目录安装所需运行组件。播放取决于账号权限及上游提供的完整音频，保持 Beta 标记。
+
+[GitHub Beta 发布页](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/qishui-v0.2.4-beta)
 
 PowerBy 小白科技杂物社 · FREE APPS IF PAID PLEASE RETURN · 免费应用请勿付费。
 

@@ -395,11 +395,11 @@
   },
   {
     "id": "jackie_qishui_music",
-    "build": "0.2.2-beta",
-    "version": "0.2.2",
+    "build": "0.2.4-beta",
+    "version": "0.2.4",
     "upstream": "https://github.com/hexlay/idrive7-custom-apps",
     "author": "小白科技杂物社",
-    "notes": "App-owned Node.js 22 backend, bundled FFmpeg and app-scoped DNS fallback. P18 startup, verified HTTPS and QR API checked; this release remains Beta.",
-    "artifactSha256": "354ae1d94dccfef44e8cdb2e4f1ae7b7e985430654ca8b990c80dbd197069100"
+    "notes": "App-owned backend and DNS fallback; app-scoped RHMI recovery and login button binding. Live UI QR request, resource handoff and polling verified; physical rendering and playback not reverified.",
+    "artifactSha256": "bb5652e129d8e38f72ce50f763add5df12aae1d26699c50a5491b94ecd804eb2"
   }
 ]

@@ -2471,14 +2471,14 @@
       "id": "jackie_qishui_music",
       "kind": "app",
       "title": "汽水音乐 Beta",
-      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 Beta，API 后台随应用在车机运行，支持扫码授权、推荐、歌单和搜索。新增备用域名解析，改善在线连接。需要车机联网、正确的系统日期及 Node.js 22 运行组件。歌曲播放取决于账号权限和上游提供的完整音频。",
+      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 Beta，API 后台随应用在车机运行。修复登录界面初始化与按钮绑定，支持扫码授权、推荐、歌单和搜索。需要车机联网、正确的系统日期及 Node.js 22 运行组件。播放取决于账号权限和上游提供的完整音频。",
       "author": "小白科技杂物社",
-      "version": "0.2.2",
+      "version": "0.2.4",
       "artifact": {
-        "name": "jackie_qishui_music@0.2.2.tgz",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/qishui-v0.2.2-beta/jackie_qishui_music%400.2.2.tgz",
-        "size": 30695236,
-        "sha256": "354ae1d94dccfef44e8cdb2e4f1ae7b7e985430654ca8b990c80dbd197069100"
+        "name": "jackie_qishui_music@0.2.4.tgz",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/qishui-v0.2.4-beta/jackie_qishui_music%400.2.4.tgz",
+        "size": 30696055,
+        "sha256": "bb5652e129d8e38f72ce50f763add5df12aae1d26699c50a5491b94ecd804eb2"
       },
       "uninstallable": true,
       "mguHmi": [
