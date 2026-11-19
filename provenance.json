@@ -392,5 +392,14 @@
     "baseCommit": "c4eaa0fd5b97ab2b918a80c56258068f35a90a34",
     "author": "小白151 (GitHub: JackieZ123430)",
     "validation": "P18 架台已确认全屏和触摸正常；实际麦克风校准效果待验证。"
+  },
+  {
+    "id": "jackie_qishui_music",
+    "build": "0.2.2-beta",
+    "version": "0.2.2",
+    "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+    "author": "小白科技杂物社",
+    "notes": "App-owned Node.js 22 backend, bundled FFmpeg and app-scoped DNS fallback. P18 startup, verified HTTPS and QR API checked; this release remains Beta.",
+    "artifactSha256": "354ae1d94dccfef44e8cdb2e4f1ae7b7e985430654ca8b990c80dbd197069100"
   }
 ]

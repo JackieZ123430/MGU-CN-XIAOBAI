@@ -2466,6 +2466,31 @@
       "icon": "ram_mic_calibration.png",
       "iconSha256": "75246d4f553e331e644c962ad414f1501951d41952e6c004e919f962f85955db",
       "author": "小白151 · 小白科技杂物社"
+    },
+    {
+      "id": "jackie_qishui_music",
+      "kind": "app",
+      "title": "汽水音乐 Beta",
+      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 Beta，API 后台随应用在车机运行，支持扫码授权、推荐、歌单和搜索。新增备用域名解析，改善在线连接。需要车机联网、正确的系统日期及 Node.js 22 运行组件。歌曲播放取决于账号权限和上游提供的完整音频。",
+      "author": "小白科技杂物社",
+      "version": "0.2.2",
+      "artifact": {
+        "name": "jackie_qishui_music@0.2.2.tgz",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/qishui-v0.2.2-beta/jackie_qishui_music%400.2.2.tgz",
+        "size": 30695236,
+        "sha256": "354ae1d94dccfef44e8cdb2e4f1ae7b7e985430654ca8b990c80dbd197069100"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "qishui_beta.png",
+      "iconSha256": "bd51203fdfbd30a6d537f54b1fd844f27025985f7f29685250c0589efec42a0f",
+      "requires": {
+        "jap-node22": "22.23.4",
+        "mgu-uplink": "0.7.12",
+        "mgu-deploy": "0.8.19"
+      }
     }
   ]
 }
