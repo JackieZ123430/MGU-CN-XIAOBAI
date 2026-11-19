@@ -20,6 +20,24 @@
       "blocked": "仅展示联系方式，无法下载安装。"
     },
     {
+      "id": "douyin_contact",
+      "kind": "app",
+      "title": "抖音：小白科技杂物社",
+      "description": "仅展示联系方式，无安装包。",
+      "version": "1.0.0",
+      "artifact": {
+        "name": "douyin_contact@1.0.0.tgz",
+        "url": "not-downloadable/douyin_contact@1.0.0.tgz",
+        "size": 1,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "blocked": "仅展示联系方式，无法下载安装。"
+    },
+    {
       "id": "ambient_config",
       "kind": "app",
       "title": "氛围灯设置",
@@ -2432,13 +2450,13 @@
       "id": "ram_mic_calibration",
       "kind": "app",
       "title": "RAM 麦克风校准",
-      "description": "在 ID7 车机读取 RAM01 麦克风校准状态，并在停车后二次确认启动校准。",
-      "version": "0.1.1",
+      "description": "Service 风格全屏麦克风校准，支持触摸、准备条件确认、30 秒倒计时和 RAM01 结果读取。",
+      "version": "0.4.0",
       "artifact": {
-        "name": "ram_mic_calibration@0.1.1.tgz",
-        "url": "packages/ram_mic_calibration@0.1.1.tgz",
-        "size": 762299,
-        "sha256": "207b97122c766c370e9e563a4c3759191737707fdf155184de2bd0cff51308b2"
+        "name": "ram_mic_calibration@0.4.0.tgz",
+        "url": "packages/ram_mic_calibration@0.4.0.tgz",
+        "size": 942118,
+        "sha256": "5afc4a8551f4938c24b4f182afe841cc0b637a1f5d4cc156a831223bd98d31f0"
       },
       "requires": {},
       "uninstallable": true,

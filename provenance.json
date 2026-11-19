@@ -386,10 +386,11 @@
   },
   {
     "id": "ram_mic_calibration",
-    "build": "0.1.1",
-    "version": "0.1.1",
+    "build": "0.4.0",
+    "version": "0.4.0",
     "upstream": "https://github.com/cauliflowermossgrape/idrive7-apps",
     "baseCommit": "c4eaa0fd5b97ab2b918a80c56258068f35a90a34",
-    "author": "小白151 (GitHub: JackieZ123430)"
+    "author": "小白151 (GitHub: JackieZ123430)",
+    "validation": "P18 架台已确认全屏和触摸正常；实际麦克风校准效果待验证。"
   }
 ]
