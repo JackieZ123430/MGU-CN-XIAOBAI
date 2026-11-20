@@ -614,5 +614,27 @@
     "translation": "小白科技杂物社",
     "changes": "Unicode small-widget cells; translated big-widget labels; widget resource packaging; literal song metadata preserved",
     "sdk": "BMW SDK excluded; vehicle deployment supplies local SDK"
+  },
+  {
+    "id": "xiaobai_sys_monitor",
+    "upstreamVersion": "1.0.8",
+    "version": "1.0.804",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-system-monitor-cn",
+    "sourceCommit": "3e88174ec83a5b8e55d042dffc6f610f0ce4cdcb",
+    "upstreamPR": "https://github.com/hexlay/idrive7-system-monitor/pull/1",
+    "translation": "小白科技杂物社",
+    "sdk": "Excluded; supplied locally by the enrolled vehicle"
+  },
+  {
+    "id": "jap_sysmon",
+    "upstreamVersion": "1.0.6",
+    "version": "1.0.603",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/jap-mgu-apps-cn",
+    "sourceCommit": "33b964ca91c16c068d4dfb97475eb9f45db8dc78",
+    "upstreamPR": "https://github.com/JustAnotherPU/mgu-apps/pull/7",
+    "translation": "小白科技杂物社",
+    "sdk": "Excluded; supplied locally by the enrolled vehicle"
   }
 ]

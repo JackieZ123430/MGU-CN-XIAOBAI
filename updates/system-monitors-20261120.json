@@ -1,0 +1,71 @@
+{
+  "apps": [
+    {
+      "id": "xiaobai_sys_monitor",
+      "kind": "app",
+      "title": "系统监控",
+      "version": "1.0.804",
+      "description": "查看车机CPU、核心温度、进程和内存曲线；只读监控，汉化：小白科技杂物社。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "artifact": {
+        "name": "xiaobai_sys_monitor@1.0.804.tgz",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/xiaobai_sys_monitor%401.0.804.tgz",
+        "sha256": "fd4061580b3b1aa334b27e6ff2b3fb2e8596616696d1ca23d332b2883bc44821",
+        "size": 1097931
+      },
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/xiaobai_sys_monitor.png",
+      "iconSha256": "a3a0906965d10d5f4d6c47ac0c8629a4bdc4c7367c03c52ae7664416ba12d516",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      }
+    },
+    {
+      "id": "jap_sysmon",
+      "kind": "app",
+      "title": "车机资源监控",
+      "version": "1.0.603",
+      "description": "查看车机CPU、可用内存、应用内存额度、Swap及图形频率；后台资源告警，汉化：小白科技杂物社。",
+      "author": "JustAnotherPU / 汉化 小白科技杂物社",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "artifact": {
+        "name": "jap_sysmon@1.0.603.tgz",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/jap_sysmon%401.0.603.tgz",
+        "sha256": "938c795a102670114dd201ede79bd0509d9900184f33a93a749e798a41b3a9e3",
+        "size": 1228633
+      },
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/jap_sysmon.png",
+      "iconSha256": "a18bce2ddb06421caa29fcdd3fff0599819956e41eb7c9231f8e0adf653e16ef",
+      "requires": {
+        "mgu-render": "0.6.11",
+        "mgu-inputgate": "1.0.0"
+      }
+    }
+  ],
+  "prs": [
+    {
+      "upstream": "hexlay/idrive7-system-monitor",
+      "fork": "JackieZ123430/idrive7-system-monitor-cn",
+      "sourceHead": "3e88174ec83a5b8e55d042dffc6f610f0ce4cdcb",
+      "pr": "https://github.com/hexlay/idrive7-system-monitor/pull/1",
+      "prHead": "9b918a06567b8735188b82e012d32b4941b4ef32",
+      "state": "open"
+    },
+    {
+      "upstream": "JustAnotherPU/mgu-apps",
+      "fork": "JackieZ123430/jap-mgu-apps-cn",
+      "sourceHead": "33b964ca91c16c068d4dfb97475eb9f45db8dc78",
+      "pr": "https://github.com/JustAnotherPU/mgu-apps/pull/7",
+      "prHead": "3a2e3de1480ece003a5bd7fb200fce6c9e9b763b",
+      "state": "open"
+    }
+  ],
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/untagged-45afab2171826e3894e4"
+}

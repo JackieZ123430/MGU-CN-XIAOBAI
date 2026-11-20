@@ -53,3 +53,10 @@ ETA 的仪表显示需要 cluster-render，并可能与其他仪表显示应用�
 ## 首页组件中文显示修订 2
 
 本轮进一步修复了 8 款带组件应用的中文传输与资源打包。缩小组件通过自己的 UTF-8 字符串资源显示中文；大组件固定标签翻译为中文，歌曲、歌手和歌词按原文显示。新增 [Aref #3](https://github.com/arefahmad/idrive7-apps/pull/3) 跟进显示修复；此前 Aref #2 已被上游合并。
+
+## 两款系统监控中文版
+
+系统监控 1.0.804、车机资源监控 1.0.603 已加入本源。P18 台架已验证原生前台焦点与实际应用身份采样。https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/untagged-45afab2171826e3894e4
+
+https://github.com/hexlay/idrive7-system-monitor/pull/1
+https://github.com/JustAnotherPU/mgu-apps/pull/7
