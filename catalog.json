@@ -847,7 +847,9 @@
         "size": 639627,
         "sha256": "6b194866dbd9740fa36137d1569901bcb7c49618ac96a518e3ca7b3ec4fbeaad"
       },
-      "requires": {},
+      "requires": {
+        "mgu-uplink": "0.7.3"
+      },
       "uninstallable": true,
       "mguHmi": [
         "ID7"
