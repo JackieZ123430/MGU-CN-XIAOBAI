@@ -56,7 +56,7 @@ ETA 的仪表显示需要 cluster-render，并可能与其他仪表显示应用�
 
 ## 两款系统监控中文版
 
-系统监控 1.0.804、车机资源监控 1.0.603 已加入本源。P18 台架已验证原生前台焦点与实际应用身份采样。https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/untagged-45afab2171826e3894e4
+系统监控 1.0.804、车机资源监控 1.0.603 已加入本源。P18 台架已验证原生前台焦点与实际应用身份采样。https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/system-monitors-cn-20261120
 
 https://github.com/hexlay/idrive7-system-monitor/pull/1
 https://github.com/JustAnotherPU/mgu-apps/pull/7

@@ -13,11 +13,11 @@
       "uninstallable": true,
       "artifact": {
         "name": "xiaobai_sys_monitor@1.0.804.tgz",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/xiaobai_sys_monitor%401.0.804.tgz",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/xiaobai_sys_monitor%401.0.804.tgz",
         "sha256": "fd4061580b3b1aa334b27e6ff2b3fb2e8596616696d1ca23d332b2883bc44821",
         "size": 1097931
       },
-      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/xiaobai_sys_monitor.png",
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/xiaobai_sys_monitor.png",
       "iconSha256": "a3a0906965d10d5f4d6c47ac0c8629a4bdc4c7367c03c52ae7664416ba12d516",
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -37,11 +37,11 @@
       "uninstallable": true,
       "artifact": {
         "name": "jap_sysmon@1.0.603.tgz",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/jap_sysmon%401.0.603.tgz",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/jap_sysmon%401.0.603.tgz",
         "sha256": "938c795a102670114dd201ede79bd0509d9900184f33a93a749e798a41b3a9e3",
         "size": 1228633
       },
-      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/untagged-45afab2171826e3894e4/jap_sysmon.png",
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/jap_sysmon.png",
       "iconSha256": "a18bce2ddb06421caa29fcdd3fff0599819956e41eb7c9231f8e0adf653e16ef",
       "requires": {
         "mgu-render": "0.6.11",
@@ -67,5 +67,5 @@
       "state": "open"
     }
   ],
-  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/untagged-45afab2171826e3894e4"
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/system-monitors-cn-20261120"
 }
