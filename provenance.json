@@ -1,205 +1,399 @@
 [
   {
     "id": "ambient_config",
-    "build": "1.3.0-zh.cn.5",
-    "version": "1.3.0",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "2.7.13",
+    "version": "2.7.1301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "ambient_config@2.7.13-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "brake_test",
-    "build": "1.5.19-zh.cn.5",
-    "version": "1.5.19",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.5.21",
+    "version": "1.5.2101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "brake_test@1.5.21-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "car_vitals",
-    "build": "2.26.0-zh.cn.5",
-    "version": "2.26.0",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "2.27.9",
+    "version": "2.27.901",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "car_vitals@2.27.9-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "doom",
-    "build": "1.7.19-zh.cn.5",
-    "version": "1.7.19",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.7.22",
+    "version": "1.7.2201",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "doom@1.7.22-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "draggy",
-    "build": "2.5.19-zh.cn.5",
-    "version": "2.5.19",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "2.6.0",
+    "version": "2.6.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "draggy@2.6.0-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "dtc_scanner",
-    "build": "2.9.6-zh.cn.5",
-    "version": "2.9.6",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "2.9.8",
+    "version": "2.9.801",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "dtc_scanner@2.9.8-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "dyno",
-    "build": "1.5.2-zh.cn.5",
-    "version": "1.5.2",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.6.3",
+    "version": "1.6.301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "dyno@1.6.3-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "edrive",
-    "build": "2.9.2-zh.cn.5",
-    "version": "2.9.2",
-    "upstream": "https://github.com/cauliflowermossgrape/idrive7-apps",
-    "commit": "b2880634",
-    "translation": "Existing merged zh-CN catalog; no translations rewritten"
+    "upstreamVersion": "2.11.0",
+    "version": "2.11.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "edrive@2.11.0-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "gforce",
-    "build": "1.6.20-zh.cn.5",
-    "version": "1.6.20",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.6.22",
+    "version": "1.6.2201",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "gforce@1.6.22-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "live_adjustments",
-    "build": "0.9.1-zh.cn.5",
-    "version": "0.9.1",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "0.9.10",
+    "version": "0.9.1001",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "live_adjustments@0.9.10-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "live_data",
-    "build": "1.0.13-zh.cn.5",
-    "version": "1.0.13",
-    "upstream": "https://github.com/cauliflowermossgrape/idrive7-apps",
-    "commit": "b2880634",
-    "translation": "Existing merged zh-CN catalog; no translations rewritten"
+    "upstreamVersion": "1.0.18",
+    "version": "1.0.1801",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "live_data@1.0.18-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "redline",
-    "build": "1.16.8-zh.cn.5",
-    "version": "1.16.8",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "2.0.45",
+    "version": "2.0.4501",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "redline@2.0.45-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "service",
-    "build": "1.6.0-zh.cn.5",
-    "version": "1.6.0",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.6.3",
+    "version": "1.6.301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "service@1.6.3-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "warmup",
-    "build": "1.7.3-zh.cn.5",
-    "version": "1.7.3",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.9.0",
+    "version": "1.9.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "warmup@1.9.0-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "zf8hp",
-    "build": "1.5.5-zh.cn.5",
-    "version": "1.5.5",
-    "upstream": "https://github.com/JackieZ123430/idrive7-apps-cn"
+    "upstreamVersion": "1.5.8",
+    "version": "1.5.801",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/idrive7-apps-cn",
+    "sourceCommit": "a148da8f1371b15f91b5a2ccdc34efe96f18e543",
+    "build": "zf8hp@1.5.8-zh.cn.6",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "ambient_studio_full",
-    "build": "0.1.5-zh.cn.5",
-    "version": "0.1.5",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.5",
+    "version": "0.1.501",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "ambient_studio_full@0.1.5-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "dpf_monitor",
-    "build": "0.3.2-zh.cn.5",
-    "version": "0.3.2",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.4.0",
+    "version": "0.4.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "dpf_monitor@0.4.0-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "drive_hud_full",
-    "build": "0.1.6-zh.cn.5",
-    "version": "0.1.6",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.6",
+    "version": "0.1.601",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "drive_hud_full@0.1.6-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "front_camera_cluster",
-    "build": "0.2.1-zh.cn.5",
-    "version": "0.2.1",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.2.1",
+    "version": "0.2.101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "front_camera_cluster@0.2.1-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "green_light_alert",
-    "build": "0.2.5-zh.cn.5",
-    "version": "0.2.5",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.2.5",
+    "version": "0.2.501",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "green_light_alert@0.2.5-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "hotspot_studio",
-    "build": "0.1.5-zh.cn.5",
-    "version": "0.1.5",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.5",
+    "version": "0.1.501",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "hotspot_studio@0.1.5-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "parking_clearance",
-    "build": "0.1.8-zh.cn.5",
-    "version": "0.1.8",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.8",
+    "version": "0.1.801",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "parking_clearance@0.1.8-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "rear_comfort",
-    "build": "0.4.4-zh.cn.5",
-    "version": "0.4.4",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.5.6",
+    "version": "0.5.601",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "rear_comfort@0.5.6-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "ride_height",
-    "build": "0.6.0-zh.cn.5",
-    "version": "0.6.0",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.6.0",
+    "version": "0.6.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "ride_height@0.6.0-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "road_trip_computer",
-    "build": "1.0.0-zh.cn.5",
-    "version": "1.0.0",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "1.0.0",
+    "version": "1.0.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "road_trip_computer@1.0.0-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "start_stop_insight",
-    "build": "0.1.3-zh.cn.5",
-    "version": "0.1.3",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.3",
+    "version": "0.1.301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "start_stop_insight@0.1.3-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "telemetry_studio",
-    "build": "0.2.0-zh.cn.5",
-    "version": "0.2.0",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.2.0",
+    "version": "0.2.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "telemetry_studio@0.2.0-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "vehicle_health",
-    "build": "0.1.9-zh.cn.5",
-    "version": "0.1.9",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.9",
+    "version": "0.1.901",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "vehicle_health@0.1.9-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "vehicle_network",
-    "build": "0.1.3-zh.cn.5",
-    "version": "0.1.3",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.3",
+    "version": "0.1.301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "vehicle_network@0.1.3-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "xdrive_studio",
-    "build": "0.1.5-zh.cn.5",
-    "version": "0.1.5",
-    "upstream": "https://github.com/alexp50/bmw-apps/pull/3"
+    "upstreamVersion": "0.1.5",
+    "version": "0.1.501",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/alexp50-bmw-apps-cn",
+    "sourceCommit": "c308de8f79116450285ba2c4edfd4c9853b18cd3",
+    "build": "xdrive_studio@0.1.5-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "jap_ridetube",
-    "build": "0.3.8-zh.cn.5",
-    "version": "0.3.8",
-    "upstream": "https://github.com/JustAnotherPU/ridetube/pull/3"
+    "upstreamVersion": "0.4.5",
+    "version": "0.4.501",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/ridetube-cn",
+    "sourceCommit": "6d19c89c85ac5b3be7cfe86c2f523f211607e434",
+    "build": "jap_ridetube@0.4.5-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "spotify",
-    "build": "1.0.23-zh.cn.5",
-    "version": "1.0.23",
-    "upstream": "https://github.com/hexlay/idrive7-custom-apps/pull/3"
+    "upstreamVersion": "1.0.31",
+    "version": "1.0.3101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/hexlay-spotify-cn",
+    "sourceCommit": "39401ce69d2090ff4559491cdb38eac51ffc2ced",
+    "build": "spotify@1.0.31-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "cluster_themes",
-    "build": "0.14.6-zh.cn.4",
-    "version": "0.14.6",
-    "upstream": "https://github.com/bimmer-lab/apps/pull/13"
+    "upstreamVersion": "0.19.0",
+    "version": "0.19.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/bimmer-lab-apps-cn",
+    "sourceCommit": "e9a96c470b9389b827bfc9662e4b37103e36e22d",
+    "build": "cluster_themes@0.19.0-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "flash8523_bmw_weather",
@@ -210,9 +404,13 @@
   },
   {
     "id": "mgu_browser",
-    "build": "0.16.1",
-    "version": "0.16.1",
-    "upstream": "https://github.com/pllanaio/mgu-browser/pull/12"
+    "upstreamVersion": "0.16.1",
+    "version": "0.16.101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/mgu-browser",
+    "sourceCommit": "fcbd6f70341636f3eaa493c363c67c70eeb3f71f",
+    "translation": "小白科技杂物社",
+    "sdk": "BMW SDK excluded"
   },
   {
     "id": "robertn_store",
@@ -222,167 +420,119 @@
   },
   {
     "id": "vizualyse_cast",
-    "version": "0.4.100",
-    "build": "0.4.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse_cast@0.4.0.tgz",
-      "size": 43104,
-      "sha256": "94d00fd764bbe233b0b4c6174b708dc873e3d209e78935b814e692e7fc24a83d",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_cast%400.4.0/vizualyse_cast%400.4.0.tgz"
-    }
+    "version": "0.4.101",
+    "upstreamVersion": "0.4.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse-cast",
-    "version": "0.4.100",
-    "build": "0.4.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse-cast@0.4.0.tgz",
-      "size": 30059172,
-      "sha256": "9b8f17f96776bde01a5edee9b2e4d969c6c0de2fd8f4cf8c80ce915e62177311",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-cast%400.4.0/vizualyse-cast%400.4.0.tgz"
-    }
+    "version": "0.4.101",
+    "upstreamVersion": "0.4.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse_chromium",
-    "version": "0.3.100",
-    "build": "0.3.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse_chromium@0.3.0.tgz",
-      "size": 45469,
-      "sha256": "a7f3af5c4bd89152e767f965af22d1f1241472ad272cf9a1b5e457d589d69a28",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_chromium%400.3.0/vizualyse_chromium%400.3.0.tgz"
-    }
+    "version": "0.3.101",
+    "upstreamVersion": "0.3.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse-chromium",
-    "version": "0.3.100",
-    "build": "0.3.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse-chromium@0.3.0.tgz",
-      "size": 188979230,
-      "sha256": "764524e16f8b3f757aa9b7726ad5a8c3fafc932c1b4ebb3ddc0e4346838d31ba",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-chromium%400.3.0/vizualyse-chromium%400.3.0.tgz"
-    }
+    "version": "0.3.101",
+    "upstreamVersion": "0.3.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse_cluster",
-    "version": "0.3.100",
-    "build": "0.3.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse_cluster@0.3.0.tgz",
-      "size": 33829,
-      "sha256": "7c930a2e5e5400e6e05c420b60053a5b07157c8b0034f6703e2712ce6917d9ea",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_cluster%400.3.0/vizualyse_cluster%400.3.0.tgz"
-    }
+    "version": "0.3.101",
+    "upstreamVersion": "0.3.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse-cluster",
-    "version": "0.4.100",
-    "build": "0.4.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse-cluster@0.4.0.tgz",
-      "size": 10991930,
-      "sha256": "be137d71bb4fbe892c3b44e647f0be1c2a9d7612abfd2fe27f0a8810bf4421c7",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-cluster%400.4.0/vizualyse-cluster%400.4.0.tgz"
-    }
+    "version": "0.4.101",
+    "upstreamVersion": "0.4.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse_moonlight",
-    "version": "0.3.100",
-    "build": "0.3.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse_moonlight@0.3.0.tgz",
-      "size": 41797,
-      "sha256": "1337874d8b255aa09e0684fddbe3caa7c51d6424f6b9bb3c0e374d82da8ebead",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_moonlight%400.3.0/vizualyse_moonlight%400.3.0.tgz"
-    }
+    "version": "0.3.101",
+    "upstreamVersion": "0.3.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse-moonlight",
-    "version": "0.3.100",
-    "build": "0.3.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse-moonlight@0.3.0.tgz",
-      "size": 943322,
-      "sha256": "bc5f2e2f2f0aa169f86809e6e742ceadb3624c150086b8aac88706624d8da580",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-moonlight%400.3.0/vizualyse-moonlight%400.3.0.tgz"
-    }
+    "version": "0.3.101",
+    "upstreamVersion": "0.3.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse_steam",
-    "version": "0.2.100",
-    "build": "0.2.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse_steam@0.2.0.tgz",
-      "size": 42622,
-      "sha256": "8533c791e3a6b6f73a13ec1026ad3a6343e436387def7aef2f9d8a790e18519b",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_steam%400.2.0/vizualyse_steam%400.2.0.tgz"
-    }
+    "version": "0.2.101",
+    "upstreamVersion": "0.2.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "vizualyse-steam",
-    "version": "0.3.100",
-    "build": "0.3.100-zh.cn.1",
-    "upstream": "https://github.com/Vizualyse/idrive-apps",
-    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
-    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
-    "upstreamArtifact": {
-      "name": "vizualyse-steam@0.3.0.tgz",
-      "size": 531180501,
-      "sha256": "cbc2e0db8374186611cc45f81c970d15d770cda6704268836422b846146aba56",
-      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-steam%400.3.0/vizualyse-steam%400.3.0.tgz"
-    }
+    "version": "0.4.1",
+    "upstreamVersion": "0.4.0",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn",
+    "sourceCommit": "f9183801aeeb9fc09c16bd9566ce8b65fe8a644a"
   },
   {
     "id": "true_time_cn",
-    "build": "0.3.1-zh.cn.1",
-    "version": "0.3.1",
-    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
-    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
-    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+    "upstreamVersion": "1.0.0",
+    "version": "1.0.1",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/mgu-apps",
+    "sourceCommit": "aff3a09776b9acbef9177decacea73e62583a982",
+    "build": "true_time_cn@1.0.0-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "boostline_cn",
-    "build": "1.0.1-zh.cn.1",
-    "version": "1.0.1",
-    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
-    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
-    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+    "upstreamVersion": "1.0.1",
+    "version": "1.0.101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/mgu-apps",
+    "sourceCommit": "aff3a09776b9acbef9177decacea73e62583a982",
+    "build": "boostline_cn@1.0.1-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "dpf_id7_cn",
-    "build": "0.1.1-zh.cn.1",
-    "version": "0.1.1",
-    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
-    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
-    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+    "upstreamVersion": "1.1.1",
+    "version": "1.1.101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/mgu-apps",
+    "sourceCommit": "aff3a09776b9acbef9177decacea73e62583a982",
+    "build": "dpf_id7_cn@1.1.1-zh.cn.5",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
     "id": "ram_mic_calibration",
@@ -395,11 +545,74 @@
   },
   {
     "id": "jackie_qishui_music",
-    "build": "0.2.4-beta",
-    "version": "0.2.4",
-    "upstream": "https://github.com/hexlay/idrive7-custom-apps",
-    "author": "小白科技杂物社",
-    "notes": "App-owned backend and DNS fallback; app-scoped RHMI recovery and login button binding. Live UI QR request, resource handoff and polling verified; physical rendering and playback not reverified.",
-    "artifactSha256": "bb5652e129d8e38f72ce50f763add5df12aae1d26699c50a5491b94ecd804eb2"
+    "version": "0.2.5",
+    "previousVersion": "0.2.4",
+    "mguInternet": true,
+    "baseSha256": "bb5652e129d8e38f72ce50f763add5df12aae1d26699c50a5491b94ecd804eb2",
+    "changes": [
+      "package.json",
+      "rhmiData/application.json"
+    ],
+    "source": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/blob/main/sources/music/build_music_network_fix.py"
+  },
+  {
+    "id": "aref_carcare",
+    "upstreamVersion": "0.2.3",
+    "version": "0.2.301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/aref-idrive7-apps-cn",
+    "sourceCommit": "b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6",
+    "build": "aref_carcare@0.2.3-zh.cn.4",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
+  },
+  {
+    "id": "aref_carlyrics",
+    "upstreamVersion": "0.5.7",
+    "version": "0.5.701",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/aref-idrive7-apps-cn",
+    "sourceCommit": "b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6",
+    "build": "aref_carlyrics@0.5.7-zh.cn.4",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
+  },
+  {
+    "id": "aref_carwatch",
+    "upstreamVersion": "0.1.3",
+    "version": "0.1.301",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/aref-idrive7-apps-cn",
+    "sourceCommit": "b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6",
+    "build": "aref_carwatch@0.1.3-zh.cn.4",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
+  },
+  {
+    "id": "aref_eta",
+    "upstreamVersion": "1.20.1",
+    "version": "1.20.101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/aref-idrive7-apps-cn",
+    "sourceCommit": "b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6",
+    "build": "aref_eta@1.20.1-zh.cn.4",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
+  },
+  {
+    "id": "gif_home",
+    "upstreamVersion": "0.3.1",
+    "version": "0.3.101",
+    "language": "zh-CN",
+    "source": "https://github.com/JackieZ123430/namelsmissing-mgu-apps-cn",
+    "sourceCommit": "f067f737aed83a9dc810056c36a3803e933e8f39",
+    "build": "gif_home@0.3.1-zh.cn.4",
+    "translation": "小白科技杂物社",
+    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   }
 ]

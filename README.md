@@ -1,55 +1,51 @@
 # MGU-CN-XIAOBAI
 
-面向已装 MGU Store 的 BMW iDrive 主机。汉化署名为抖音「小白科技杂物社」、BiliBili「小白151」、GitHub [JackieZ123430](https://github.com/JackieZ123430)。
+BMW MGU / iDrive 应用中文软件源。汉化与维护：小白科技杂物社 · BiliBili 小白151 · GitHub JackieZ123430。
 
-| 项目 | 收录内容 | 原版 GitHub | 汉化记录 |
-| --- | --- | --- | --- |
-| iDrive 7 Apps | 15 个应用，包括故障扫描、换挡提示、暖机监测、车辆数据和加速测试 | [cauliflowermossgrape/idrive7-apps](https://github.com/cauliflowermossgrape/idrive7-apps) | [汉化仓库](https://github.com/JackieZ123430/idrive7-apps-cn) · [#12](https://github.com/cauliflowermossgrape/idrive7-apps/pull/12) · [#22](https://github.com/cauliflowermossgrape/idrive7-apps/pull/22) · [#41](https://github.com/cauliflowermossgrape/idrive7-apps/pull/41) |
-| BMW Apps | 15 个应用，包括车辆健康、行程、抬头显示、胎压与底盘相关应用 | [alexp50/bmw-apps](https://github.com/alexp50/bmw-apps) | [#3](https://github.com/alexp50/bmw-apps/pull/3) |
-| Cluster Themes | 仪表主题选择与设置的简体中文界面 | [bimmer-lab/apps](https://github.com/bimmer-lab/apps) | [#13](https://github.com/bimmer-lab/apps/pull/13) |
-| Spotify | 简体中文界面与中文媒体标题支持 | [hexlay/idrive7-custom-apps](https://github.com/hexlay/idrive7-custom-apps) | [#3](https://github.com/hexlay/idrive7-custom-apps/pull/3) |
-| RideTube | 简体中文界面与设置 | [JustAnotherPU/ridetube](https://github.com/JustAnotherPU/ridetube) | [#3](https://github.com/JustAnotherPU/ridetube/pull/3) |
-| BMW 天气 | 简体中文天气界面、设置和小组件 | [flash8523/bmw-weather-mgu](https://github.com/flash8523/bmw-weather-mgu) | [#1](https://github.com/flash8523/bmw-weather-mgu/pull/1) |
-| MGU Browser | 简体中文界面与字体改动，应用按车机语言选择界面 | [pllanaio/mgu-browser](https://github.com/pllanaio/mgu-browser) | [#12](https://github.com/pllanaio/mgu-browser/pull/12) |
-| Vizualyse iDrive Apps | 仪表投射、Chromium 浏览器、仪表主题、Moonlight 和车载 Steam | [Vizualyse/idrive-apps](https://github.com/Vizualyse/idrive-apps) | [中文源码](https://github.com/JackieZ123430/vizualyse-idrive-apps-cn) · [中文包](https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/tag/vizualyse-zh-cn.1) |
-| mgu-apps | 精准计时、ECU 实时数据、DPF 监测（ID7） | [原版](https://github.com/giuseppesalatino-boop/mgu-apps) | [中文 README](https://github.com/JackieZ123430/mgu-apps/blob/fa79799e6a55113239ca9bdc3f88cc450cd17de7/README.zh-CN.md) · [汉化 PR](https://github.com/giuseppesalatino-boop/mgu-apps/pull/1) |
-| MGU Store | 官方发行版，已收录中文译文并跟随车机语言 | [robertnisipeanu/mgu-store](https://github.com/robertnisipeanu/mgu-store) | [汉化 #57](https://github.com/robertnisipeanu/mgu-store/pull/57) · [收录 #63](https://github.com/robertnisipeanu/mgu-store/pull/63) |
+FREE APPS IF PAID PLEASE RETURN · 免费应用请勿付费。
 
-目录中的 **微信 ppppphhjjj** 是联系条目。详情页仅显示联系方式，Store 会拒绝安装请求。
+## 添加软件源
 
-## GitHub 软件源
+在 MGU Store 中添加以下根目录 catalog.json：
 
-将本目录中的文件提交到公开仓库的根目录，保留 `catalog.json`、`packages/` 和图标的相对位置。以 `main` 分支和 `MGU-CN-XIAOBAI` 仓库为例，在 MGU Store 的「软件源 → 添加软件源」中填入：
-
-```text
-https://raw.githubusercontent.com/JackieZ123430/MGU-CN-XIAOBAI/main/catalog.json
+```
+https://raw.githubusercontent.com/JackieZ123430/MGU-CN-XIAOBAI/refs/heads/main/catalog.json
 ```
 
-发布后应先确认未登录时也能读取原始 JSON 和包文件，再到车机添加。部分组件保留 GitHub 上游下载地址，其中包含超出 Gitee 普通仓库单文件体积的 Chromium 引擎。车机安装这些项目或依赖时需能访问相应地址。
+安装包通过 GitHub Releases 公开下载，车机无需登录 GitHub。既有相对路径安装包仍保留，便于回退。
 
-目录中的汉化安装包面向 ID7。安装包内保留原项目的应用 ID，并使用 MGU Store 支持的三段式版本号。同一 ID 的官方源和汉化源并存时，Store 可能优先选择较新版本或该应用原来的安装来源。添加源后可在来源详情中确认对应条目。
+## 2026-11-20 更新
 
-`provenance.json` 记录汉化构建版本和对应 GitHub 原项目或 PR。按 MGU Store 的发行格式打包，安装时由车机生成所需的 BMW OAP SDK。各应用及组件沿用原作者的许可。
+本次逐项检查原目录的 69 项应用和组件，更新落后版本、补齐中文说明与新版界面文字，并增加 5 个首页组件。目录现有 74 项，61 项版本更新或新增。已是当前版本的组件保留原版本。
 
-电脑版 SSH 启用工具使用 Windows 桌面工具的安装方式。 [原版仓库](https://github.com/cauliflowermossgrape/idrive7-8-ssh-root) · [汉化 PR #4](https://github.com/cauliflowermossgrape/idrive7-8-ssh-root/pull/4)
+中文构建保留上游英文 app.json、应用标识、信号接口和设置值。中文修订的三段版本为 `major.minor.(上游 patch × 100 + 中文修订号)`，例如上游 `0.3.1` 对应中文修订 `0.3.101`。真实上游版本、对应公开源码和提交记录见 [provenance.json](provenance.json) 与包内 SOURCE.zh-CN.json。后续中文修订必须增加版本，不替换已发布版本的安装包。
 
-## 2026-11-16 小组件相关更新
+| 新增首页组件 | 作用 |
+| --- | --- |
+| aref_carcare | 车辆养护：独立保养周期与首页组件 |
+| aref_carwatch | 车辆监控：行程、故障和失火事件 |
+| aref_carlyrics | 车载歌词：读取当前曲目并联网获取歌词 |
+| aref_eta | 导航到达时间：Apple Maps 到达时间及首页组件 |
+| gif_home | GIF 首页组件：动画、上传和显示设置 |
 
-- EDrive助手更新至 2.9.2，实时数据更新至 1.0.13，使用上游 b2880634 的代码及已合并中文词条。
-- 同步上游小组件内存画面缓存和实时数据温度单位设置，沿用现有汉化署名。
-- 配套 GPU renderer 更新至 2.1.18，Controller gate 更新至 1.1.0。
-- 已完成中文构建、小组件测试、实时数据测试和安装包校验，尚未车机实测。
+ETA 的仪表显示需要 cluster-render，并可能与其他仪表显示应用竞争；首页组件与仪表显示分别验证。台架上先保留现有投射设置。
 
-## 汽水音乐 Beta 0.2.4
+汽水音乐 **0.2.5 Beta** 补齐 `mguInternet: true`，让安装器自动登记联网名单。安装依赖 mgu-uplink 只提供联网组件，应用自己的声明才触发出网登记。系统日期、Wi-Fi 路由和账号音频权限仍分别影响网络和播放结果。此版保持 0.2.4 的界面、播放代码和应用数据结构。
 
-面向 BMW ID7。API 后台和音频转换组件随应用在车机运行，使用车机的互联网连接。目录位于项目根目录的 `catalog.json`；应用、图标和所需组件均通过 GitHub 提供。
+本机构建、语言隔离、字体字形、依赖闭合和安装包校验已经通过。实机安装、HMI 画面、车辆信号及实际声音属于不同验证项，当前状态以 [VALIDATION-20261120.md](VALIDATION-20261120.md) 为准。
 
-本版修复界面初始化失败时的应用内恢复，并在界面就绪时绑定登录按钮。台架已验证应用实际登录按钮能够触发二维码请求、图片交给界面资源系统并进入扫码等待。本轮尚未重新验证实际屏幕渲染和歌曲播放。
+## 源码与上游汉化 PR
 
-需要 Node.js 22、可用的互联网连接和正确的系统日期。Store 会按软件源目录安装所需运行组件。播放取决于账号权限及上游提供的完整音频，保持 Beta 标记。
+保留原项目许可证与作者声明。中文署名只显示于中文构建。公开通用 Kit 安装包不包含提取的 BMW oap-sdk，由车机部署流程提供本机 SDK。
 
-[GitHub Beta 发布页](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/qishui-v0.2.4-beta)
+- [arefahmad/idrive7-apps](https://github.com/arefahmad/idrive7-apps/pull/2)：当前中文修订已提交，是否合并以上游状态为准。
+- [NamelsMissing/mgu-apps](https://github.com/NamelsMissing/mgu-apps/pull/9)：当前中文修订已提交，是否合并以上游状态为准。
+- [cauliflowermossgrape/idrive7-apps](https://github.com/cauliflowermossgrape/idrive7-apps/pull/217)：当前中文修订已提交，是否合并以上游状态为准。
+- [bimmer-lab/apps](https://github.com/bimmer-lab/apps/pull/30)：当前中文修订已提交，是否合并以上游状态为准。
+- [hexlay/idrive7-custom-apps](https://github.com/hexlay/idrive7-custom-apps/pull/4)：当前中文修订已提交，是否合并以上游状态为准。
+- [JustAnotherPU/ridetube](https://github.com/JustAnotherPU/ridetube/pull/16)：当前中文修订已提交，是否合并以上游状态为准。
+- [giuseppesalatino-boop/mgu-apps](https://github.com/giuseppesalatino-boop/mgu-apps/pull/2)：当前中文修订已提交，是否合并以上游状态为准。
+- [alexp50/bmw-apps](https://github.com/alexp50/bmw-apps/pull/4)：当前中文修订已提交，是否合并以上游状态为准。
+- [pllanaio/mgu-browser](https://github.com/pllanaio/mgu-browser/pull/13)：当前中文修订已提交，是否合并以上游状态为准。
 
-PowerBy 小白科技杂物社 · FREE APPS IF PAID PLEASE RETURN · 免费应用请勿付费。
-
-禁止私自分发，所有更新必须来自我的源。各上游组件沿用原作者许可。
+各中文源码仓库也提供根目录 catalog.json；安装包引用本仓库的 GitHub Release，避免在多个来源重复维护不同字节的同版本包。联系条目只展示信息，不能下载安装。

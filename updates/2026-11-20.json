@@ -1,0 +1,368 @@
+[
+  {
+    "id": "ambient_config",
+    "before": "1.3.0",
+    "after": "2.7.1301",
+    "title": "氛围灯设置"
+  },
+  {
+    "id": "brake_test",
+    "before": "1.5.19",
+    "after": "1.5.2101",
+    "title": "制动测试"
+  },
+  {
+    "id": "car_vitals",
+    "before": "2.26.0",
+    "after": "2.27.901",
+    "title": "M 车辆仪表"
+  },
+  {
+    "id": "doom",
+    "before": "1.7.19",
+    "after": "1.7.2201",
+    "title": "毁灭战士"
+  },
+  {
+    "id": "draggy",
+    "before": "2.5.19",
+    "after": "2.6.1",
+    "title": "加速计时"
+  },
+  {
+    "id": "dtc_scanner",
+    "before": "2.9.6",
+    "after": "2.9.801",
+    "title": "故障检测"
+  },
+  {
+    "id": "dyno",
+    "before": "1.5.2",
+    "after": "1.6.301",
+    "title": "虚拟马力机"
+  },
+  {
+    "id": "edrive",
+    "before": "2.9.2",
+    "after": "2.11.1",
+    "title": "EDrive助手"
+  },
+  {
+    "id": "gforce",
+    "before": "1.6.20",
+    "after": "1.6.2201",
+    "title": "G 值仪表"
+  },
+  {
+    "id": "live_adjustments",
+    "before": "0.9.1",
+    "after": "0.9.1001",
+    "title": "发动机配置"
+  },
+  {
+    "id": "live_data",
+    "before": "1.0.13",
+    "after": "1.0.1801",
+    "title": "实时数据"
+  },
+  {
+    "id": "redline",
+    "before": "1.16.8",
+    "after": "2.0.4501",
+    "title": "换挡转速"
+  },
+  {
+    "id": "service",
+    "before": "1.6.0",
+    "after": "1.6.301",
+    "title": "保养信息"
+  },
+  {
+    "id": "warmup",
+    "before": "1.7.3",
+    "after": "1.9.1",
+    "title": "暖机助手"
+  },
+  {
+    "id": "zf8hp",
+    "before": "1.5.5",
+    "after": "1.5.801",
+    "title": "变速箱配置"
+  },
+  {
+    "id": "ambient_studio_full",
+    "before": "0.1.5",
+    "after": "0.1.501",
+    "title": "氛围灯工作室"
+  },
+  {
+    "id": "dpf_monitor",
+    "before": "0.3.2",
+    "after": "0.4.1",
+    "title": "颗粒捕集器监测"
+  },
+  {
+    "id": "drive_hud_full",
+    "before": "0.1.6",
+    "after": "0.1.601",
+    "title": "抬头显示助手"
+  },
+  {
+    "id": "front_camera_cluster",
+    "before": "0.2.1",
+    "after": "0.2.101",
+    "title": "仪表夜视"
+  },
+  {
+    "id": "green_light_alert",
+    "before": "0.2.5",
+    "after": "0.2.501",
+    "title": "绿灯起步提醒"
+  },
+  {
+    "id": "hotspot_studio",
+    "before": "0.1.5",
+    "after": "0.1.501",
+    "title": "热点工作室"
+  },
+  {
+    "id": "parking_clearance",
+    "before": "0.1.8",
+    "after": "0.1.801",
+    "title": "泊车距离"
+  },
+  {
+    "id": "rear_comfort",
+    "before": "0.4.4",
+    "after": "0.5.601",
+    "title": "后排舒适控制"
+  },
+  {
+    "id": "ride_height",
+    "before": "0.6.0",
+    "after": "0.6.1",
+    "title": "车身高度工作室"
+  },
+  {
+    "id": "road_trip_computer",
+    "before": "1.0.0",
+    "after": "1.0.1",
+    "title": "行程电脑"
+  },
+  {
+    "id": "start_stop_insight",
+    "before": "0.1.3",
+    "after": "0.1.301",
+    "title": "自动启停状态"
+  },
+  {
+    "id": "telemetry_studio",
+    "before": "0.2.0",
+    "after": "0.2.1",
+    "title": "车辆遥测"
+  },
+  {
+    "id": "vehicle_health",
+    "before": "0.1.9",
+    "after": "0.1.901",
+    "title": "车辆健康中心"
+  },
+  {
+    "id": "vehicle_network",
+    "before": "0.1.3",
+    "after": "0.1.301",
+    "title": "车辆网络"
+  },
+  {
+    "id": "xdrive_studio",
+    "before": "0.1.5",
+    "after": "0.1.501",
+    "title": "xDrive 动力分配"
+  },
+  {
+    "id": "jap_ridetube",
+    "before": "0.3.8",
+    "after": "0.4.501",
+    "title": "RideTube"
+  },
+  {
+    "id": "spotify",
+    "before": "1.0.23",
+    "after": "1.0.3101",
+    "title": "Spotify"
+  },
+  {
+    "id": "cluster_themes",
+    "before": "0.14.6",
+    "after": "0.19.1",
+    "title": "仪表主题"
+  },
+  {
+    "id": "mgu_browser",
+    "before": "0.16.1",
+    "after": "0.16.101",
+    "title": "车机浏览器"
+  },
+  {
+    "id": "jap-ridetube-d",
+    "before": "0.3.9",
+    "after": "0.4.2",
+    "title": "RideTube 后台"
+  },
+  {
+    "id": "idrive7-renderd",
+    "before": "2.1.18",
+    "after": "2.1.19",
+    "title": "应用 GPU 渲染器"
+  },
+  {
+    "id": "mgu-inputgate",
+    "before": "1.1.0",
+    "after": "1.2.1",
+    "title": "旋钮输入组件"
+  },
+  {
+    "id": "mgu-deploy",
+    "before": "0.8.19",
+    "after": "0.8.27",
+    "title": "安装部署组件"
+  },
+  {
+    "id": "mgu-updater",
+    "before": "0.8.45",
+    "after": "0.8.51",
+    "title": "更新组件"
+  },
+  {
+    "id": "mgu-render",
+    "before": "0.6.21",
+    "after": "0.6.25",
+    "title": "通用 GPU 渲染器"
+  },
+  {
+    "id": "cluster-render",
+    "before": "0.6.0",
+    "after": "0.6.9",
+    "title": "仪表与 HUD 渲染器"
+  },
+  {
+    "id": "mgu-uplink",
+    "before": "0.7.12",
+    "after": "0.7.13",
+    "title": "互联网连接组件"
+  },
+  {
+    "id": "vizualyse_cast",
+    "before": "0.4.100",
+    "after": "0.4.101",
+    "title": "仪表投射"
+  },
+  {
+    "id": "vizualyse-cast",
+    "before": "0.4.100",
+    "after": "0.4.101",
+    "title": "仪表投射（后台组件）"
+  },
+  {
+    "id": "vizualyse_chromium",
+    "before": "0.3.100",
+    "after": "0.3.101",
+    "title": "浏览器"
+  },
+  {
+    "id": "vizualyse-chromium",
+    "before": "0.3.100",
+    "after": "0.3.101",
+    "title": "浏览器（后台组件）"
+  },
+  {
+    "id": "vizualyse_cluster",
+    "before": "0.3.100",
+    "after": "0.3.101",
+    "title": "仪表主题"
+  },
+  {
+    "id": "vizualyse-cluster",
+    "before": "0.4.100",
+    "after": "0.4.101",
+    "title": "仪表主题（后台组件）"
+  },
+  {
+    "id": "vizualyse_moonlight",
+    "before": "0.3.100",
+    "after": "0.3.101",
+    "title": "Moonlight 串流"
+  },
+  {
+    "id": "vizualyse-moonlight",
+    "before": "0.3.100",
+    "after": "0.3.101",
+    "title": "Moonlight 串流（后台组件）"
+  },
+  {
+    "id": "vizualyse_steam",
+    "before": "0.2.100",
+    "after": "0.2.101",
+    "title": "车载 Steam"
+  },
+  {
+    "id": "vizualyse-steam",
+    "before": "0.3.100",
+    "after": "0.4.1",
+    "title": "车载 Steam（后台组件）"
+  },
+  {
+    "id": "true_time_cn",
+    "before": "0.3.1",
+    "after": "1.0.1",
+    "title": "精准计时"
+  },
+  {
+    "id": "boostline_cn",
+    "before": "1.0.1",
+    "after": "1.0.101",
+    "title": "ECU 实时数据"
+  },
+  {
+    "id": "dpf_id7_cn",
+    "before": "0.1.1",
+    "after": "1.1.101",
+    "title": "DPF 监测"
+  },
+  {
+    "id": "jackie_qishui_music",
+    "before": "0.2.4",
+    "after": "0.2.5",
+    "title": "汽水音乐 Beta"
+  },
+  {
+    "id": "aref_carcare",
+    "before": null,
+    "after": "0.2.301",
+    "title": "车辆养护"
+  },
+  {
+    "id": "aref_carlyrics",
+    "before": null,
+    "after": "0.5.701",
+    "title": "车载歌词"
+  },
+  {
+    "id": "aref_carwatch",
+    "before": null,
+    "after": "0.1.301",
+    "title": "车辆监控"
+  },
+  {
+    "id": "aref_eta",
+    "before": null,
+    "after": "1.20.101",
+    "title": "导航到达时间"
+  },
+  {
+    "id": "gif_home",
+    "before": null,
+    "after": "0.3.101",
+    "title": "GIF 首页组件"
+  }
+]

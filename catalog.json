@@ -41,13 +41,13 @@
       "id": "ambient_config",
       "kind": "app",
       "title": "氛围灯设置",
-      "description": "The ambient light's colour: set it here, or let each driving mode choose one",
-      "version": "1.3.0",
+      "description": "设置氛围灯颜色、驾驶模式配色和灯光效果；效果与可用功能取决于车型及控制单元。",
+      "version": "2.7.1301",
       "artifact": {
-        "name": "ambient_config@1.3.0.tgz",
-        "url": "packages/ambient_config@1.3.0.tgz",
-        "size": 961978,
-        "sha256": "7664412de55ef1d31b48f7f272317599119ae7de6fa2167b5700f40ed6166a1c"
+        "name": "ambient_config@2.7.1301.tgz",
+        "size": 1091079,
+        "sha256": "4449a9a9004ce69f5b92f5561bc1951b9b027fcd6a792b902ac56a949654030e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ambient_config%402.7.1301.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -65,13 +65,13 @@
       "id": "brake_test",
       "kind": "app",
       "title": "制动测试",
-      "description": "100-0 and 200-0 braking distance, peak decel and brake-fade tracking",
-      "version": "1.5.19",
+      "description": "记录制动距离、峰值减速度和制动衰减，支持不同起始车速的测试。",
+      "version": "1.5.2101",
       "artifact": {
-        "name": "brake_test@1.5.19.tgz",
-        "url": "packages/brake_test@1.5.19.tgz",
-        "size": 987014,
-        "sha256": "6ae894957744b8ff4a438c9df1e6efe001c782e67fb13a9f5e8c9412b18bcb80"
+        "name": "brake_test@1.5.2101.tgz",
+        "size": 1059207,
+        "sha256": "0cab3d5ef6ed0a117ed140a9c03862aa70495b19252f3eb31853510fd39cb7d7",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/brake_test%401.5.2101.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -89,13 +89,13 @@
       "id": "car_vitals",
       "kind": "app",
       "title": "M 车辆仪表",
-      "description": "Live engine, thermal, intake / fuel / ignition, tyre and chassis gauges",
-      "version": "2.26.0",
+      "description": "查看发动机、温度、进气、燃油、点火、轮胎和底盘实时仪表。",
+      "version": "2.27.901",
       "artifact": {
-        "name": "car_vitals@2.26.0.tgz",
-        "url": "packages/car_vitals@2.26.0.tgz",
-        "size": 1011706,
-        "sha256": "2bd76dc7bbccc001fb0367786391cc47d38a46e513a15be260a31d6b39bcaceb"
+        "name": "car_vitals@2.27.901.tgz",
+        "size": 1091418,
+        "sha256": "d3d31fc222ddec38fe0fa35c7ceeb6f760189127bafa6af1398668769e70a0f8",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/car_vitals%402.27.901.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -113,13 +113,13 @@
       "id": "doom",
       "kind": "app",
       "title": "毁灭战士",
-      "description": "Doom (Freedoom: Phase 1) on the iDrive. Main menu with all settings; the game drawn in full resolution across the whole screen, on the controller; BACK returns to the menu and saves",
-      "version": "1.7.19",
+      "description": "在 iDrive 上运行 Freedoom，支持全屏画面、旋钮控制、设置和存档。",
+      "version": "1.7.2201",
       "artifact": {
-        "name": "doom@1.7.19.tgz",
-        "url": "packages/doom@1.7.19.tgz",
-        "size": 11973002,
-        "sha256": "60c4036e4bb03182c00013a095002dceee8df5d4a5b49c8793b7286beaf8a2dd"
+        "name": "doom@1.7.2201.tgz",
+        "size": 12044205,
+        "sha256": "f04c2abf9ef78b17b81c28eead25e39e38311eaa66f58b7f509bc202db49cf23",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/doom%401.7.2201.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -137,13 +137,13 @@
       "id": "draggy",
       "kind": "app",
       "title": "加速计时",
-      "description": "0-100, 100-200 and 1/4 mile timer with best times",
-      "version": "2.5.19",
+      "description": "记录加速、四分之一英里和最佳成绩。",
+      "version": "2.6.1",
       "artifact": {
-        "name": "draggy@2.5.19.tgz",
-        "url": "packages/draggy@2.5.19.tgz",
-        "size": 986993,
-        "sha256": "e6ce607a3a308c0566acc7c04ab034341180568bd269e2db4754e15af3363208"
+        "name": "draggy@2.6.1.tgz",
+        "size": 1060221,
+        "sha256": "14d86c18022d38f2e2b66abb6009121600a728ae9da6696a130b2fee591add6d",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/draggy%402.6.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -161,13 +161,13 @@
       "id": "dtc_scanner",
       "kind": "app",
       "title": "故障检测",
-      "description": "Read and clear fault memory of every control unit, plus active Check Control messages",
-      "version": "2.9.6",
+      "description": "读取和清除各控制单元的故障存储，并查看当前检查控制信息。",
+      "version": "2.9.801",
       "artifact": {
-        "name": "dtc_scanner@2.9.6.tgz",
-        "url": "packages/dtc_scanner@2.9.6.tgz",
-        "size": 6555751,
-        "sha256": "efd18639ef247ef0d5bbbee68f62fb337eb4b9d05b8f68ac9c6fb7bffa0c3c56"
+        "name": "dtc_scanner@2.9.801.tgz",
+        "size": 6615253,
+        "sha256": "c1de4ef76c952418002f6dac1c7d9e7a042e900c1f6d460026b3b6afce48da4e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dtc_scanner%402.9.801.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -185,13 +185,13 @@
       "id": "dyno",
       "kind": "app",
       "title": "虚拟马力机",
-      "description": "Power and torque curves from a full-throttle pull, saved and compared",
-      "version": "1.5.2",
+      "description": "根据加速采集功率与扭矩曲线，支持保存和对比测试结果。",
+      "version": "1.6.301",
       "artifact": {
-        "name": "dyno@1.5.2.tgz",
-        "url": "packages/dyno@1.5.2.tgz",
-        "size": 981741,
-        "sha256": "bd32f49189c3dc75de19963dcb0a71405941d9381e41abe338391d583f74f2ff"
+        "name": "dyno@1.6.301.tgz",
+        "size": 1055665,
+        "sha256": "a7d2a4da07110115de1fd1b4d72434fec9cfc7f93e03e07a5102af143b00868c",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dyno%401.6.301.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -209,13 +209,13 @@
       "id": "edrive",
       "kind": "app",
       "title": "EDrive助手",
-      "description": "Real electric range, live battery power, cells and climate power, HV battery health (SOH) and energy, last charge, charge log, the 12 V battery (charge, voltage, what it does, regen, history) and a home-screen widget; on a 48 V mild hybrid its 48 V battery and DC/DC converter",
-      "version": "2.9.2",
+      "description": "查看电动续航、高压与 12 伏电池、电芯、充电历史及相关用电信息，支持首页组件。",
+      "version": "2.11.1",
       "artifact": {
-        "name": "edrive@2.9.2.tgz",
-        "url": "packages/edrive@2.9.2.tgz",
-        "size": 1087795,
-        "sha256": "8700725f7bb0738279c4170835c6c54d0f01c65750b32cda9756721565a4e254"
+        "name": "edrive@2.11.1.tgz",
+        "size": 1148333,
+        "sha256": "d434eb49acafd168f401b506266e748de089e8d70a629225b37107ce5eb2c2a2",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/edrive%402.11.1.tgz"
       },
       "requires": {
         "mgu-deploy": "0.3.2",
@@ -233,13 +233,13 @@
       "id": "gforce",
       "kind": "app",
       "title": "G 值仪表",
-      "description": "Friction circle with grip envelope, peak g per direction and session records",
-      "version": "1.6.20",
+      "description": "显示摩擦圆、各方向峰值 G 值和驾驶记录。",
+      "version": "1.6.2201",
       "artifact": {
-        "name": "gforce@1.6.20.tgz",
-        "url": "packages/gforce@1.6.20.tgz",
-        "size": 985724,
-        "sha256": "efc3a78b8bb5dfa3dce154a1b265659f688d7f697aa6ccfa6f3e09547055ca67"
+        "name": "gforce@1.6.2201.tgz",
+        "size": 1058509,
+        "sha256": "bdd21bc91b586f22d10bdfff6e5080f625c7750dee8de3f1d3364bf41eacc2f7",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/gforce%401.6.2201.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -257,13 +257,13 @@
       "id": "live_adjustments",
       "kind": "app",
       "title": "发动机配置",
-      "description": "Engine Config for BMW MGU ID7. Exhaust Flap: OEM, OPEN and CLOSE over the car's own diagnostic link, or following the driving mode (Sport open, Eco Pro closed); held against the DME's timeout, Close handed back above a set engine speed. With BM3 or MHD picked in Settings: engine map switching, burbles, ASD and Max Cooling. Experimental: xDrive off until the ignition cycle (DSC LMV_FUNKTION), behind its own setting",
-      "version": "0.9.1",
+      "description": "发动机设置与排气阀门控制，提供原厂、打开、关闭及驾驶模式联动等选项。",
+      "version": "0.9.1001",
       "artifact": {
-        "name": "live_adjustments@0.9.1.tgz",
-        "url": "packages/live_adjustments@0.9.1.tgz",
-        "size": 1163621,
-        "sha256": "ab09b9cf449067c9b6cbb3434c2ecc4e116e79017ad8deab44f446c1a20b6bc8"
+        "name": "live_adjustments@0.9.1001.tgz",
+        "size": 1241799,
+        "sha256": "67643c9c54e8d6380ee71c1d4cee179676ed1f1dced3770f39bbff309fb5d141",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/live_adjustments%400.9.1001.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -281,13 +281,13 @@
       "id": "live_data",
       "kind": "app",
       "title": "实时数据",
-      "description": "Read-only live values from the car and its control units, a trip computer with fuel cost, and gauge screens of your own, one of them as the home-screen widget",
-      "version": "1.0.13",
+      "description": "只读查看车辆和控制单元的实时数据，支持自定义仪表、行程费用和首页组件。",
+      "version": "1.0.1801",
       "artifact": {
-        "name": "live_data@1.0.13.tgz",
-        "url": "packages/live_data@1.0.13.tgz",
-        "size": 1082554,
-        "sha256": "de63911efd61b8d4aa5cde2c466c412c9ea0918b159048548f20f8b1c753066c"
+        "name": "live_data@1.0.1801.tgz",
+        "size": 1134842,
+        "sha256": "e1798b71a8070d3f5b50f66b3d2d4d7c6c186d77ded7f25a4d42f18a056f35b3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/live_data%401.0.1801.tgz"
       },
       "requires": {
         "mgu-deploy": "0.3.2",
@@ -306,13 +306,13 @@
       "id": "redline",
       "kind": "app",
       "title": "换挡转速",
-      "description": "Full-screen rev tach with shift lights, gear, shift scoring and cold-engine rev guard; HUD by @biscotit",
-      "version": "1.16.8",
+      "description": "显示转速、挡位、换挡提示和评分，支持冷机保护提示、HUD 布局及车辆数据。",
+      "version": "2.0.4501",
       "artifact": {
-        "name": "redline@1.16.8.tgz",
-        "url": "packages/redline@1.16.8.tgz",
-        "size": 1107364,
-        "sha256": "5da16ad733c47da6ae8544a162519369664af2286b91ece9fa0d4d3257f15410"
+        "name": "redline@2.0.4501.tgz",
+        "size": 1268853,
+        "sha256": "e1a0d682ffc21377008be66fca309c39b8adcc71fba10f3f98e2f82e5b870dce",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/redline%402.0.4501.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -330,13 +330,13 @@
       "id": "service",
       "kind": "app",
       "title": "保养信息",
-      "description": "Service requirements from the instrument cluster: oil, brakes, brake fluid, vehicle check, inspection - distance, date, details; brake fluid and vehicle check reset",
-      "version": "1.6.0",
+      "description": "查看仪表提供的机油、制动、制动液和车辆检查等保养要求、剩余距离与日期。",
+      "version": "1.6.301",
       "artifact": {
-        "name": "service@1.6.0.tgz",
-        "url": "packages/service@1.6.0.tgz",
-        "size": 985358,
-        "sha256": "3b1d65aae5b27dd562a0325123a5cb21356dc25f003ec6534f93d708d1e973e4"
+        "name": "service@1.6.301.tgz",
+        "size": 1058055,
+        "sha256": "84ddbdea54f0873ac5dc89f264500cdc940f48b02ee9a6d47732853d0f1484b5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/service%401.6.301.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -354,13 +354,13 @@
       "id": "warmup",
       "kind": "app",
       "title": "暖机助手",
-      "description": "Oil and coolant warm-up calculator (time to ready), safe rev limit and turbo cool-down",
-      "version": "1.7.3",
+      "description": "估算机油、冷却液与变速箱暖机状态，显示转速建议和涡轮冷却提示。",
+      "version": "1.9.1",
       "artifact": {
-        "name": "warmup@1.7.3.tgz",
-        "url": "packages/warmup@1.7.3.tgz",
-        "size": 976547,
-        "sha256": "cc9c8ff9c98db4a6d477c90800c15da63e91bc1b256dbe1892b82cc233378c21"
+        "name": "warmup@1.9.1.tgz",
+        "size": 1053873,
+        "sha256": "3e55bc08e288ba5d730aeaa3f298f41acfef5c7642967fab501137e39233eb51",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/warmup%401.9.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -378,13 +378,13 @@
       "id": "zf8hp",
       "kind": "app",
       "title": "变速箱配置",
-      "description": "Transmission Config, experimental ZF 8HP monitor: live data, clutch fill adaptations, shift maps and temperature history",
-      "version": "1.5.5",
+      "description": "实验性 ZF 8HP 监控，查看实时数据、离合器充油自适应、换挡映射和温度历史。",
+      "version": "1.5.801",
       "artifact": {
-        "name": "zf8hp@1.5.5.tgz",
-        "url": "packages/zf8hp@1.5.5.tgz",
-        "size": 977349,
-        "sha256": "bc8983538f66f9f6600f9c5e768302d5c82af0765e3dd99bd0d04d04d82b5591"
+        "name": "zf8hp@1.5.801.tgz",
+        "size": 1049326,
+        "sha256": "d29b25c53a13a1296abd51fc7a41a17fb2a807ed73ac9cbfa0354b9ca729270a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/zf8hp%401.5.801.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -403,12 +403,12 @@
       "kind": "app",
       "title": "氛围灯工作室",
       "description": "全屏设置驾驶模式配色和氛围灯提醒",
-      "version": "0.1.5",
+      "version": "0.1.501",
       "artifact": {
-        "name": "ambient_studio_full@0.1.5.tgz",
-        "url": "packages/ambient_studio_full@0.1.5.tgz",
-        "size": 957143,
-        "sha256": "87973e4c5c975de11a54db02f4b943517138495215f388745bd0f2af0192ae41"
+        "name": "ambient_studio_full@0.1.501.tgz",
+        "size": 959148,
+        "sha256": "8d575da0de877e8a147ae4242196cd4e49315b13ef32315f37a6bf6b609417e5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ambient_studio_full%400.1.501.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -427,12 +427,12 @@
       "kind": "app",
       "title": "颗粒捕集器监测",
       "description": "只读监测柴油颗粒捕集器积碳、再生进度、温度、压差及历史记录",
-      "version": "0.3.2",
+      "version": "0.4.1",
       "artifact": {
-        "name": "dpf_monitor@0.3.2.tgz",
-        "url": "packages/dpf_monitor@0.3.2.tgz",
-        "size": 953680,
-        "sha256": "92edcd5b87d868ad45a878d75b5c1ab1253d4c5f485ba0f3e2ee32921ee2e524"
+        "name": "dpf_monitor@0.4.1.tgz",
+        "size": 960062,
+        "sha256": "b5238fdc1bdc881562b940ffa016eb4e843ea9e3af34fc68f73ba582adefdbc0",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dpf_monitor%400.4.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -451,12 +451,12 @@
       "kind": "app",
       "title": "抬头显示助手",
       "description": "全屏设置 HUD 转向箭头、运动挡位和转速、换挡提示及发动机暖机信息",
-      "version": "0.1.6",
+      "version": "0.1.601",
       "artifact": {
-        "name": "drive_hud_full@0.1.6.tgz",
-        "url": "packages/drive_hud_full@0.1.6.tgz",
-        "size": 949704,
-        "sha256": "7902d97f63b340a05320315f4898abbd3b5f9d5287431f6a07bcde6d128777fc"
+        "name": "drive_hud_full@0.1.601.tgz",
+        "size": 954350,
+        "sha256": "19da2f171fadbbfab47722adf9a2794d54a6dfb6da9fa5ab11ad5c5208ff76c5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/drive_hud_full%400.1.601.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -476,12 +476,12 @@
       "kind": "app",
       "title": "仪表夜视",
       "description": "全屏控制宝马夜视和泊车摄像头在仪表中的显示",
-      "version": "0.2.1",
+      "version": "0.2.101",
       "artifact": {
-        "name": "front_camera_cluster@0.2.1.tgz",
-        "url": "packages/front_camera_cluster@0.2.1.tgz",
-        "size": 946450,
-        "sha256": "6b6e865bd6ecc6aa8192bc71e917c338fbc813da47cce09cbf8ff55784a1a15e"
+        "name": "front_camera_cluster@0.2.101.tgz",
+        "size": 951360,
+        "sha256": "2936e92389c43a9ecff5d5bc45eb8eaf09e8ff36e1ff2e623280d77cc7464b9e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/front_camera_cluster%400.2.101.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -501,12 +501,12 @@
       "kind": "app",
       "title": "绿灯起步提醒",
       "description": "监测 KAFAS 原始红绿灯信号，并以宝马已验证的显示信号作为后备",
-      "version": "0.2.5",
+      "version": "0.2.501",
       "artifact": {
-        "name": "green_light_alert@0.2.5.tgz",
-        "url": "packages/green_light_alert@0.2.5.tgz",
-        "size": 954820,
-        "sha256": "629f175e0af2eb796fb475dd6c8de4ee45fdce18366d3d819ff84ff938ddab9d"
+        "name": "green_light_alert@0.2.501.tgz",
+        "size": 959648,
+        "sha256": "eeac49e3538f48c1f3a29f04af000c21770c69d23a72bba6990b735cc0e62d4a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/green_light_alert%400.2.501.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -525,12 +525,12 @@
       "kind": "app",
       "title": "热点工作室",
       "description": "通过宝马热点提供华为网络代理，并按需开启单客户端限时 ENET 转发",
-      "version": "0.1.5",
+      "version": "0.1.501",
       "artifact": {
-        "name": "hotspot_studio@0.1.5.tgz",
-        "url": "packages/hotspot_studio@0.1.5.tgz",
-        "size": 967264,
-        "sha256": "a07e0389b9761991d3e259e7594640f7d6c4f635854031acea73a385107e06af"
+        "name": "hotspot_studio@0.1.501.tgz",
+        "size": 972180,
+        "sha256": "d2a9cf5bafecd2fc01db43f0c7eb67018a57c2a624503ecd2b46d65c6c8f959f",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/hotspot_studio%400.1.501.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -550,12 +550,12 @@
       "kind": "app",
       "title": "泊车距离",
       "description": "只读显示 PDC 距离、转向轨迹和悬架姿态",
-      "version": "0.1.8",
+      "version": "0.1.801",
       "artifact": {
-        "name": "parking_clearance@0.1.8.tgz",
-        "url": "packages/parking_clearance@0.1.8.tgz",
-        "size": 1176286,
-        "sha256": "7d7e0cc4c5ae8e2bd47f778226202d784a9e7813d73d47cf84a7bef366ae2b08"
+        "name": "parking_clearance@0.1.801.tgz",
+        "size": 1181414,
+        "sha256": "432b704bf4a063dd7efeb08445489cf877a54cb67fa7b49a8416b4caf2dc14cc",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/parking_clearance%400.1.801.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -574,12 +574,12 @@
       "kind": "app",
       "title": "后排舒适控制",
       "description": "G12 行政座舱后排空调、舒适座椅、按摩、遮阳帘及娱乐控制",
-      "version": "0.4.4",
+      "version": "0.5.601",
       "artifact": {
-        "name": "rear_comfort@0.4.4.tgz",
-        "url": "packages/rear_comfort@0.4.4.tgz",
-        "size": 5490736,
-        "sha256": "bf1bd20c03b3c78ba055528f81fb35b8a390b74cdb50d537a16fe82a2ed8719f"
+        "name": "rear_comfort@0.5.601.tgz",
+        "size": 5497905,
+        "sha256": "93d7588000ae3f512c81f6eb9ffdacaaa8119575be2919fa354c9a4786030f1d",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/rear_comfort%400.5.601.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -598,12 +598,12 @@
       "kind": "app",
       "title": "车身高度工作室",
       "description": "全屏设置 VDP 预设及前后空气弹簧充放气",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "artifact": {
-        "name": "ride_height@0.6.0.tgz",
-        "url": "packages/ride_height@0.6.0.tgz",
-        "size": 949855,
-        "sha256": "ba236f978c837ec915c878f513cf1c09ceb6ec27a607e903e36ec4e69d57cd96"
+        "name": "ride_height@0.6.1.tgz",
+        "size": 954582,
+        "sha256": "a3c72d64a92ab16b594aac3cbeb5992d3521d6e50c8108145d3090a5e1332f3b",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ride_height%400.6.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -622,12 +622,12 @@
       "kind": "app",
       "title": "行程电脑",
       "description": "全屏显示行程历史、油耗、油价、费用、续航、车外温度和 GPS 海拔",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "artifact": {
-        "name": "road_trip_computer@1.0.0.tgz",
-        "url": "packages/road_trip_computer@1.0.0.tgz",
-        "size": 1053377,
-        "sha256": "f98156ee7f7654c50254377f2c119c3e8046cb9203af60240f2be570c4f924b2"
+        "name": "road_trip_computer@1.0.1.tgz",
+        "size": 1032526,
+        "sha256": "0a8a1de65d62befdca95dfa659845170078fe53c6a3d87719490827f9eb5f459",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/road_trip_computer%401.0.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -646,12 +646,12 @@
       "kind": "app",
       "title": "自动启停状态",
       "description": "显示当前及最近十条自动启停抑制状态，以及实时用电负载",
-      "version": "0.1.3",
+      "version": "0.1.301",
       "artifact": {
-        "name": "start_stop_insight@0.1.3.tgz",
-        "url": "packages/start_stop_insight@0.1.3.tgz",
-        "size": 949829,
-        "sha256": "853b3d62685b99dbe3bf54733e8651c21cacc037e8a1bc37e178ca4919d9a888"
+        "name": "start_stop_insight@0.1.301.tgz",
+        "size": 954605,
+        "sha256": "a72f6e74925cea2f8b66281bb60cfa65d81b8d21a7e0de75c38802f65e6f0c53",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/start_stop_insight%400.1.301.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -670,12 +670,12 @@
       "kind": "app",
       "title": "车辆遥测",
       "description": "分类全屏显示动力、热管理、底盘、轮胎、空调和电气实时数据",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "artifact": {
-        "name": "telemetry_studio@0.2.0.tgz",
-        "url": "packages/telemetry_studio@0.2.0.tgz",
-        "size": 980981,
-        "sha256": "2411b1f51159a151c6ceebf9ff84e2a1396b3d6ab8380d7c673b5e3b5b65a3e3"
+        "name": "telemetry_studio@0.2.1.tgz",
+        "size": 985850,
+        "sha256": "6dde2db30557f769fc98df49a58d6509a27509bb03116d657d32552c82728b8a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/telemetry_studio%400.2.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -694,12 +694,12 @@
       "kind": "app",
       "title": "车辆健康中心",
       "description": "只读查看轮胎、油液、温度、保养需求、检查控制、DPF 和当前故障",
-      "version": "0.1.9",
+      "version": "0.1.901",
       "artifact": {
-        "name": "vehicle_health@0.1.9.tgz",
-        "url": "packages/vehicle_health@0.1.9.tgz",
-        "size": 951226,
-        "sha256": "e4e8bad27a20bfe54955fea6f4c1812d2c3cec8eac6a33946177a8ded6b8cb4c"
+        "name": "vehicle_health@0.1.901.tgz",
+        "size": 956034,
+        "sha256": "e3fb70b8bb22a8f96a1a182e7514574eacdba84c1f63b8c221d43bd764ed20ff",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_health%400.1.901.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -718,12 +718,12 @@
       "kind": "app",
       "title": "车辆网络",
       "description": "显示 MGU 网络接口、观测到的车辆网络设备和电脑 IPv4 设置",
-      "version": "0.1.3",
+      "version": "0.1.301",
       "artifact": {
-        "name": "vehicle_network@0.1.3.tgz",
-        "url": "packages/vehicle_network@0.1.3.tgz",
-        "size": 954333,
-        "sha256": "b386f413627675ad03e1cf3828052aa02b92b78f437174620a47b394ae97385d"
+        "name": "vehicle_network@0.1.301.tgz",
+        "size": 959226,
+        "sha256": "c88f249cabc1244a967c610f5f98c036fa19cdc15ebef35c08de696325aead31",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_network%400.1.301.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -743,12 +743,12 @@
       "kind": "app",
       "title": "xDrive 动力分配",
       "description": "只读查看 xDrive 扭矩分配、分动箱扭矩、车轮滑差和底盘动态",
-      "version": "0.1.5",
+      "version": "0.1.501",
       "artifact": {
-        "name": "xdrive_studio@0.1.5.tgz",
-        "url": "packages/xdrive_studio@0.1.5.tgz",
-        "size": 1081667,
-        "sha256": "441281c06346486b0aaa285f200047a532f9111e21327ce3e0f1a93a0bf30278"
+        "name": "xdrive_studio@0.1.501.tgz",
+        "size": 1086617,
+        "sha256": "070d46f79c5dffa5ddc979ac295bc3dc0805e2d7fccfa29077f42202ca3693e5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/xdrive_studio%400.1.501.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -767,15 +767,15 @@
       "kind": "app",
       "title": "RideTube",
       "description": "ID7 非官方 YouTube 客户端，支持搜索、频道、章节及登录后的首页、订阅和稍后观看。通过车机播放声音，默认停车时显示画面。需要 jap-ridetube-d 服务。",
-      "version": "0.3.8",
+      "version": "0.4.501",
       "artifact": {
-        "name": "jap_ridetube@0.3.8.tgz",
-        "url": "packages/jap_ridetube@0.3.8.tgz",
-        "size": 1938655,
-        "sha256": "d60231ab44b6dfadf2d850fdb880b904052ac83b9e903bed3a9f5ef67599ec99"
+        "name": "jap_ridetube@0.4.501.tgz",
+        "size": 3273325,
+        "sha256": "b1ce75afdd8f99ff761622af3b788f963ae6e9511c50eda0750102d51c0f92b8",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jap_ridetube%400.4.501.tgz"
       },
       "requires": {
-        "jap-ridetube-d": "0.3.9",
+        "jap-ridetube-d": "0.4.2",
         "mgu-render": "0.6.11",
         "mgu-inputgate": "1.0.0"
       },
@@ -792,16 +792,17 @@
       "kind": "app",
       "title": "Spotify",
       "description": "BMW iDrive 7 的 Spotify Connect 播放控制和曲库浏览应用",
-      "version": "1.0.23",
+      "version": "1.0.3101",
       "artifact": {
-        "name": "spotify@1.0.23.tgz",
-        "url": "packages/spotify@1.0.23.tgz",
-        "size": 1807894,
-        "sha256": "f3b9a58453a14296e206c0a30b2feef7cd6ff04505fbec4bc94dabbf5a628e50"
+        "name": "spotify@1.0.3101.tgz",
+        "size": 1187062,
+        "sha256": "74898e81d0d00d1d557aa02cc961cdc0f3dc972ab38157c55eafd54765062f8c",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/spotify%401.0.3101.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
-        "mgu-inputgate": "1.0.0"
+        "mgu-inputgate": "1.0.0",
+        "mgu-uplink": "0.7.3"
       },
       "uninstallable": true,
       "mguHmi": [
@@ -815,13 +816,13 @@
       "id": "cluster_themes",
       "kind": "app",
       "title": "仪表主题",
-      "description": "Redraws the instrument cluster: GT3 race dash, M-style, Sport, Minimal, Roadster, Track, Drag, Rally, Retro 80s, Cruise or Dyno (BMW-coloured readout tiles), with shift lights, boost, temps, tyres, a G-meter and a 0-60 timer",
-      "version": "0.14.6",
+      "description": "在仪表中选择主题、驾驶模式外观、数据显示和导航地图布局。",
+      "version": "0.19.1",
       "artifact": {
-        "name": "cluster_themes@0.14.6.tgz",
-        "url": "packages/cluster_themes@0.14.6.tgz",
-        "size": 2046177,
-        "sha256": "ef6a4c17b1ad30a524172bf0a49ced2fe414f979567c001a111eeebd55c0c55c"
+        "name": "cluster_themes@0.19.1.tgz",
+        "size": 2632038,
+        "sha256": "e4951de49d24b16a6227ac9bab6c1445d844bd8faa9bb11d07e6d0dd668a1ee9",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/cluster_themes%400.19.1.tgz"
       },
       "requires": {
         "cluster-render": "0.5.1"
@@ -856,14 +857,14 @@
     {
       "id": "mgu_browser",
       "kind": "app",
-      "title": "Browser",
-      "description": "Browser mit Startseite, Verlauf, Lesezeichen und iDrive-Steuerung",
-      "version": "0.16.1",
+      "title": "车机浏览器",
+      "description": "车机浏览器，支持首页、历史记录、书签和 iDrive 操作。",
+      "version": "0.16.101",
       "artifact": {
-        "name": "mgu_browser@0.16.1.tgz",
-        "url": "packages/mgu_browser@0.16.1.tgz",
-        "size": 1986642,
-        "sha256": "9253b9baec19ef31d4bbe915063c35048bafeeb71bcfe0f213196bc9ffc2f93f"
+        "name": "mgu_browser@0.16.101.tgz",
+        "size": 2120222,
+        "sha256": "f646fa63c9353b85e71771248b502cdff6cee95b65c6bc5bb82e1850be015ff5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/mgu_browser%400.16.101.tgz"
       },
       "requires": {
         "mgu-browser": "0.16.1",
@@ -881,14 +882,14 @@
     {
       "id": "jap-ridetube-d",
       "kind": "tool",
-      "title": "RideTube service",
-      "description": "The car side of RideTube, an unofficial client for YouTube: yt-dlp (from its official release, run in mgu-python) fetches as the daemon's own internet uid; search, feeds and thumbnails on the car (jap-node22); audio through the BMW MediaPlayer, video decoded by ytdec into the mgu-render video layer; TV device sign-in; controlled by the RideTube app over /run/jap-ridetube-d/ctl.sock",
-      "version": "0.3.9",
+      "title": "RideTube 后台",
+      "description": "RideTube 车机后台，负责网络内容获取、视频解码和原车媒体播放。",
+      "version": "0.4.2",
       "artifact": {
-        "name": "jap-ridetube-d@0.3.9.tgz",
-        "size": 8777546,
-        "sha256": "63dc4d7deb18849662d7d90efb41017483db5f835e6124fb90e6f5cd45300f5d",
-        "url": "packages/jap-ridetube-d@0.3.9.tgz"
+        "name": "jap-ridetube-d@0.4.2.tgz",
+        "size": 8830027,
+        "sha256": "e538a99b7fb54109bd24b2d9e2df38f71408372c31ae8a37fb14404ab2d4c43d",
+        "url": "https://github.com/JustAnotherPU/ridetube/releases/download/catalog/jap-ridetube-d@0.4.2.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.0",
@@ -905,7 +906,7 @@
       "id": "mgu-browser",
       "kind": "tool",
       "version": "0.16.1",
-      "title": "Browser runtime (experimental)",
+      "title": "浏览器运行组件",
       "mguHmi": [
         "ID7"
       ],
@@ -913,7 +914,7 @@
         "name": "mgu-browser@0.16.1.tgz",
         "size": 406404,
         "sha256": "dac91634fe5ff877913b66add4205895a86f90800d48e8a9897c6cd75cf157aa",
-        "url": "packages/mgu-browser@0.16.1.tgz"
+        "url": "https://github.com/pllanaio/mgu-browser/releases/download/v0.16.1/mgu-browser%400.16.1.tgz"
       },
       "requires": {
         "mgu-browser-engine": "0.1.0",
@@ -921,13 +922,14 @@
         "mgu-deploy": "0.7.17"
       },
       "uninstallable": true,
-      "author": "Leon Pllana"
+      "author": "Leon Pllana",
+      "description": "浏览器运行组件，为车机浏览器提供后台与控制功能。"
     },
     {
       "id": "mgu-browser-engine",
       "kind": "tool",
       "version": "0.1.0",
-      "title": "Browser Chromium engine (experimental)",
+      "title": "Chromium 浏览器引擎",
       "mguHmi": [
         "ID7"
       ],
@@ -941,14 +943,15 @@
         "mgu-deploy": "0.7.17"
       },
       "uninstallable": true,
-      "author": "Leon Pllana"
+      "author": "Leon Pllana",
+      "description": "Chromium 浏览器引擎组件，供车机浏览器使用。"
     },
     {
       "id": "idrive7-renderd",
       "kind": "tool",
-      "version": "2.1.18",
-      "title": "GPU renderer",
-      "description": "The apps' own GPU renderer (mgu-render): draws them at 60 fps, beside the MGU Store's Renderer; installed with the apps (iDrive 7 and iDrive 8)",
+      "version": "2.1.19",
+      "title": "应用 GPU 渲染器",
+      "description": "应用 GPU 渲染组件，为应用页面提供图形绘制和显示。",
       "requires": {
         "mgu-deploy": "0.6.1"
       },
@@ -961,21 +964,19 @@
       "optional": true,
       "uninstallable": true,
       "artifact": {
-        "name": "idrive7-renderd@2.1.18.tgz",
-        "url": "packages/idrive7-renderd@2.1.18.tgz",
-        "size": 96268,
-        "sha256": "73026ce359c27e54e63b6ca70ccc716fb6bc1f8aab111002f8c850dcad1b341a"
+        "name": "idrive7-renderd@2.1.19.tgz",
+        "size": 96247,
+        "sha256": "49a7095cf26718e58ab73ed002cb5bce5bc58e7f1741a30204c0a4604995c866",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/idrive7-renderd%402.1.19.tgz"
       }
     },
     {
       "id": "mgu-inputgate",
       "kind": "tool",
-      "version": "1.1.0",
-      "title": "Controller gate",
-      "description": "Lets the apps have the iDrive controller (tabs, page buttons, settings, Doom); loads into the HMI at the next start (iDrive 7 and iDrive 8)",
-      "requires": {
-        "mgu-deploy": "0.3.2"
-      },
+      "version": "1.2.1",
+      "title": "旋钮输入组件",
+      "description": "将 iDrive 旋钮输入交给当前应用，支持标签、页面、设置和游戏操作。",
+      "requires": {},
       "mguHmi": [
         "ID7",
         "ID8"
@@ -987,17 +988,17 @@
       "optional": false,
       "uninstallable": true,
       "artifact": {
-        "name": "mgu-inputgate@1.1.0.tgz",
-        "url": "packages/mgu-inputgate@1.1.0.tgz",
-        "size": 7144,
-        "sha256": "a863bfccd7faa38832a0edc7dfba308d8be3ccb721a9868d403ce8398b630978"
+        "name": "mgu-inputgate@1.2.1.tgz",
+        "size": 8554,
+        "sha256": "d424e6e7b63351579be3abe675886420f71cbad497c994ab0e6b2aa9583b224a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/mgu-inputgate%401.2.1.tgz"
       }
     },
     {
       "id": "robertn_store",
       "kind": "app",
-      "title": "Store",
-      "description": "The apps and head-unit tools of every source with their state, and the sources; installs, updates and removes them through mgu-updater",
+      "title": "MGU 商店",
+      "description": "管理软件源、应用与车机组件，支持安装、更新和卸载。",
       "version": "0.9.40",
       "artifact": {
         "name": "robertn_store@0.9.40.tgz",
@@ -1150,14 +1151,14 @@
     {
       "id": "mgu-deploy",
       "kind": "tool",
-      "title": "Deploy tool",
-      "description": "Installs, updates, rolls back and removes our tools and apps on the head unit, with a snapshot before every change",
-      "version": "0.8.19",
+      "title": "安装部署组件",
+      "description": "车机安装部署组件，提供安装、更新、回退和卸载，并保存修改前的快照。",
+      "version": "0.8.27",
       "artifact": {
-        "name": "mgu-deploy@0.8.19.tgz",
-        "size": 159287,
-        "sha256": "b649fa192c39e1023057c427b19d9dc77d01b1a26900d78e49815d4b1206749e",
-        "url": "packages/mgu-deploy@0.8.19.tgz"
+        "name": "mgu-deploy@0.8.27.tgz",
+        "size": 168362,
+        "sha256": "57797407580d4f0c4be234e226d4f51972002adeb1ad718e3cf2ffcd00ea36b6",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-deploy%400.8.27/mgu-deploy%400.8.27.tgz"
       },
       "texts": {
         "ar": {
@@ -1293,14 +1294,14 @@
     {
       "id": "mgu-updater",
       "kind": "tool",
-      "title": "Updater",
-      "description": "Installs, updates and removes apps and head-unit tools from its sources",
-      "version": "0.8.45",
+      "title": "更新组件",
+      "description": "从软件源解析依赖、下载、安装、更新和卸载应用及组件。",
+      "version": "0.8.51",
       "artifact": {
-        "name": "mgu-updater@0.8.45.tgz",
-        "size": 138624,
-        "sha256": "7901aa4e01dde87645b35dcb3d70bcb442ef91ec088303315e88d020736e2680",
-        "url": "packages/mgu-updater@0.8.45.tgz"
+        "name": "mgu-updater@0.8.51.tgz",
+        "size": 143205,
+        "sha256": "e38745a14fad5d34648c101e0d7eadd9a60d53fa1f4cda38462e3f77e08eeb95",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-updater%400.8.51/mgu-updater%400.8.51.tgz"
       },
       "requires": {
         "mgu-deploy": "0.8.4",
@@ -1440,8 +1441,8 @@
     {
       "id": "mgu-python",
       "kind": "tool",
-      "title": "Python",
-      "description": "Python 3.12 for apps that build on the head unit with Python",
+      "title": "Python 运行组件",
+      "description": "车机 Python 运行组件，供应用构建和后台程序使用。",
       "version": "1.0.3",
       "artifact": {
         "name": "mgu-python@1.0.3.tgz",
@@ -1587,14 +1588,14 @@
     {
       "id": "mgu-render",
       "kind": "tool",
-      "title": "Renderer",
-      "description": "Draws apps' screens on the GPU, over the HMI or inside the app's page",
-      "version": "0.6.21",
+      "title": "通用 GPU 渲染器",
+      "description": "通用 GPU 渲染组件，在应用页面或原车界面上绘制内容。",
+      "version": "0.6.25",
       "artifact": {
-        "name": "mgu-render@0.6.21.tgz",
-        "size": 101309,
-        "sha256": "fc5fbcd9caca59f9b8a03fd7dc84545c12dd1e89c90c73860ffe492a2586ec4b",
-        "url": "packages/mgu-render@0.6.21.tgz"
+        "name": "mgu-render@0.6.25.tgz",
+        "size": 103355,
+        "sha256": "73b5444307aaf7a3a1b519cb14032869f18930749284aef557a2e0bd58d3fd61",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-render%400.6.25/mgu-render%400.6.25.tgz"
       },
       "requires": {
         "mgu-deploy": "0.6.9"
@@ -1739,14 +1740,14 @@
     {
       "id": "cluster-render",
       "kind": "tool",
-      "title": "Cluster renderer",
-      "description": "Draws every app's layers on the instrument cluster and the HUD, sharing the display slots and one upload budget",
-      "version": "0.6.0",
+      "title": "仪表与 HUD 渲染器",
+      "description": "为仪表和 HUD 绘制应用图层，并管理显示位置和上传预算。",
+      "version": "0.6.9",
       "artifact": {
-        "name": "cluster-render@0.6.0.tgz",
-        "size": 9880714,
-        "sha256": "2ab26abde227a8c9021882477494f775f22c76735c51564a22017ab5a436942c",
-        "url": "https://github.com/robertnisipeanu/idrive-apps/releases/download/cluster-render%400.6.0/cluster-render%400.6.0.tgz"
+        "name": "cluster-render@0.6.9.tgz",
+        "size": 10442325,
+        "sha256": "68e537c06ad0c6a8cc86e0cb21d364f6f1705715538e2dcc75dcf8bc54eaff7d",
+        "url": "https://github.com/robertnisipeanu/idrive-apps/releases/download/cluster-render%400.6.9/cluster-render%400.6.9.tgz"
       },
       "requires": {
         "mgu-deploy": "0.4.0"
@@ -1891,8 +1892,8 @@
       "id": "front-camera-cluster-helper",
       "kind": "tool",
       "version": "0.2.1",
-      "title": "Night Vision cluster helper",
-      "description": "Mirrors BMW's protected Night Vision or parking-camera surface into the instrument cluster",
+      "title": "仪表夜视与摄像头后台",
+      "description": "为仪表中的原车夜视和泊车摄像头画面提供连接支持，需车辆具备相应摄像头配置。",
       "mguHmi": [
         "ID7"
       ],
@@ -1900,7 +1901,7 @@
         "name": "front-camera-cluster-helper@0.2.1.tgz",
         "size": 4006,
         "sha256": "394076ef83aa204b6902ee20afe9a839f19f67296a6c8b530885df6ae1e07dd4",
-        "url": "packages/front-camera-cluster-helper@0.2.1.tgz"
+        "url": "https://github.com/alexp50/bmw-apps/releases/download/front-camera-cluster-helper@0.2.1/front-camera-cluster-helper@0.2.1.tgz"
       },
       "uninstallable": true,
       "requires": {
@@ -1912,8 +1913,8 @@
       "id": "hotspot-studio-helper",
       "kind": "tool",
       "version": "0.1.7",
-      "title": "Hotspot Studio helper",
-      "description": "Shares the MGU LTE uplink with BMW's hotspot and provides a guarded single-client ENET gateway",
+      "title": "热点工作室后台",
+      "description": "热点工作室后台，提供网络共享及受限的单客户端 ENET 网关。",
       "mguHmi": [
         "ID7"
       ],
@@ -1921,7 +1922,7 @@
         "name": "hotspot-studio-helper@0.1.7.tgz",
         "size": 9437,
         "sha256": "a2350a9d330008649f3cbe948f48d018be3a97f5cf179a5ab0305b1198ab135a",
-        "url": "packages/hotspot-studio-helper@0.1.7.tgz"
+        "url": "https://github.com/alexp50/bmw-apps/releases/download/hotspot-studio-helper@0.1.7/hotspot-studio-helper@0.1.7.tgz"
       },
       "uninstallable": true,
       "requires": {
@@ -1933,14 +1934,14 @@
     {
       "id": "mgu-uplink",
       "kind": "tool",
-      "title": "Internet uplink",
-      "description": "Internet for selected apps through a USB network adapter, an LTE stick, a USB-tethered phone or Wi-Fi",
-      "version": "0.7.12",
+      "title": "互联网连接组件",
+      "description": "通过 Wi-Fi、USB 网卡、上网卡或手机共享网络，为指定应用提供互联网连接。",
+      "version": "0.7.13",
       "artifact": {
-        "name": "mgu-uplink@0.7.12.tgz",
-        "size": 3604053,
-        "sha256": "21ed6dad1b0e413572dedc67f05a9f44a3a4ee4eb7cc40d31d93d9b076a5082a",
-        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-uplink%400.7.12/mgu-uplink%400.7.12.tgz"
+        "name": "mgu-uplink@0.7.13.tgz",
+        "size": 3605106,
+        "sha256": "077e3200356df726a1e653fd67db9f9a1237e22b548f946b726c6eadd0f48d28",
+        "url": "https://github.com/robertnisipeanu/mgu-store/releases/download/mgu-uplink%400.7.13/mgu-uplink%400.7.13.tgz"
       },
       "requires": {
         "mgu-updater": "0.7.2"
@@ -2081,8 +2082,8 @@
       "id": "vehicle-network-observer",
       "kind": "tool",
       "version": "0.1.2",
-      "title": "Vehicle network observer",
-      "description": "Creates the passive network inventory consumed by the Vehicle Network app",
+      "title": "车辆网络观测组件",
+      "description": "被动车辆网络观测组件，为车辆网络应用提供设备清单。",
       "mguHmi": [
         "ID7"
       ],
@@ -2090,7 +2091,7 @@
         "name": "vehicle-network-observer@0.1.2.tgz",
         "size": 5887,
         "sha256": "216a50ffbe3e5b64524b7a2bb89a752a0f30aea197493455028236f9e690a715",
-        "url": "packages/vehicle-network-observer@0.1.2.tgz"
+        "url": "https://github.com/alexp50/bmw-apps/releases/download/vehicle-network-observer@0.1.2/vehicle-network-observer@0.1.2.tgz"
       },
       "uninstallable": true,
       "requires": {
@@ -2101,16 +2102,8 @@
     {
       "id": "jap-node22",
       "kind": "tool",
-      "title": "Node.js 22",
-      "description": "Node.js 22 LTS for the background services of Moonride and RideTube (BMW's apps keep the system Node 8)",
-      "author": "JustAnotherPU",
-      "version": "22.23.4",
-      "artifact": {
-        "name": "jap-node22@22.23.4.tgz",
-        "size": 49203293,
-        "sha256": "c62a8e2a3803b858b4d1020cb19746c8bd9ae8b753145f80c5adf7d781692743",
-        "url": "packages/jap-node22@22.23.4.tgz"
-      },
+      "title": "Node.js 22 运行组件",
+      "description": "Node.js 22 运行组件，供车机后台程序使用。",
       "requires": {
         "mgu-deploy": "0.7.0"
       },
@@ -2118,23 +2111,30 @@
       "mguHmi": [
         "ID7"
       ],
-      "optional": true
+      "optional": true,
+      "version": "22.23.4",
+      "artifact": {
+        "name": "jap-node22@22.23.4.tgz",
+        "size": 49203293,
+        "sha256": "c62a8e2a3803b858b4d1020cb19746c8bd9ae8b753145f80c5adf7d781692743",
+        "url": "https://github.com/JustAnotherPU/ridetube/releases/download/catalog/jap-node22@22.23.4.tgz"
+      }
     },
     {
       "id": "vizualyse_cast",
       "kind": "app",
       "title": "仪表投射",
       "description": "将手机串流投射到仪表、HUD 或中控屏，支持配套的 CarPlay 第二屏设置。",
-      "version": "0.4.100",
+      "version": "0.4.101",
       "artifact": {
-        "name": "vizualyse_cast@0.4.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_cast%400.4.100.tgz",
-        "size": 52878,
-        "sha256": "cdfb9925a3dcb454dcd5a4bc75d02631a8527642bbcd6b6e04e6a219dd6b12cd"
+        "name": "vizualyse_cast@0.4.101.tgz",
+        "size": 54060,
+        "sha256": "7ee3836c35be03864e12eabf8651099cabcd358213d44c44aeaaf7845292f5c6",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse_cast%400.4.101.tgz"
       },
       "build": "unit",
       "requires": {
-        "vizualyse-cast": "0.4.100"
+        "vizualyse-cast": "0.4.101"
       },
       "mguHmi": [
         "ID7"
@@ -2147,12 +2147,12 @@
       "kind": "tool",
       "title": "仪表投射（后台组件）",
       "description": "将手机串流投射到仪表、HUD 或中控屏，支持配套的 CarPlay 第二屏设置。",
-      "version": "0.4.100",
+      "version": "0.4.101",
       "artifact": {
-        "name": "vizualyse-cast@0.4.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-cast%400.4.100.tgz",
-        "size": 31549537,
-        "sha256": "eb8c75e8770bd0aae0689b0166de680a74a1274e01355c6e81d4b57299018247"
+        "name": "vizualyse-cast@0.4.101.tgz",
+        "size": 30019664,
+        "sha256": "16ebc20f27de34c338931d6a6140448fe0febeb1c74697babdac0afb42dc8dac",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse-cast%400.4.101.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.0",
@@ -2172,16 +2172,16 @@
       "kind": "app",
       "title": "浏览器",
       "description": "在车机中使用 Chromium 浏览网页，通过手机输入网址和文字。",
-      "version": "0.3.100",
+      "version": "0.3.101",
       "artifact": {
-        "name": "vizualyse_chromium@0.3.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_chromium%400.3.100.tgz",
-        "size": 54792,
-        "sha256": "93f379fd6d483220512beb4bd451ffa343241c51a6471e05dd0e8ad0fb88ae2a"
+        "name": "vizualyse_chromium@0.3.101.tgz",
+        "size": 56294,
+        "sha256": "f28449d3c490703dc8c3cb5b8d669f1cf6f93a7a55c33fffebad5db2302d0a55",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse_chromium%400.3.101.tgz"
       },
       "build": "unit",
       "requires": {
-        "vizualyse-chromium": "0.3.100"
+        "vizualyse-chromium": "0.3.101"
       },
       "mguHmi": [
         "ID7"
@@ -2194,12 +2194,12 @@
       "kind": "tool",
       "title": "浏览器（后台组件）",
       "description": "在车机中使用 Chromium 浏览网页，通过手机输入网址和文字。",
-      "version": "0.3.100",
+      "version": "0.3.101",
       "artifact": {
-        "name": "vizualyse-chromium@0.3.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-chromium%400.3.100.tgz",
-        "size": 189549123,
-        "sha256": "935c8ac1d14bb8275f0c9d59d23259b313ad5b00adfc6206c9a67f4744a6254c"
+        "name": "vizualyse-chromium@0.3.101.tgz",
+        "size": 189420047,
+        "sha256": "915a16742d944d550f4213768f180a0c54bac338b5239a51abb4845a2a5e6819",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse-chromium%400.3.101.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.0",
@@ -2218,16 +2218,16 @@
       "kind": "app",
       "title": "仪表主题",
       "description": "预览及切换仪表主题，可按驾驶模式选用不同外观。",
-      "version": "0.3.100",
+      "version": "0.3.101",
       "artifact": {
-        "name": "vizualyse_cluster@0.3.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_cluster%400.3.100.tgz",
-        "size": 44140,
-        "sha256": "42ae41637d1b8fa9fdad1f99b25d0907d8fe16c8fabb8ef514356e9376af5e0a"
+        "name": "vizualyse_cluster@0.3.101.tgz",
+        "size": 44851,
+        "sha256": "c7a9218a6157fffefc7b2769e768c85a72610815433d266f266060098b511dc3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse_cluster%400.3.101.tgz"
       },
       "build": "unit",
       "requires": {
-        "vizualyse-cluster": "0.4.100"
+        "vizualyse-cluster": "0.4.101"
       },
       "mguHmi": [
         "ID7"
@@ -2240,12 +2240,12 @@
       "kind": "tool",
       "title": "仪表主题（后台组件）",
       "description": "预览及切换仪表主题，可按驾驶模式选用不同外观。",
-      "version": "0.4.100",
+      "version": "0.4.101",
       "artifact": {
-        "name": "vizualyse-cluster@0.4.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-cluster%400.4.100.tgz",
-        "size": 11562478,
-        "sha256": "90dcae26b4a373e7a275325a46d363cb615e4923e43bc8f037af458d28637210"
+        "name": "vizualyse-cluster@0.4.101.tgz",
+        "size": 11542810,
+        "sha256": "559e0194b05c6193b9882bddf2763cc6306db89d9dff8d8e0e82de31f747e86a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse-cluster%400.4.101.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.0",
@@ -2264,16 +2264,16 @@
       "kind": "app",
       "title": "Moonlight 串流",
       "description": "连接 Sunshine 主机，将电脑游戏和声音串流到车机。",
-      "version": "0.3.100",
+      "version": "0.3.101",
       "artifact": {
-        "name": "vizualyse_moonlight@0.3.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_moonlight%400.3.100.tgz",
-        "size": 51704,
-        "sha256": "a5607b4b89862a132309c5e81bed5d98d4b14773ea10e41d1fb33af2c2fada33"
+        "name": "vizualyse_moonlight@0.3.101.tgz",
+        "size": 52643,
+        "sha256": "07a6166b0a4e52ccd33f76e737b7d4785245fb5979eb0dbebfbaae2be99460c7",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse_moonlight%400.3.101.tgz"
       },
       "build": "unit",
       "requires": {
-        "vizualyse-moonlight": "0.3.100"
+        "vizualyse-moonlight": "0.3.101"
       },
       "mguHmi": [
         "ID7"
@@ -2286,12 +2286,12 @@
       "kind": "tool",
       "title": "Moonlight 串流（后台组件）",
       "description": "连接 Sunshine 主机，将电脑游戏和声音串流到车机。",
-      "version": "0.3.100",
+      "version": "0.3.101",
       "artifact": {
-        "name": "vizualyse-moonlight@0.3.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-moonlight%400.3.100.tgz",
-        "size": 1526763,
-        "sha256": "d8917289a1127d97ae9aecbd2ed4235f02b502e4655c6cabcc67d85f5bf107f6"
+        "name": "vizualyse-moonlight@0.3.101.tgz",
+        "size": 1486005,
+        "sha256": "86baa8f2193e45d56a41ad838412adffd32c4a8a3c78c34b1f9d8a9de95f86cd",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse-moonlight%400.3.101.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.0",
@@ -2310,16 +2310,16 @@
       "kind": "app",
       "title": "车载 Steam",
       "description": "在车机运行支持的 Steam 游戏，管理安装位置和画面设置。",
-      "version": "0.2.100",
+      "version": "0.2.101",
       "artifact": {
-        "name": "vizualyse_steam@0.2.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_steam%400.2.100.tgz",
-        "size": 52536,
-        "sha256": "a5dd2f77bfe53677078313b35cd261e86aef44a84d62151865fe445dd5608ddc"
+        "name": "vizualyse_steam@0.2.101.tgz",
+        "size": 53712,
+        "sha256": "8351300519f998dfd01d1e4114b57e01adfa477075371a5b98055be1375b44f5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse_steam%400.2.101.tgz"
       },
       "build": "unit",
       "requires": {
-        "vizualyse-steam": "0.3.100"
+        "vizualyse-steam": "0.4.1"
       },
       "mguHmi": [
         "ID7"
@@ -2332,12 +2332,12 @@
       "kind": "tool",
       "title": "车载 Steam（后台组件）",
       "description": "在车机运行支持的 Steam 游戏，管理安装位置和画面设置。",
-      "version": "0.3.100",
+      "version": "0.4.1",
       "artifact": {
-        "name": "vizualyse-steam@0.3.100.tgz",
-        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-steam%400.3.100.tgz",
-        "size": 531761806,
-        "sha256": "918c0d9e47425d106e189a0b6f8e5f09e7cc22180e155620396ac0aacb325fae"
+        "name": "vizualyse-steam@0.4.1.tgz",
+        "size": 530697177,
+        "sha256": "ab25e91a9eeb5a2c24a0ac62c259ad6158d85681d17afa8ab8a91f3e458e8c69",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vizualyse-steam%400.4.1.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.0",
@@ -2354,8 +2354,8 @@
     {
       "id": "vizualyse-bus",
       "kind": "tool",
-      "title": "Vizualyse bus",
-      "description": "EXPERIMENTAL. The shared bus the Vizualyse tools use to ask each other to switch things off while they need the car's resources (Steam pauses Cast's cluster and HUD video while a game runs). Mosquitto 2.0.21 (MQTT) on a Unix socket only root's tools can reach; no network listener. Installed with the tools that use it; about 0.2 MB.",
+      "title": "Vizualyse 协调组件",
+      "description": "Vizualyse 应用间的实验性协调组件，用于共享车辆显示和运行资源。",
       "version": "0.1.0",
       "artifact": {
         "name": "vizualyse-bus@0.1.0.tgz",
@@ -2376,12 +2376,12 @@
       "kind": "app",
       "title": "精准计时",
       "description": "通过 DSC 加速度信号修正坡度，记录加速和制动测试。",
-      "version": "0.3.1",
+      "version": "1.0.1",
       "artifact": {
-        "name": "true_time_cn@0.3.1.tgz",
-        "url": "packages/true_time_cn@0.3.1.tgz",
-        "size": 920831,
-        "sha256": "1c4f112628f60f57a139b3d5fac7bf8a53d62e600b38af2c69d4be51a2d00624"
+        "name": "true_time_cn@1.0.1.tgz",
+        "size": 953265,
+        "sha256": "9ffee15dc8f8b8055b7103a840580e6a9ef8d310cf80fb96a572d032a2c2005b",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/true_time_cn%401.0.1.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2401,12 +2401,12 @@
       "kind": "app",
       "title": "ECU 实时数据",
       "description": "只读查看发动机实时数据，支持 CSV 记录、道路测功与加速计时。",
-      "version": "1.0.1",
+      "version": "1.0.101",
       "artifact": {
-        "name": "boostline_cn@1.0.1.tgz",
-        "url": "packages/boostline_cn@1.0.1.tgz",
-        "size": 1014042,
-        "sha256": "0ac28730baeee97e522310d0dbb2149ebd22afca3e6338c9fac1d4bcd5781970"
+        "name": "boostline_cn@1.0.101.tgz",
+        "size": 1046121,
+        "sha256": "42da63ede26f952653487e5b661e8d432fc047a10ad4e64b24acf7ee7e5c5105",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/boostline_cn%401.0.101.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2426,12 +2426,12 @@
       "kind": "app",
       "title": "DPF 监测",
       "description": "只读查看柴油颗粒捕集器的积炭、灰分、排温、压差和再生记录。",
-      "version": "0.1.1",
+      "version": "1.1.101",
       "artifact": {
-        "name": "dpf_id7_cn@0.1.1.tgz",
-        "url": "packages/dpf_id7_cn@0.1.1.tgz",
-        "size": 905949,
-        "sha256": "4e84cf0ee8785f86523b4bc52352d36e7e4412876795d547d1ca70013bb48ae3"
+        "name": "dpf_id7_cn@1.1.101.tgz",
+        "size": 939758,
+        "sha256": "d732bfb0312925072c1d13a60a39f6a618417c7bdafac0f95035539eb2c39df7",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dpf_id7_cn%401.1.101.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2471,14 +2471,14 @@
       "id": "jackie_qishui_music",
       "kind": "app",
       "title": "汽水音乐 Beta",
-      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 Beta，API 后台随应用在车机运行。修复登录界面初始化与按钮绑定，支持扫码授权、推荐、歌单和搜索。需要车机联网、正确的系统日期及 Node.js 22 运行组件。播放取决于账号权限和上游提供的完整音频。",
+      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 Beta，API 后台随应用在车机运行。0.2.5 补齐应用联网声明，安装后由联网组件自动加入出网名单，使用商店已连接的 Wi-Fi。保留扫码授权、推荐、歌单、搜索及原有界面。需要正确的系统日期和 Node.js 22；完整播放取决于账号权限与上游音频。",
       "author": "小白科技杂物社",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "artifact": {
-        "name": "jackie_qishui_music@0.2.4.tgz",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/qishui-v0.2.4-beta/jackie_qishui_music%400.2.4.tgz",
-        "size": 30696055,
-        "sha256": "bb5652e129d8e38f72ce50f763add5df12aae1d26699c50a5491b94ecd804eb2"
+        "name": "jackie_qishui_music@0.2.5.tgz",
+        "size": 30691955,
+        "sha256": "3e4b10ec5427c416b5d2776c91ebe8c8142617520e9213bf6324035868041436",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jackie_qishui_music%400.2.5.tgz"
       },
       "uninstallable": true,
       "mguHmi": [
@@ -2491,6 +2491,129 @@
         "mgu-uplink": "0.7.12",
         "mgu-deploy": "0.8.19"
       }
+    },
+    {
+      "id": "aref_carcare",
+      "kind": "app",
+      "title": "车辆养护",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151",
+      "version": "0.2.301",
+      "artifact": {
+        "name": "aref_carcare@0.2.301.tgz",
+        "size": 1239950,
+        "sha256": "3ddd42807b1687a064ee395490ac25d985635054d3d8e4746b03d6e031b09a37",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_carcare%400.2.301.tgz"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "icon": "https://raw.githubusercontent.com/JackieZ123430/aref-idrive7-apps-cn/b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6/apps/aref_carcare/icon.png",
+      "iconSha256": "d0243aa67d712e69c0bc3eff91fb14c775853b97b4139e0b2a05ec36c48e22c6",
+      "description": "独立记录机油、火花塞、滤芯及各类油液的保养周期，支持首页组件；不重置原车保养提醒。"
+    },
+    {
+      "id": "aref_carlyrics",
+      "kind": "app",
+      "title": "车载歌词",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151",
+      "version": "0.5.701",
+      "artifact": {
+        "name": "aref_carlyrics@0.5.701.tgz",
+        "size": 1489968,
+        "sha256": "785e38ed5a8961bce5a2ef60d98d34df8dd099652cd33502606b3d91cd0e323d",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_carlyrics%400.5.701.tgz"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-uplink": "0.7.3"
+      },
+      "icon": "https://raw.githubusercontent.com/JackieZ123430/aref-idrive7-apps-cn/b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6/apps/aref_carlyrics/icon.png",
+      "iconSha256": "fb6816d4d705ae5e66f33a1837e7c840aa9f02f5939ebdc59054b2c13ee88284",
+      "description": "根据原车当前曲目显示同步歌词与专辑封面，支持 CarPlay、蓝牙、USB 和首页组件；联网获取歌词。"
+    },
+    {
+      "id": "aref_carwatch",
+      "kind": "app",
+      "title": "车辆监控",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151",
+      "version": "0.1.301",
+      "artifact": {
+        "name": "aref_carwatch@0.1.301.tgz",
+        "size": 1258676,
+        "sha256": "803aa200285cba28668127ac06c6b346672a415cb2aa93dfa290995d2a6dac38",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_carwatch%400.1.301.tgz"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "icon": "https://raw.githubusercontent.com/JackieZ123430/aref-idrive7-apps-cn/b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6/apps/aref_carwatch/icon.png",
+      "iconSha256": "f690384973ba07e8d7fb46b3b63ed5d8b882069b32143cce897f537fc3ebd8d2",
+      "description": "合并行程、失火和故障监控，保留事件发生时的车辆状态，支持首页组件；只读观察车辆数据。"
+    },
+    {
+      "id": "aref_eta",
+      "kind": "app",
+      "title": "导航到达时间",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151",
+      "version": "1.20.101",
+      "artifact": {
+        "name": "aref_eta@1.20.101.tgz",
+        "size": 1779726,
+        "sha256": "e579bf3f098ac1c0a203ac3bf93e0e0e722417e0646a139ed0beaa7928aae84f",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_eta%401.20.101.tgz"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.4.2",
+        "mgu-uplink": "0.7.3"
+      },
+      "icon": "https://raw.githubusercontent.com/JackieZ123430/aref-idrive7-apps-cn/b1d6f9a97a97222da5b1a641513b33c5b8f9a1f6/apps/aref_eta/icon.png",
+      "iconSha256": "996092ac45fa680c763e4fbc824e1b03d35c317cbf086c59a56eb9c4e5ae896b",
+      "description": "显示苹果地图导航的到达时间、剩余时间和距离，支持首页组件及仪表信息条；仪表显示需要渲染组件。"
+    },
+    {
+      "id": "gif_home",
+      "kind": "app",
+      "title": "GIF 首页组件",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151",
+      "version": "0.3.101",
+      "artifact": {
+        "name": "gif_home@0.3.101.tgz",
+        "size": 1811277,
+        "sha256": "f3a02695287d9f3bbc4cf22ce1d84a8d4cd1dadd55deb8ce2fa74bc31774a7df",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/gif_home%400.3.101.tgz"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "icon": "icons/gif_home.png",
+      "iconSha256": "7755e9ef92b42bb00f387bcc0f33743ee333f1cc4ddfbe9f0e647a0a2f669e80",
+      "description": "在 iDrive 首页大磁贴中显示 GIF 动画，支持内置动画、手机扫码上传和显示设置。"
     }
   ]
 }
