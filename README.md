@@ -49,3 +49,7 @@ ETA 的仪表显示需要 cluster-render，并可能与其他仪表显示应用�
 - [pllanaio/mgu-browser](https://github.com/pllanaio/mgu-browser/pull/13)：当前中文修订已提交，是否合并以上游状态为准。
 
 各中文源码仓库也提供根目录 catalog.json；安装包引用本仓库的 GitHub Release，避免在多个来源重复维护不同字节的同版本包。联系条目只展示信息，不能下载安装。
+
+## 首页组件中文显示修订 2
+
+本轮进一步修复了 8 款带组件应用的中文传输与资源打包。缩小组件通过自己的 UTF-8 字符串资源显示中文；大组件固定标签翻译为中文，歌曲、歌手和歌词按原文显示。新增 [Aref #3](https://github.com/arefahmad/idrive7-apps/pull/3) 跟进显示修复；此前 Aref #2 已被上游合并。

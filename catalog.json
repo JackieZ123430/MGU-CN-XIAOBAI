@@ -210,12 +210,12 @@
       "kind": "app",
       "title": "EDrive助手",
       "description": "查看电动续航、高压与 12 伏电池、电芯、充电历史及相关用电信息，支持首页组件。",
-      "version": "2.11.1",
+      "version": "2.11.2",
       "artifact": {
-        "name": "edrive@2.11.1.tgz",
-        "size": 1148333,
-        "sha256": "d434eb49acafd168f401b506266e748de089e8d70a629225b37107ce5eb2c2a2",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/edrive%402.11.1.tgz"
+        "name": "edrive@2.11.2.tgz",
+        "size": 1150096,
+        "sha256": "e491e65866e6aea58b5942542473f97dd311714b1a5c7b8a54f00bcf7d4fb254",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/edrive%402.11.2.tgz"
       },
       "requires": {
         "mgu-deploy": "0.3.2",
@@ -282,12 +282,12 @@
       "kind": "app",
       "title": "实时数据",
       "description": "只读查看车辆和控制单元的实时数据，支持自定义仪表、行程费用和首页组件。",
-      "version": "1.0.1801",
+      "version": "1.0.1802",
       "artifact": {
-        "name": "live_data@1.0.1801.tgz",
-        "size": 1134842,
-        "sha256": "e1798b71a8070d3f5b50f66b3d2d4d7c6c186d77ded7f25a4d42f18a056f35b3",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/live_data%401.0.1801.tgz"
+        "name": "live_data@1.0.1802.tgz",
+        "size": 1136384,
+        "sha256": "b612c5e5b539c6074d274cd334e11ff2d3a2268ed1a5ebd64d70c1430be43905",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/live_data%401.0.1802.tgz"
       },
       "requires": {
         "mgu-deploy": "0.3.2",
@@ -622,12 +622,12 @@
       "kind": "app",
       "title": "行程电脑",
       "description": "全屏显示行程历史、油耗、油价、费用、续航、车外温度和 GPS 海拔",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "artifact": {
-        "name": "road_trip_computer@1.0.1.tgz",
-        "size": 1032526,
-        "sha256": "0a8a1de65d62befdca95dfa659845170078fe53c6a3d87719490827f9eb5f459",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/road_trip_computer%401.0.1.tgz"
+        "name": "road_trip_computer@1.0.2.tgz",
+        "size": 1059386,
+        "sha256": "02e59eca464f92106e0c7d1788d57f0776ff16aacc4fda15dc790c11fa86ccaa",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/road_trip_computer%401.0.2.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2503,12 +2503,12 @@
       ],
       "uninstallable": true,
       "author": "汉化 小白151",
-      "version": "0.2.301",
+      "version": "0.2.302",
       "artifact": {
-        "name": "aref_carcare@0.2.301.tgz",
-        "size": 1239950,
-        "sha256": "3ddd42807b1687a064ee395490ac25d985635054d3d8e4746b03d6e031b09a37",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_carcare%400.2.301.tgz"
+        "name": "aref_carcare@0.2.302.tgz",
+        "size": 1242780,
+        "sha256": "9b4bfff866cbf91801535f64af233b100b70a91a0e1bbe1307640b907c654ae3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/aref_carcare%400.2.302.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2527,12 +2527,12 @@
       ],
       "uninstallable": true,
       "author": "汉化 小白151",
-      "version": "0.5.701",
+      "version": "0.5.702",
       "artifact": {
-        "name": "aref_carlyrics@0.5.701.tgz",
-        "size": 1489968,
-        "sha256": "785e38ed5a8961bce5a2ef60d98d34df8dd099652cd33502606b3d91cd0e323d",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_carlyrics%400.5.701.tgz"
+        "name": "aref_carlyrics@0.5.702.tgz",
+        "size": 1492801,
+        "sha256": "bde74df1e6378ad0b205651636676fadde39aa25fc2c97fac998a613c172d443",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/aref_carlyrics%400.5.702.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2552,12 +2552,12 @@
       ],
       "uninstallable": true,
       "author": "汉化 小白151",
-      "version": "0.1.301",
+      "version": "0.1.302",
       "artifact": {
-        "name": "aref_carwatch@0.1.301.tgz",
-        "size": 1258676,
-        "sha256": "803aa200285cba28668127ac06c6b346672a415cb2aa93dfa290995d2a6dac38",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_carwatch%400.1.301.tgz"
+        "name": "aref_carwatch@0.1.302.tgz",
+        "size": 1261584,
+        "sha256": "d176accbf54be8979e42be4ceaa035784847349f599f833b201dcd5518997b7e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/aref_carwatch%400.1.302.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2576,12 +2576,12 @@
       ],
       "uninstallable": true,
       "author": "汉化 小白151",
-      "version": "1.20.101",
+      "version": "1.20.102",
       "artifact": {
-        "name": "aref_eta@1.20.101.tgz",
-        "size": 1779726,
-        "sha256": "e579bf3f098ac1c0a203ac3bf93e0e0e722417e0646a139ed0beaa7928aae84f",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/aref_eta%401.20.101.tgz"
+        "name": "aref_eta@1.20.102.tgz",
+        "size": 1782671,
+        "sha256": "268ecab4a34756694894886c0d0ad585de915e982014cdba22527a1e7b906b27",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/aref_eta%401.20.102.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2602,12 +2602,12 @@
       ],
       "uninstallable": true,
       "author": "汉化 小白151",
-      "version": "0.3.101",
+      "version": "0.3.102",
       "artifact": {
-        "name": "gif_home@0.3.101.tgz",
-        "size": 1811277,
-        "sha256": "f3a02695287d9f3bbc4cf22ce1d84a8d4cd1dadd55deb8ce2fa74bc31774a7df",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/gif_home%400.3.101.tgz"
+        "name": "gif_home@0.3.102.tgz",
+        "size": 1816951,
+        "sha256": "3369b11cb6dab5d088d99bcceed76b261674bab14c3940e159f0034eacea414a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/gif_home%400.3.102.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
