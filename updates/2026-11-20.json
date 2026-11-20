@@ -44,7 +44,7 @@
   {
     "id": "edrive",
     "before": "2.9.2",
-    "after": "2.11.1",
+    "after": "2.11.2",
     "title": "EDrive助手"
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": "live_data",
     "before": "1.0.13",
-    "after": "1.0.1801",
+    "after": "1.0.1802",
     "title": "实时数据"
   },
   {
@@ -146,7 +146,7 @@
   {
     "id": "road_trip_computer",
     "before": "1.0.0",
-    "after": "1.0.1",
+    "after": "1.0.2",
     "title": "行程电脑"
   },
   {
@@ -220,6 +220,12 @@
     "before": "1.1.0",
     "after": "1.2.1",
     "title": "旋钮输入组件"
+  },
+  {
+    "id": "robertn_store",
+    "before": "0.9.40",
+    "after": "0.9.41",
+    "title": "MGU 商店"
   },
   {
     "id": "mgu-deploy",
@@ -338,31 +344,31 @@
   {
     "id": "aref_carcare",
     "before": null,
-    "after": "0.2.301",
+    "after": "0.2.302",
     "title": "车辆养护"
   },
   {
     "id": "aref_carlyrics",
     "before": null,
-    "after": "0.5.701",
+    "after": "0.5.702",
     "title": "车载歌词"
   },
   {
     "id": "aref_carwatch",
     "before": null,
-    "after": "0.1.301",
+    "after": "0.1.302",
     "title": "车辆监控"
   },
   {
     "id": "aref_eta",
     "before": null,
-    "after": "1.20.101",
+    "after": "1.20.102",
     "title": "导航到达时间"
   },
   {
     "id": "gif_home",
     "before": null,
-    "after": "0.3.101",
+    "after": "0.3.102",
     "title": "GIF 首页组件"
   }
 ]
