@@ -545,15 +545,23 @@
   },
   {
     "id": "jackie_qishui_music",
-    "version": "0.2.5",
-    "previousVersion": "0.2.4",
+    "version": "0.2.6",
+    "previousVersion": "0.2.5",
     "mguInternet": true,
     "baseSha256": "bb5652e129d8e38f72ce50f763add5df12aae1d26699c50a5491b94ecd804eb2",
     "changes": [
       "package.json",
       "rhmiData/application.json"
     ],
-    "source": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/blob/main/sources/music/build_music_network_fix.py"
+    "source": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/blob/main/sources/music/build_music_network_fix.py",
+    "build": "0.2.6-beta",
+    "artifactSha256": "5835d8f5e906d3bd8971fbfa43a336a31bb94385c62090fe84759b101356ff62",
+    "sourcePackageSha256": "3e4b10ec5427c416b5d2776c91ebe8c8142617520e9213bf6324035868041436",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "embeddedBackend": true,
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment",
+    "notes": "Beta publication; metadata and visible app names revised. External backend required for QQ/KuGou. No fresh vehicle playback test."
   },
   {
     "id": "aref_carcare",
@@ -636,5 +644,44 @@
     "upstreamPR": "https://github.com/JustAnotherPU/mgu-apps/pull/7",
     "translation": "小白科技杂物社",
     "sdk": "Excluded; supplied locally by the enrolled vehicle"
+  },
+  {
+    "id": "jackie_netease_music",
+    "version": "0.5.5",
+    "build": "0.5.5-beta",
+    "artifactSha256": "27736bedb2813f49b63caaddb7ffb6b52c74fe9c98f6e3e3ecacad8b19283ed4",
+    "sourcePackageSha256": "5308d5f37540efbb3a68ee8a6c69ac3f9c2d393f7589131796139b2290dde45c",
+    "previousVersion": "0.5.4",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "embeddedBackend": true,
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment",
+    "notes": "Beta publication; metadata and visible app names revised. External backend required for QQ/KuGou. No fresh vehicle playback test."
+  },
+  {
+    "id": "jackie_qq_community",
+    "version": "0.1.1",
+    "build": "0.1.1-beta",
+    "artifactSha256": "23b63c48cc1276d7780dca2a2a5967216ffadee52db050a0928135997a349e78",
+    "sourcePackageSha256": "4c58220be42df34248d12a6c6556da6eef97d0130cd9e87918e864e28e6f097e",
+    "previousVersion": "0.1.0",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "embeddedBackend": false,
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment",
+    "notes": "Beta publication; metadata and visible app names revised. External backend required for QQ/KuGou. No fresh vehicle playback test."
+  },
+  {
+    "id": "jackie_kugou_music",
+    "version": "0.1.1",
+    "build": "0.1.1-beta",
+    "artifactSha256": "f02b8e6017cfdd22df303b4971a75c406fed645b80bed3d187573f123afe29b5",
+    "sourcePackageSha256": "f9bb5a4283fbc2dccfdf7dd9c390084b00f58e5a9018a1e2428851b755bd00e8",
+    "previousVersion": "0.1.0",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "embeddedBackend": false,
+    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment",
+    "notes": "Beta publication; metadata and visible app names revised. External backend required for QQ/KuGou. No fresh vehicle playback test."
   }
 ]

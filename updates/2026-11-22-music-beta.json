@@ -1,0 +1,98 @@
+[
+  {
+    "id": "jackie_netease_music",
+    "oldVersion": "0.5.4",
+    "version": "0.5.5",
+    "title": "网易云音乐 Beta",
+    "embeddedBackend": true,
+    "sourceSha256": "5308d5f37540efbb3a68ee8a6c69ac3f9c2d393f7589131796139b2290dde45c",
+    "artifact": {
+      "name": "jackie_netease_music@0.5.5.tgz",
+      "size": 52754428,
+      "sha256": "27736bedb2813f49b63caaddb7ffb6b52c74fe9c98f6e3e3ecacad8b19283ed4",
+      "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_netease_music%400.5.5.tgz"
+    },
+    "icon": "jackie_netease_music.png",
+    "iconSha256": "0296863a873856c22171e8b3abb96d114d800ba5e41bf8db053d1437bf49a9d5",
+    "changedFiles": [
+      "package.json",
+      "rhmiData/application.json",
+      "rhmiData/variantGroups/Common/texts/de_DE.json",
+      "rhmiData/variantGroups/Common/texts/en_GB.json",
+      "rhmiData/variantGroups/Common/texts/zh_CN.json",
+      "rhmiData/variantGroups/Common/texts/zh_TW.json"
+    ]
+  },
+  {
+    "id": "jackie_qishui_music",
+    "oldVersion": "0.2.5",
+    "version": "0.2.6",
+    "title": "汽水音乐 Beta",
+    "embeddedBackend": true,
+    "sourceSha256": "3e4b10ec5427c416b5d2776c91ebe8c8142617520e9213bf6324035868041436",
+    "artifact": {
+      "name": "jackie_qishui_music@0.2.6.tgz",
+      "size": 30691971,
+      "sha256": "5835d8f5e906d3bd8971fbfa43a336a31bb94385c62090fe84759b101356ff62",
+      "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_qishui_music%400.2.6.tgz"
+    },
+    "icon": "jackie_qishui_music.png",
+    "iconSha256": "bd51203fdfbd30a6d537f54b1fd844f27025985f7f29685250c0589efec42a0f",
+    "changedFiles": [
+      "package.json",
+      "rhmiData/application.json",
+      "rhmiData/variantGroups/Common/texts/de_DE.json",
+      "rhmiData/variantGroups/Common/texts/en_GB.json",
+      "rhmiData/variantGroups/Common/texts/zh_CN.json",
+      "rhmiData/variantGroups/Common/texts/zh_TW.json"
+    ]
+  },
+  {
+    "id": "jackie_qq_community",
+    "oldVersion": "0.1.0",
+    "version": "0.1.1",
+    "title": "QQ 音乐社区版 Beta",
+    "embeddedBackend": false,
+    "sourceSha256": "4c58220be42df34248d12a6c6556da6eef97d0130cd9e87918e864e28e6f097e",
+    "artifact": {
+      "name": "jackie_qq_community@0.1.1.tgz",
+      "size": 1337571,
+      "sha256": "23b63c48cc1276d7780dca2a2a5967216ffadee52db050a0928135997a349e78",
+      "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_qq_community%400.1.1.tgz"
+    },
+    "icon": "jackie_qq_community.png",
+    "iconSha256": "bde109792ac0f4310ef886a8bfe9aa437bb30c5d2fb38e9dd233c010d4afd8e9",
+    "changedFiles": [
+      "package.json",
+      "rhmiData/application.json",
+      "rhmiData/variantGroups/Common/texts/de_DE.json",
+      "rhmiData/variantGroups/Common/texts/en_GB.json",
+      "rhmiData/variantGroups/Common/texts/zh_CN.json",
+      "rhmiData/variantGroups/Common/texts/zh_TW.json"
+    ]
+  },
+  {
+    "id": "jackie_kugou_music",
+    "oldVersion": "0.1.0",
+    "version": "0.1.1",
+    "title": "酷狗音乐 Beta",
+    "embeddedBackend": false,
+    "sourceSha256": "f9bb5a4283fbc2dccfdf7dd9c390084b00f58e5a9018a1e2428851b755bd00e8",
+    "artifact": {
+      "name": "jackie_kugou_music@0.1.1.tgz",
+      "size": 1343505,
+      "sha256": "f02b8e6017cfdd22df303b4971a75c406fed645b80bed3d187573f123afe29b5",
+      "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_kugou_music%400.1.1.tgz"
+    },
+    "icon": "jackie_kugou_music.png",
+    "iconSha256": "4438137aa7b6ddd1cd82f6ca6ea1f37f8739b81c1ac631fe73d15180d3761d0e",
+    "changedFiles": [
+      "package.json",
+      "rhmiData/application.json",
+      "rhmiData/variantGroups/Common/texts/de_DE.json",
+      "rhmiData/variantGroups/Common/texts/en_GB.json",
+      "rhmiData/variantGroups/Common/texts/zh_CN.json",
+      "rhmiData/variantGroups/Common/texts/zh_TW.json"
+    ]
+  }
+]

@@ -790,7 +790,7 @@
     {
       "id": "spotify",
       "kind": "app",
-      "title": "Spotify",
+      "title": "Spotify Beta",
       "description": "BMW iDrive 7 的 Spotify Connect 播放控制和曲库浏览应用",
       "version": "1.0.3101",
       "artifact": {
@@ -2473,25 +2473,25 @@
       "id": "jackie_qishui_music",
       "kind": "app",
       "title": "汽水音乐 Beta",
-      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 Beta，API 后台随应用在车机运行。0.2.5 补齐应用联网声明，安装后由联网组件自动加入出网名单，使用商店已连接的 Wi-Fi。保留扫码授权、推荐、歌单、搜索及原有界面。需要正确的系统日期和 Node.js 22；完整播放取决于账号权限与上游音频。",
+      "description": "小白科技杂物社 · 免费应用请勿付费。ID7 Beta，API 后台随应用在车机运行，支持扫码登录、推荐、歌单及搜索；需要车机互联网、正确系统时间及 Node.js 22。播放取决于账号权限和上游音频。本次为 Beta 上架整理，未重新验证登录及歌曲播放。",
       "author": "小白科技杂物社",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "artifact": {
-        "name": "jackie_qishui_music@0.2.5.tgz",
-        "size": 30691955,
-        "sha256": "3e4b10ec5427c416b5d2776c91ebe8c8142617520e9213bf6324035868041436",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jackie_qishui_music%400.2.5.tgz"
+        "name": "jackie_qishui_music@0.2.6.tgz",
+        "size": 30691971,
+        "sha256": "5835d8f5e906d3bd8971fbfa43a336a31bb94385c62090fe84759b101356ff62",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_qishui_music%400.2.6.tgz"
       },
       "uninstallable": true,
       "mguHmi": [
         "ID7"
       ],
-      "icon": "qishui_beta.png",
+      "icon": "icons/music/jackie_qishui_music.png",
       "iconSha256": "bd51203fdfbd30a6d537f54b1fd844f27025985f7f29685250c0589efec42a0f",
       "requires": {
-        "jap-node22": "22.23.4",
         "mgu-uplink": "0.7.12",
-        "mgu-deploy": "0.8.19"
+        "mgu-deploy": "0.8.19",
+        "jap-node22": "22.23.4"
       }
     },
     {
@@ -2663,6 +2663,79 @@
       "requires": {
         "mgu-render": "0.6.11",
         "mgu-inputgate": "1.0.0"
+      }
+    },
+    {
+      "id": "jackie_netease_music",
+      "kind": "app",
+      "title": "网易云音乐 Beta",
+      "description": "小白科技杂物社 · 免费应用请勿付费。ID7 Beta，API 后台随应用在车机运行，支持扫码登录、推荐、歌单及搜索；需要车机互联网、正确系统时间及 Node.js 22。播放取决于账号权限和上游音频。本次为 Beta 上架整理，未重新验证登录及歌曲播放。",
+      "author": "小白科技杂物社",
+      "version": "0.5.5",
+      "artifact": {
+        "name": "jackie_netease_music@0.5.5.tgz",
+        "size": 52754428,
+        "sha256": "27736bedb2813f49b63caaddb7ffb6b52c74fe9c98f6e3e3ecacad8b19283ed4",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_netease_music%400.5.5.tgz"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "icons/music/jackie_netease_music.png",
+      "iconSha256": "0296863a873856c22171e8b3abb96d114d800ba5e41bf8db053d1437bf49a9d5",
+      "requires": {
+        "mgu-uplink": "0.7.12",
+        "mgu-deploy": "0.8.19",
+        "jap-node22": "22.23.4"
+      }
+    },
+    {
+      "id": "jackie_qq_community",
+      "kind": "app",
+      "title": "QQ 音乐社区版 Beta",
+      "description": "小白科技杂物社 · 免费应用请勿付费。ID7 Beta 外置后台实验版：车机安装包仅含界面及客户端，必须另行配置可访问的 QQ 社区 API 后台（默认本机端口 33634），不能仅安装此包就独立登录或播放。接口和歌曲权限取决于上游及账号，本次未重新实测。",
+      "author": "小白科技杂物社",
+      "version": "0.1.1",
+      "artifact": {
+        "name": "jackie_qq_community@0.1.1.tgz",
+        "size": 1337571,
+        "sha256": "23b63c48cc1276d7780dca2a2a5967216ffadee52db050a0928135997a349e78",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_qq_community%400.1.1.tgz"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "icons/music/jackie_qq_community.png",
+      "iconSha256": "bde109792ac0f4310ef886a8bfe9aa437bb30c5d2fb38e9dd233c010d4afd8e9",
+      "requires": {
+        "mgu-uplink": "0.7.12",
+        "mgu-deploy": "0.8.19"
+      }
+    },
+    {
+      "id": "jackie_kugou_music",
+      "kind": "app",
+      "title": "酷狗音乐 Beta",
+      "description": "小白科技杂物社 · 免费应用请勿付费。ID7 Beta 外置后台实验版：车机安装包仅含界面及客户端，必须另行配置可访问的 酷狗 API 后台（默认本机端口 33636），不能仅安装此包就独立登录或播放。接口和歌曲权限取决于上游及账号，本次未重新实测。",
+      "author": "小白科技杂物社",
+      "version": "0.1.1",
+      "artifact": {
+        "name": "jackie_kugou_music@0.1.1.tgz",
+        "size": 1343505,
+        "sha256": "f02b8e6017cfdd22df303b4971a75c406fed645b80bed3d187573f123afe29b5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/music-beta-2026-11-22/jackie_kugou_music%400.1.1.tgz"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "icons/music/jackie_kugou_music.png",
+      "iconSha256": "4438137aa7b6ddd1cd82f6ca6ea1f37f8739b81c1ac631fe73d15180d3761d0e",
+      "requires": {
+        "mgu-uplink": "0.7.12",
+        "mgu-deploy": "0.8.19"
       }
     }
   ]
