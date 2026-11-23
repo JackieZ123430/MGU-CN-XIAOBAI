@@ -791,13 +791,13 @@
       "id": "spotify",
       "kind": "app",
       "title": "Spotify Beta",
-      "description": "BMW iDrive 7 的 Spotify Connect 播放控制和曲库浏览应用",
-      "version": "1.0.3101",
+      "description": "Spotify Connect 简中版。支持常用简繁体曲名、歌单及设备名，播放需要手机配对、车机联网与 Spotify 账号。",
+      "version": "1.0.3401",
       "artifact": {
-        "name": "spotify@1.0.3101.tgz",
-        "size": 1187062,
-        "sha256": "74898e81d0d00d1d557aa02cc961cdc0f3dc972ab38157c55eafd54765062f8c",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/spotify%401.0.3101.tgz"
+        "name": "spotify@1.0.3401.tgz",
+        "size": 1620929,
+        "sha256": "a7d30eaac5c4b1e016c6942b42b4047648d10174cd39c166baf1b484b8272532",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/spotify%401.0.3401.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -808,9 +808,9 @@
       "mguHmi": [
         "ID7"
       ],
-      "icon": "spotify.png",
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/spotify.png",
       "iconSha256": "7e7e06848570f5ae181d497ee276a92e636ec4c7129228b52525503a6a2869c9",
-      "author": "汉化 小白151"
+      "author": "hexlay / 汉化 小白科技杂物社"
     },
     {
       "id": "cluster_themes",
@@ -2621,20 +2621,20 @@
       "id": "xiaobai_sys_monitor",
       "kind": "app",
       "title": "系统监控",
-      "version": "1.0.804",
-      "description": "查看车机CPU、核心温度、进程和内存曲线；只读监控，汉化：小白科技杂物社。",
+      "version": "1.0.805",
+      "description": "只读查看车机 CPU、温度、进程和内存。修复进程名被误翻译、失效入口重试等问题。",
       "author": "hexlay / 汉化 小白科技杂物社",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "artifact": {
-        "name": "xiaobai_sys_monitor@1.0.804.tgz",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/xiaobai_sys_monitor%401.0.804.tgz",
-        "sha256": "fd4061580b3b1aa334b27e6ff2b3fb2e8596616696d1ca23d332b2883bc44821",
-        "size": 1097931
+        "name": "xiaobai_sys_monitor@1.0.805.tgz",
+        "size": 1099630,
+        "sha256": "73ed03c7cb8dea9882b9122972bc627e6c9d703e9f5211085748ae7c6aeef0ab",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/xiaobai_sys_monitor%401.0.805.tgz"
       },
-      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/xiaobai_sys_monitor.png",
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/xiaobai_sys_monitor.png",
       "iconSha256": "a3a0906965d10d5f4d6c47ac0c8629a4bdc4c7367c03c52ae7664416ba12d516",
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -2645,20 +2645,20 @@
       "id": "jap_sysmon",
       "kind": "app",
       "title": "车机资源监控",
-      "version": "1.0.603",
-      "description": "查看车机CPU、可用内存、应用内存额度、Swap及图形频率；后台资源告警，汉化：小白科技杂物社。",
+      "version": "1.0.604",
+      "description": "查看 CPU、可用内存、应用内存额度、Swap 和图形频率。此版本同步维护者审阅后的修订。",
       "author": "JustAnotherPU / 汉化 小白科技杂物社",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "artifact": {
-        "name": "jap_sysmon@1.0.603.tgz",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/jap_sysmon%401.0.603.tgz",
-        "sha256": "938c795a102670114dd201ede79bd0509d9900184f33a93a749e798a41b3a9e3",
-        "size": 1228633
+        "name": "jap_sysmon@1.0.604.tgz",
+        "size": 1228198,
+        "sha256": "3aa96b88ac8e75a7c0825e94c4fddc4d5376725ff0e3881b09c63ce45be66263",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/jap_sysmon%401.0.604.tgz"
       },
-      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/system-monitors-cn-20261120/jap_sysmon.png",
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/jap_sysmon.png",
       "iconSha256": "a18bce2ddb06421caa29fcdd3fff0599819956e41eb7c9231f8e0adf653e16ef",
       "requires": {
         "mgu-render": "0.6.11",
@@ -2737,6 +2737,52 @@
         "mgu-uplink": "0.7.12",
         "mgu-deploy": "0.8.19"
       }
+    },
+    {
+      "id": "m_copilot",
+      "title": "M-Copilot 车辆助手",
+      "version": "1.0.3701",
+      "description": "查看车辆数据、故障与保养，并可连接手机配置 AI。车机联网功能需要自备服务账号。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-uplink": "0.7.3"
+      },
+      "artifact": {
+        "name": "m_copilot@1.0.3701.tgz",
+        "size": 4583355,
+        "sha256": "0ab8ae6c90611b70710925576fa8f3f4d94af895c6b30d668dee28f30bc724a2",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/m_copilot%401.0.3701.tgz"
+      },
+      "iconSha256": "886356a7110724cae40039e51226177f53c1c37b76bab92e86ac1305db09aa9e",
+      "kind": "app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/m_copilot.png"
+    },
+    {
+      "id": "speed_limit",
+      "title": "限速提示（格鲁吉亚）",
+      "version": "1.0.1001",
+      "description": "按车机位置显示离线限速，内置数据为格鲁吉亚。仪表及 HUD 输出依赖兼容的渲染组件。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "requires": {},
+      "artifact": {
+        "name": "speed_limit@1.0.1001.tgz",
+        "size": 10110459,
+        "sha256": "7c7238d1cf030b765f1de3a63b61f9d2320c5cb3b88484de6ba65669859c42f3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/speed_limit%401.0.1001.tgz"
+      },
+      "iconSha256": "20d1cc5de55ec00dcbfe02298e04fb69f79e1dcbffeb6b87243e3892b5c547ad",
+      "kind": "app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/speed_limit.png"
     }
   ]
 }

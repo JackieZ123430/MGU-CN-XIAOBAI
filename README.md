@@ -1,5 +1,16 @@
 # MGU-CN-XIAOBAI
 
+## 上游评审修订与简中应用更新 · 2026-11-23
+
+- Spotify Beta `1.0.3401` · Spotify Connect 简中版。支持常用简繁体曲名、歌单及设备名，播放需要手机配对、车机联网与 Spotify 账号。 · https://github.com/hexlay/idrive7-custom-apps
+- M-Copilot 车辆助手 `1.0.3701` · 查看车辆数据、故障与保养，并可连接手机配置 AI。车机联网功能需要自备服务账号。 · https://github.com/hexlay/idrive7-custom-apps
+- 限速提示（格鲁吉亚） `1.0.1001` · 按车机位置显示离线限速，内置数据为格鲁吉亚。仪表及 HUD 输出依赖兼容的渲染组件。 · https://github.com/hexlay/idrive7-custom-apps
+- 系统监控 `1.0.805` · 只读查看车机 CPU、温度、进程和内存。修复进程名被误翻译、失效入口重试等问题。 · https://github.com/hexlay/idrive7-system-monitor
+- 车机资源监控 `1.0.604` · 查看 CPU、可用内存、应用内存额度、Swap 和图形频率。此版本同步维护者审阅后的修订。 · https://github.com/JustAnotherPU/mgu-apps
+
+[发布页及校验信息](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/hexlay-review-2026-11-23)
+
+
 ## 音乐应用 Beta（2026-11-22）
 
 | 应用 | 版本 | 后台方式 |

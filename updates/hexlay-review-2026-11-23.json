@@ -1,0 +1,175 @@
+{
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/hexlay-review-2026-11-23",
+  "apps": [
+    {
+      "id": "spotify",
+      "version": "1.0.3401",
+      "title": "Spotify Beta",
+      "description": "Spotify Connect 简中版。支持常用简繁体曲名、歌单及设备名，播放需要手机配对、车机联网与 Spotify 账号。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-uplink": "0.7.3"
+      },
+      "artifact": {
+        "name": "spotify@1.0.3401.tgz",
+        "size": 1620929,
+        "sha256": "a7d30eaac5c4b1e016c6942b42b4047648d10174cd39c166baf1b484b8272532",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/spotify%401.0.3401.tgz"
+      },
+      "icon": "spotify.png",
+      "iconSha256": "7e7e06848570f5ae181d497ee276a92e636ec4c7129228b52525503a6a2869c9",
+      "source": {
+        "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+        "reviewCommit": "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+        "pullRequests": [
+          "https://github.com/hexlay/idrive7-custom-apps/pull/3",
+          "https://github.com/hexlay/idrive7-custom-apps/pull/4"
+        ],
+        "reviewHeads": [
+          "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+          "e8bfc9236a56a3cf38009c14aa53e46a98cacca6"
+        ],
+        "localization": "小白科技杂物社",
+        "language": "zh-CN",
+        "validation": "PC builds and archive checks; no vehicle test for this revision"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/spotify.png"
+    },
+    {
+      "id": "m_copilot",
+      "version": "1.0.3701",
+      "title": "M-Copilot 车辆助手",
+      "description": "查看车辆数据、故障与保养，并可连接手机配置 AI。车机联网功能需要自备服务账号。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-uplink": "0.7.3"
+      },
+      "artifact": {
+        "name": "m_copilot@1.0.3701.tgz",
+        "size": 4583355,
+        "sha256": "0ab8ae6c90611b70710925576fa8f3f4d94af895c6b30d668dee28f30bc724a2",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/m_copilot%401.0.3701.tgz"
+      },
+      "icon": "m_copilot.png",
+      "iconSha256": "886356a7110724cae40039e51226177f53c1c37b76bab92e86ac1305db09aa9e",
+      "source": {
+        "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+        "reviewCommit": "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+        "pullRequests": [
+          "https://github.com/hexlay/idrive7-custom-apps/pull/3",
+          "https://github.com/hexlay/idrive7-custom-apps/pull/4"
+        ],
+        "reviewHeads": [
+          "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+          "e8bfc9236a56a3cf38009c14aa53e46a98cacca6"
+        ],
+        "localization": "小白科技杂物社",
+        "language": "zh-CN",
+        "validation": "PC builds and archive checks; no vehicle test for this revision"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/m_copilot.png"
+    },
+    {
+      "id": "speed_limit",
+      "version": "1.0.1001",
+      "title": "限速提示（格鲁吉亚）",
+      "description": "按车机位置显示离线限速，内置数据为格鲁吉亚。仪表及 HUD 输出依赖兼容的渲染组件。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "requires": {},
+      "artifact": {
+        "name": "speed_limit@1.0.1001.tgz",
+        "size": 10110459,
+        "sha256": "7c7238d1cf030b765f1de3a63b61f9d2320c5cb3b88484de6ba65669859c42f3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/speed_limit%401.0.1001.tgz"
+      },
+      "icon": "speed_limit.png",
+      "iconSha256": "20d1cc5de55ec00dcbfe02298e04fb69f79e1dcbffeb6b87243e3892b5c547ad",
+      "source": {
+        "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+        "reviewCommit": "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+        "pullRequests": [
+          "https://github.com/hexlay/idrive7-custom-apps/pull/3",
+          "https://github.com/hexlay/idrive7-custom-apps/pull/4"
+        ],
+        "reviewHeads": [
+          "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+          "e8bfc9236a56a3cf38009c14aa53e46a98cacca6"
+        ],
+        "localization": "小白科技杂物社",
+        "language": "zh-CN",
+        "validation": "PC builds and archive checks; no vehicle test for this revision"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/speed_limit.png"
+    },
+    {
+      "id": "xiaobai_sys_monitor",
+      "version": "1.0.805",
+      "title": "系统监控",
+      "description": "只读查看车机 CPU、温度、进程和内存。修复进程名被误翻译、失效入口重试等问题。",
+      "author": "hexlay / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "xiaobai_sys_monitor@1.0.805.tgz",
+        "size": 1099630,
+        "sha256": "73ed03c7cb8dea9882b9122972bc627e6c9d703e9f5211085748ae7c6aeef0ab",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/xiaobai_sys_monitor%401.0.805.tgz"
+      },
+      "icon": "xiaobai_sys_monitor.png",
+      "iconSha256": "a3a0906965d10d5f4d6c47ac0c8629a4bdc4c7367c03c52ae7664416ba12d516",
+      "source": {
+        "upstream": "https://github.com/hexlay/idrive7-system-monitor",
+        "reviewCommit": "ace9212e61dc26c0fda2f70a70ca39b1d6b40f2c",
+        "pullRequests": [
+          "https://github.com/hexlay/idrive7-system-monitor/pull/1"
+        ],
+        "reviewHeads": [
+          "ace9212e61dc26c0fda2f70a70ca39b1d6b40f2c"
+        ],
+        "localization": "小白科技杂物社",
+        "language": "zh-CN",
+        "validation": "PC builds and archive checks; no vehicle test for this revision"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/xiaobai_sys_monitor.png"
+    },
+    {
+      "id": "jap_sysmon",
+      "version": "1.0.604",
+      "title": "车机资源监控",
+      "description": "查看 CPU、可用内存、应用内存额度、Swap 和图形频率。此版本同步维护者审阅后的修订。",
+      "author": "JustAnotherPU / 汉化 小白科技杂物社",
+      "requires": {
+        "mgu-render": "0.6.11",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "jap_sysmon@1.0.604.tgz",
+        "size": 1228198,
+        "sha256": "3aa96b88ac8e75a7c0825e94c4fddc4d5376725ff0e3881b09c63ce45be66263",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/jap_sysmon%401.0.604.tgz"
+      },
+      "icon": "jap_sysmon.png",
+      "iconSha256": "a18bce2ddb06421caa29fcdd3fff0599819956e41eb7c9231f8e0adf653e16ef",
+      "source": {
+        "upstream": "https://github.com/JustAnotherPU/mgu-apps",
+        "reviewCommit": "e69a71330b09650c4d21f51af63068799de88ba9",
+        "pullRequests": [
+          "https://github.com/JustAnotherPU/mgu-apps/pull/7"
+        ],
+        "reviewHeads": [
+          "e69a71330b09650c4d21f51af63068799de88ba9"
+        ],
+        "localization": "小白科技杂物社",
+        "language": "zh-CN",
+        "validation": "PC builds and archive checks; no vehicle test for this revision"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/hexlay-review-2026-11-23/jap_sysmon.png"
+    }
+  ]
+}

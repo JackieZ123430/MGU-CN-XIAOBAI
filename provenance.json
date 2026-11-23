@@ -372,16 +372,22 @@
     "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
   },
   {
-    "id": "spotify",
-    "upstreamVersion": "1.0.31",
-    "version": "1.0.3101",
+    "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+    "reviewCommit": "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+    "pullRequests": [
+      "https://github.com/hexlay/idrive7-custom-apps/pull/3",
+      "https://github.com/hexlay/idrive7-custom-apps/pull/4"
+    ],
+    "reviewHeads": [
+      "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+      "e8bfc9236a56a3cf38009c14aa53e46a98cacca6"
+    ],
+    "localization": "小白科技杂物社",
     "language": "zh-CN",
-    "source": "https://github.com/JackieZ123430/hexlay-spotify-cn",
-    "sourceCommit": "39401ce69d2090ff4559491cdb38eac51ffc2ced",
-    "build": "spotify@1.0.31-zh.cn.5",
-    "translation": "小白科技杂物社",
-    "versionPolicy": "major.minor.(upstreamPatch*100+translationRevision); revision=1",
-    "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment"
+    "validation": "PC builds and archive checks; no vehicle test for this revision",
+    "id": "spotify",
+    "version": "1.0.3401",
+    "artifactSha256": "a7d30eaac5c4b1e016c6942b42b4047648d10174cd39c166baf1b484b8272532"
   },
   {
     "id": "cluster_themes",
@@ -624,26 +630,36 @@
     "sdk": "BMW SDK excluded; vehicle deployment supplies local SDK"
   },
   {
-    "id": "xiaobai_sys_monitor",
-    "upstreamVersion": "1.0.8",
-    "version": "1.0.804",
+    "upstream": "https://github.com/hexlay/idrive7-system-monitor",
+    "reviewCommit": "ace9212e61dc26c0fda2f70a70ca39b1d6b40f2c",
+    "pullRequests": [
+      "https://github.com/hexlay/idrive7-system-monitor/pull/1"
+    ],
+    "reviewHeads": [
+      "ace9212e61dc26c0fda2f70a70ca39b1d6b40f2c"
+    ],
+    "localization": "小白科技杂物社",
     "language": "zh-CN",
-    "source": "https://github.com/JackieZ123430/idrive7-system-monitor-cn",
-    "sourceCommit": "3e88174ec83a5b8e55d042dffc6f610f0ce4cdcb",
-    "upstreamPR": "https://github.com/hexlay/idrive7-system-monitor/pull/1",
-    "translation": "小白科技杂物社",
-    "sdk": "Excluded; supplied locally by the enrolled vehicle"
+    "validation": "PC builds and archive checks; no vehicle test for this revision",
+    "id": "xiaobai_sys_monitor",
+    "version": "1.0.805",
+    "artifactSha256": "73ed03c7cb8dea9882b9122972bc627e6c9d703e9f5211085748ae7c6aeef0ab"
   },
   {
-    "id": "jap_sysmon",
-    "upstreamVersion": "1.0.6",
-    "version": "1.0.603",
+    "upstream": "https://github.com/JustAnotherPU/mgu-apps",
+    "reviewCommit": "e69a71330b09650c4d21f51af63068799de88ba9",
+    "pullRequests": [
+      "https://github.com/JustAnotherPU/mgu-apps/pull/7"
+    ],
+    "reviewHeads": [
+      "e69a71330b09650c4d21f51af63068799de88ba9"
+    ],
+    "localization": "小白科技杂物社",
     "language": "zh-CN",
-    "source": "https://github.com/JackieZ123430/jap-mgu-apps-cn",
-    "sourceCommit": "33b964ca91c16c068d4dfb97475eb9f45db8dc78",
-    "upstreamPR": "https://github.com/JustAnotherPU/mgu-apps/pull/7",
-    "translation": "小白科技杂物社",
-    "sdk": "Excluded; supplied locally by the enrolled vehicle"
+    "validation": "PC builds and archive checks; no vehicle test for this revision",
+    "id": "jap_sysmon",
+    "version": "1.0.604",
+    "artifactSha256": "3aa96b88ac8e75a7c0825e94c4fddc4d5376725ff0e3881b09c63ce45be66263"
   },
   {
     "id": "jackie_netease_music",
@@ -683,5 +699,41 @@
     "embeddedBackend": false,
     "sdk": "BMW oap-sdk excluded; supplied by vehicle deployment",
     "notes": "Beta publication; metadata and visible app names revised. External backend required for QQ/KuGou. No fresh vehicle playback test."
+  },
+  {
+    "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+    "reviewCommit": "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+    "pullRequests": [
+      "https://github.com/hexlay/idrive7-custom-apps/pull/3",
+      "https://github.com/hexlay/idrive7-custom-apps/pull/4"
+    ],
+    "reviewHeads": [
+      "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+      "e8bfc9236a56a3cf38009c14aa53e46a98cacca6"
+    ],
+    "localization": "小白科技杂物社",
+    "language": "zh-CN",
+    "validation": "PC builds and archive checks; no vehicle test for this revision",
+    "id": "m_copilot",
+    "version": "1.0.3701",
+    "artifactSha256": "0ab8ae6c90611b70710925576fa8f3f4d94af895c6b30d668dee28f30bc724a2"
+  },
+  {
+    "upstream": "https://github.com/hexlay/idrive7-custom-apps",
+    "reviewCommit": "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+    "pullRequests": [
+      "https://github.com/hexlay/idrive7-custom-apps/pull/3",
+      "https://github.com/hexlay/idrive7-custom-apps/pull/4"
+    ],
+    "reviewHeads": [
+      "b91159bbb0fcec583191cb17cb536a31c1734ba4",
+      "e8bfc9236a56a3cf38009c14aa53e46a98cacca6"
+    ],
+    "localization": "小白科技杂物社",
+    "language": "zh-CN",
+    "validation": "PC builds and archive checks; no vehicle test for this revision",
+    "id": "speed_limit",
+    "version": "1.0.1001",
+    "artifactSha256": "7c7238d1cf030b765f1de3a63b61f9d2320c5cb3b88484de6ba65669859c42f3"
   }
 ]
