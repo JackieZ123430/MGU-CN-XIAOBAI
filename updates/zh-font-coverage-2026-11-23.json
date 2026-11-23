@@ -1,0 +1,679 @@
+{
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/zh-font-coverage-2026-11-23",
+  "apps": [
+    {
+      "id": "dtc_scanner",
+      "version": "2.9.802",
+      "title": "故障检测",
+      "description": "读取和清除各控制单元的故障存储，并查看当前检查控制信息。",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "dtc_scanner@2.9.802.tgz",
+        "size": 6616632,
+        "sha256": "84d84de141ea6c1f0516fd3e32369360ca123eebce76995709270b7b67d0fe78",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/dtc_scanner%402.9.802.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          32
+        ],
+        "newFontSizes": [
+          32
+        ],
+        "previousVersion": "2.9.801",
+        "fixedGlyphCount": 8,
+        "glyphsAdded": "廓弧秀私箭翼荧赛",
+        "previousArtifactSha256": "c1de4ef76c952418002f6dac1c7d9e7a042e900c1f6d460026b3b6afce48da4e",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dtc_scanner%402.9.801.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dtc_scanner%402.9.801.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "ambient_studio_full",
+      "version": "0.1.502",
+      "title": "氛围灯工作室",
+      "description": "全屏设置驾驶模式配色和氛围灯提醒",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "ambient_studio_full@0.1.502.tgz",
+        "size": 960043,
+        "sha256": "aa4cf45cb6d61cecac86d169d9bdef716ddf2703f00942cedfd7ff1a90018db3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/ambient_studio_full%400.1.502.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.501",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "8d575da0de877e8a147ae4242196cd4e49315b13ef32315f37a6bf6b609417e5",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ambient_studio_full%400.1.501.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ambient_studio_full%400.1.501.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "dpf_monitor",
+      "version": "0.4.2",
+      "title": "颗粒捕集器监测",
+      "description": "只读监测柴油颗粒捕集器积碳、再生进度、温度、压差及历史记录",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "dpf_monitor@0.4.2.tgz",
+        "size": 960927,
+        "sha256": "603138e3e31709e12808e315119c6c4f090ea1baa2b3d31c635f6001d5ba042c",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/dpf_monitor%400.4.2.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.4.1",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "b5238fdc1bdc881562b940ffa016eb4e843ea9e3af34fc68f73ba582adefdbc0",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dpf_monitor%400.4.1.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dpf_monitor%400.4.1.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "drive_hud_full",
+      "version": "0.1.602",
+      "title": "抬头显示助手",
+      "description": "全屏设置 HUD 转向箭头、运动挡位和转速、换挡提示及发动机暖机信息",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.3.10"
+      },
+      "artifact": {
+        "name": "drive_hud_full@0.1.602.tgz",
+        "size": 955274,
+        "sha256": "0767c320ab013700925b0cbbb96497009406f913730c820db6e7b3e160f15a0f",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/drive_hud_full%400.1.602.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.601",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "19da2f171fadbbfab47722adf9a2794d54a6dfb6da9fa5ab11ad5c5208ff76c5",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/drive_hud_full%400.1.601.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/drive_hud_full%400.1.601.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "front_camera_cluster",
+      "version": "0.2.102",
+      "title": "仪表夜视",
+      "description": "全屏控制宝马夜视和泊车摄像头在仪表中的显示",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "front-camera-cluster-helper": "0.2.1"
+      },
+      "artifact": {
+        "name": "front_camera_cluster@0.2.102.tgz",
+        "size": 952436,
+        "sha256": "7bf533bea6aaa42c034f71391b48f21c945a9110e755c963de77900c5936e1d8",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/front_camera_cluster%400.2.102.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.2.101",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "2936e92389c43a9ecff5d5bc45eb8eaf09e8ff36e1ff2e623280d77cc7464b9e",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/front_camera_cluster%400.2.101.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/front_camera_cluster%400.2.101.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "green_light_alert",
+      "version": "0.2.502",
+      "title": "绿灯起步提醒",
+      "description": "监测 KAFAS 原始红绿灯信号，并以宝马已验证的显示信号作为后备",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "green_light_alert@0.2.502.tgz",
+        "size": 960544,
+        "sha256": "fa96408f574795aef734e1f8399735c8fd04b3939af3f80a2fc17cb51c50397a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/green_light_alert%400.2.502.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.2.501",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "eeac49e3538f48c1f3a29f04af000c21770c69d23a72bba6990b735cc0e62d4a",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/green_light_alert%400.2.501.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/green_light_alert%400.2.501.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "hotspot_studio",
+      "version": "0.1.502",
+      "title": "热点工作室",
+      "description": "通过宝马热点提供华为网络代理，并按需开启单客户端限时 ENET 转发",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "hotspot-studio-helper": "0.1.7"
+      },
+      "artifact": {
+        "name": "hotspot_studio@0.1.502.tgz",
+        "size": 973057,
+        "sha256": "ce0d74c4a7a5c79ae6020c371453c7eef321d6ab843ef50f7adc96dc86b81a9e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/hotspot_studio%400.1.502.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.501",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "d2a9cf5bafecd2fc01db43f0c7eb67018a57c2a624503ecd2b46d65c6c8f959f",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/hotspot_studio%400.1.501.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/hotspot_studio%400.1.501.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "parking_clearance",
+      "version": "0.1.802",
+      "title": "泊车距离",
+      "description": "只读显示 PDC 距离、转向轨迹和悬架姿态",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "parking_clearance@0.1.802.tgz",
+        "size": 1182520,
+        "sha256": "a03522875be80f04d8cd9f1fc7cabdb7b50c887d0c76ca139d24f81ac4210f59",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/parking_clearance%400.1.802.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.801",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "432b704bf4a063dd7efeb08445489cf877a54cb67fa7b49a8416b4caf2dc14cc",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/parking_clearance%400.1.801.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/parking_clearance%400.1.801.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "rear_comfort",
+      "version": "0.5.602",
+      "title": "后排舒适控制",
+      "description": "G12 行政座舱后排空调、舒适座椅、按摩、遮阳帘及娱乐控制",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "rear_comfort@0.5.602.tgz",
+        "size": 5499019,
+        "sha256": "b9deea9f98404dd3607d34a44cf3196c968f219e042326e220b0cebc53f8c472",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/rear_comfort%400.5.602.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.5.601",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "93d7588000ae3f512c81f6eb9ffdacaaa8119575be2919fa354c9a4786030f1d",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/rear_comfort%400.5.601.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/rear_comfort%400.5.601.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "ride_height",
+      "version": "0.6.2",
+      "title": "车身高度工作室",
+      "description": "全屏设置 VDP 预设及前后空气弹簧充放气",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "ride_height@0.6.2.tgz",
+        "size": 955499,
+        "sha256": "0416199933c89146b3c14fe2a7ff9eb832933d67ffbde5b4cf27ce29e47ebed4",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/ride_height%400.6.2.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.6.1",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "a3c72d64a92ab16b594aac3cbeb5992d3521d6e50c8108145d3090a5e1332f3b",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ride_height%400.6.1.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ride_height%400.6.1.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "road_trip_computer",
+      "version": "1.0.3",
+      "title": "行程电脑",
+      "description": "全屏显示行程历史、油耗、油价、费用、续航、车外温度和 GPS 海拔",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "road_trip_computer@1.0.3.tgz",
+        "size": 1060364,
+        "sha256": "c9c34f9336f2f3079e72369d5cc0fa756b110350bc592c6f8a5ffa16bcabff92",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/road_trip_computer%401.0.3.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "1.0.2",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "02e59eca464f92106e0c7d1788d57f0776ff16aacc4fda15dc790c11fa86ccaa",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/road_trip_computer%401.0.2.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/road_trip_computer%401.0.2.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "start_stop_insight",
+      "version": "0.1.302",
+      "title": "自动启停状态",
+      "description": "显示当前及最近十条自动启停抑制状态，以及实时用电负载",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "start_stop_insight@0.1.302.tgz",
+        "size": 955551,
+        "sha256": "28533c3f104ebf6c879b300b2f2b603c97afcbf0c1255f0708a38e83c58966a9",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/start_stop_insight%400.1.302.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.301",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "a72f6e74925cea2f8b66281bb60cfa65d81b8d21a7e0de75c38802f65e6f0c53",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/start_stop_insight%400.1.301.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/start_stop_insight%400.1.301.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "telemetry_studio",
+      "version": "0.2.2",
+      "title": "车辆遥测",
+      "description": "分类全屏显示动力、热管理、底盘、轮胎、空调和电气实时数据",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "telemetry_studio@0.2.2.tgz",
+        "size": 986662,
+        "sha256": "77d8edbd175d039030110b4070c939c580f2188605375d4d92e526ad86ee71a5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/telemetry_studio%400.2.2.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.2.1",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "6dde2db30557f769fc98df49a58d6509a27509bb03116d657d32552c82728b8a",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/telemetry_studio%400.2.1.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/telemetry_studio%400.2.1.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "vehicle_health",
+      "version": "0.1.902",
+      "title": "车辆健康中心",
+      "description": "只读查看轮胎、油液、温度、保养需求、检查控制、DPF 和当前故障",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "vehicle_health@0.1.902.tgz",
+        "size": 956941,
+        "sha256": "88a8d3cd3eeecdb6e95befcd7b216f06cec82b05334180556b352f6e1152848a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/vehicle_health%400.1.902.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.901",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "e3fb70b8bb22a8f96a1a182e7514574eacdba84c1f63b8c221d43bd764ed20ff",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_health%400.1.901.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_health%400.1.901.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "vehicle_network",
+      "version": "0.1.302",
+      "title": "车辆网络",
+      "description": "显示 MGU 网络接口、观测到的车辆网络设备和电脑 IPv4 设置",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "vehicle-network-observer": "0.1.2"
+      },
+      "artifact": {
+        "name": "vehicle_network@0.1.302.tgz",
+        "size": 959942,
+        "sha256": "be1104d1ef3d0539749d8f779c9115790170569e0b82c191fed1b063338946b5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/vehicle_network%400.1.302.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.301",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "c88f249cabc1244a967c610f5f98c036fa19cdc15ebef35c08de696325aead31",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_network%400.1.301.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_network%400.1.301.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "xdrive_studio",
+      "version": "0.1.502",
+      "title": "xDrive 动力分配",
+      "description": "只读查看 xDrive 扭矩分配、分动箱扭矩、车轮滑差和底盘动态",
+      "author": "汉化 小白151",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "xdrive_studio@0.1.502.tgz",
+        "size": 1087716,
+        "sha256": "a75632ff7819cf9b4e3f23c8812d13b14b3e2ad852a1e8cc7268a5f69228520e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/xdrive_studio%400.1.502.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.1.501",
+        "fixedGlyphCount": 1,
+        "glyphsAdded": "汉",
+        "previousArtifactSha256": "070d46f79c5dffa5ddc979ac295bc3dc0805e2d7fccfa29077f42202ca3693e5",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/xdrive_studio%400.1.501.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/xdrive_studio%400.1.501.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "jap_ridetube",
+      "version": "0.4.502",
+      "title": "RideTube",
+      "description": "ID7 非官方 YouTube 客户端，支持搜索、频道、章节及登录后的首页、订阅和稍后观看。通过车机播放声音，默认停车时显示画面。需要 jap-ridetube-d 服务。",
+      "author": "汉化 小白151",
+      "requires": {
+        "jap-ridetube-d": "0.4.2",
+        "mgu-render": "0.6.11",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "jap_ridetube@0.4.502.tgz",
+        "size": 3434521,
+        "sha256": "98170cb12fb04fa871bbeb707b09b97cab899cc6dfe9ce106863ad69e571a64d",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/jap_ridetube%400.4.502.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          48
+        ],
+        "newFontSizes": [
+          40
+        ],
+        "previousVersion": "0.4.501",
+        "fixedGlyphCount": 509,
+        "glyphsAdded": "三世两主义之乎乙也习些交产亮今介令仪仰件价伏休优传估似但位体余佳依侧便修俯倾偏健储催像元充光克免公共典养写军冰冲冷净减凝几凸击则刚初判别刮制刷刹刻剩副力包区千升半华博占危却厂压原去参双反变叠口只叭台右号各合名吐吞否含命品哨哪唤商喇喷嘴噩囊四因困围固图圆圈场均坏块坡坦型培基塞境增士壳外夜天太夹奏奔好始子学实室宽宾寸导寿封射少尚尝尺尽局属峰左差币布带帧帮平年底废度座康廓异引弧弯弹强归形很得循心忙快急总情感慢戏战扣执扭把护拒拟拨括指挡振换掀插摄摆摩撑撞操擦收改散整文料斜旁旅旋早明是晚普晰晶暖暗曲月杆条松板极构析架柱柴标校样核根格案档梦椅横步武歧毁每比毫氏气氛氧水求沙油泊泵洁洗测浏浪浸涡液深混温游源滚滞滤演激火灭灯灰烁烈烟照熄燃爆牙牵独猜率环现珀琥瓦界疑百益盒盖盗目真眠着瞄矢矩短础硬碰碳磨离秀私称程稳窗立竞符答签简算管箭箱米类粒精系紧累红约级纪纯纵线组终经统绩绿缘缩缸缺翘翻翼考耗联肯背胎胶脉脑膜舒航舱良色芯花英范荧荷落蓝虚街衡衰被览觉角计训议评识诊话询详说调豁象货费资赛走起超越足跑距跟路踏轨转轮软轴轿辅辨达迎进远迟迹逐递途速避部醇采锁镜长门闪阀阈队防阵阻际限随隔障难集雨雷震露静顶颗颜额馈马驱驻验高麦黄！／＝［］",
+        "previousArtifactSha256": "b1ce75afdd8f99ff761622af3b788f963ae6e9511c50eda0750102d51c0f92b8",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jap_ridetube%400.4.501.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jap_ridetube%400.4.501.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "mgu_browser",
+      "version": "0.16.102",
+      "title": "车机浏览器",
+      "description": "车机浏览器，支持首页、历史记录、书签和 iDrive 操作。",
+      "author": "汉化 小白151",
+      "requires": {
+        "mgu-browser": "0.16.1",
+        "mgu-browser-engine": "0.1.0",
+        "mgu-uplink": "0.7.3",
+        "mgu-render": "0.6.11",
+        "mgu-deploy": "0.7.17"
+      },
+      "artifact": {
+        "name": "mgu_browser@0.16.102.tgz",
+        "size": 2122320,
+        "sha256": "8f29a6cf9ed1eea63ace46fb825095876e58c2e0f2e3e4826469547d8d72694a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/mgu_browser%400.16.102.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          44
+        ],
+        "newFontSizes": [
+          44
+        ],
+        "previousVersion": "0.16.101",
+        "fixedGlyphCount": 5,
+        "glyphsAdded": "技杂物社科",
+        "previousArtifactSha256": "f646fa63c9353b85e71771248b502cdff6cee95b65c6bc5bb82e1850be015ff5",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/mgu_browser%400.16.101.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/mgu_browser%400.16.101.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    },
+    {
+      "id": "spritmonitor",
+      "version": "0.1.4502",
+      "title": "加油记录",
+      "description": "Spritmonitor 第三方客户端，记录加油和 AdBlue。默认简中，可在应用内切换语言；同步需要联网和 Spritmonitor 账户。",
+      "author": "dzooky / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.19",
+        "mgu-inputgate": "1.2.1",
+        "mgu-uplink": "0.7.3"
+      },
+      "artifact": {
+        "name": "spritmonitor@0.1.4502.tgz",
+        "size": 2901589,
+        "sha256": "12e726256e9c8f2a7c5b3e4a1a49a2ba7c46660bc17c6f12d14e9c8617250c7c",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/spritmonitor%400.1.4502.tgz"
+      },
+      "keepCatalog": true,
+      "source": {
+        "oldFontSizes": [
+          48
+        ],
+        "newFontSizes": [
+          48
+        ],
+        "previousVersion": "0.1.4501",
+        "fixedGlyphCount": 10,
+        "glyphsAdded": "寸尿志播滤粒素者闲颗",
+        "previousArtifactSha256": "6d716463446400186e218181dea60ce101555dcd1ca9f1959ee33c0e9d917b87",
+        "language": "zh-CN",
+        "fontSource": "Noto Sans SC (OFL-1.1)",
+        "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor%400.1.4501.tgz",
+        "upstream": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor%400.1.4501.tgz",
+        "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+      }
+    }
+  ]
+}

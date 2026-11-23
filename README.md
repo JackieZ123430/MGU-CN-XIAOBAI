@@ -1,5 +1,30 @@
 # MGU-CN-XIAOBAI
 
+## 简中缺字修复 · 2026-11-23
+
+- 故障检测 `2.9.802` · 读取和清除各控制单元的故障存储，并查看当前检查控制信息。 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dtc_scanner%402.9.801.tgz
+- 氛围灯工作室 `0.1.502` · 全屏设置驾驶模式配色和氛围灯提醒 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ambient_studio_full%400.1.501.tgz
+- 颗粒捕集器监测 `0.4.2` · 只读监测柴油颗粒捕集器积碳、再生进度、温度、压差及历史记录 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dpf_monitor%400.4.1.tgz
+- 抬头显示助手 `0.1.602` · 全屏设置 HUD 转向箭头、运动挡位和转速、换挡提示及发动机暖机信息 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/drive_hud_full%400.1.601.tgz
+- 仪表夜视 `0.2.102` · 全屏控制宝马夜视和泊车摄像头在仪表中的显示 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/front_camera_cluster%400.2.101.tgz
+- 绿灯起步提醒 `0.2.502` · 监测 KAFAS 原始红绿灯信号，并以宝马已验证的显示信号作为后备 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/green_light_alert%400.2.501.tgz
+- 热点工作室 `0.1.502` · 通过宝马热点提供华为网络代理，并按需开启单客户端限时 ENET 转发 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/hotspot_studio%400.1.501.tgz
+- 泊车距离 `0.1.802` · 只读显示 PDC 距离、转向轨迹和悬架姿态 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/parking_clearance%400.1.801.tgz
+- 后排舒适控制 `0.5.602` · G12 行政座舱后排空调、舒适座椅、按摩、遮阳帘及娱乐控制 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/rear_comfort%400.5.601.tgz
+- 车身高度工作室 `0.6.2` · 全屏设置 VDP 预设及前后空气弹簧充放气 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ride_height%400.6.1.tgz
+- 行程电脑 `1.0.3` · 全屏显示行程历史、油耗、油价、费用、续航、车外温度和 GPS 海拔 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/road_trip_computer%401.0.2.tgz
+- 自动启停状态 `0.1.302` · 显示当前及最近十条自动启停抑制状态，以及实时用电负载 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/start_stop_insight%400.1.301.tgz
+- 车辆遥测 `0.2.2` · 分类全屏显示动力、热管理、底盘、轮胎、空调和电气实时数据 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/telemetry_studio%400.2.1.tgz
+- 车辆健康中心 `0.1.902` · 只读查看轮胎、油液、温度、保养需求、检查控制、DPF 和当前故障 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_health%400.1.901.tgz
+- 车辆网络 `0.1.302` · 显示 MGU 网络接口、观测到的车辆网络设备和电脑 IPv4 设置 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_network%400.1.301.tgz
+- xDrive 动力分配 `0.1.502` · 只读查看 xDrive 扭矩分配、分动箱扭矩、车轮滑差和底盘动态 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/xdrive_studio%400.1.501.tgz
+- RideTube `0.4.502` · ID7 非官方 YouTube 客户端，支持搜索、频道、章节及登录后的首页、订阅和稍后观看。通过车机播放声音，默认停车时显示画面。需要 jap-ridetube-d 服务。 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jap_ridetube%400.4.501.tgz
+- 车机浏览器 `0.16.102` · 车机浏览器，支持首页、历史记录、书签和 iDrive 操作。 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/mgu_browser%400.16.101.tgz
+- 加油记录 `0.1.4502` · Spritmonitor 第三方客户端，记录加油和 AdBlue。默认简中，可在应用内切换语言；同步需要联网和 Spritmonitor 账户。 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor%400.1.4501.tgz
+
+[发布页及校验信息](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/zh-font-coverage-2026-11-23)
+
+
 ## 五款 ID7 应用简中版 · 2026-11-23
 
 - 胎压监测 `0.1.501` · 四轮实时胎压和胎温、车辆目标值及冷胎趋势。G08 上游标明仍需实车验证。 · https://github.com/suhailpatel/id7-apps

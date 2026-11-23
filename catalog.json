@@ -162,12 +162,12 @@
       "kind": "app",
       "title": "故障检测",
       "description": "读取和清除各控制单元的故障存储，并查看当前检查控制信息。",
-      "version": "2.9.801",
+      "version": "2.9.802",
       "artifact": {
-        "name": "dtc_scanner@2.9.801.tgz",
-        "size": 6615253,
-        "sha256": "c1de4ef76c952418002f6dac1c7d9e7a042e900c1f6d460026b3b6afce48da4e",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dtc_scanner%402.9.801.tgz"
+        "name": "dtc_scanner@2.9.802.tgz",
+        "size": 6616632,
+        "sha256": "84d84de141ea6c1f0516fd3e32369360ca123eebce76995709270b7b67d0fe78",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/dtc_scanner%402.9.802.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -403,12 +403,12 @@
       "kind": "app",
       "title": "氛围灯工作室",
       "description": "全屏设置驾驶模式配色和氛围灯提醒",
-      "version": "0.1.501",
+      "version": "0.1.502",
       "artifact": {
-        "name": "ambient_studio_full@0.1.501.tgz",
-        "size": 959148,
-        "sha256": "8d575da0de877e8a147ae4242196cd4e49315b13ef32315f37a6bf6b609417e5",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ambient_studio_full%400.1.501.tgz"
+        "name": "ambient_studio_full@0.1.502.tgz",
+        "size": 960043,
+        "sha256": "aa4cf45cb6d61cecac86d169d9bdef716ddf2703f00942cedfd7ff1a90018db3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/ambient_studio_full%400.1.502.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -427,12 +427,12 @@
       "kind": "app",
       "title": "颗粒捕集器监测",
       "description": "只读监测柴油颗粒捕集器积碳、再生进度、温度、压差及历史记录",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "artifact": {
-        "name": "dpf_monitor@0.4.1.tgz",
-        "size": 960062,
-        "sha256": "b5238fdc1bdc881562b940ffa016eb4e843ea9e3af34fc68f73ba582adefdbc0",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dpf_monitor%400.4.1.tgz"
+        "name": "dpf_monitor@0.4.2.tgz",
+        "size": 960927,
+        "sha256": "603138e3e31709e12808e315119c6c4f090ea1baa2b3d31c635f6001d5ba042c",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/dpf_monitor%400.4.2.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -451,12 +451,12 @@
       "kind": "app",
       "title": "抬头显示助手",
       "description": "全屏设置 HUD 转向箭头、运动挡位和转速、换挡提示及发动机暖机信息",
-      "version": "0.1.601",
+      "version": "0.1.602",
       "artifact": {
-        "name": "drive_hud_full@0.1.601.tgz",
-        "size": 954350,
-        "sha256": "19da2f171fadbbfab47722adf9a2794d54a6dfb6da9fa5ab11ad5c5208ff76c5",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/drive_hud_full%400.1.601.tgz"
+        "name": "drive_hud_full@0.1.602.tgz",
+        "size": 955274,
+        "sha256": "0767c320ab013700925b0cbbb96497009406f913730c820db6e7b3e160f15a0f",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/drive_hud_full%400.1.602.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -476,12 +476,12 @@
       "kind": "app",
       "title": "仪表夜视",
       "description": "全屏控制宝马夜视和泊车摄像头在仪表中的显示",
-      "version": "0.2.101",
+      "version": "0.2.102",
       "artifact": {
-        "name": "front_camera_cluster@0.2.101.tgz",
-        "size": 951360,
-        "sha256": "2936e92389c43a9ecff5d5bc45eb8eaf09e8ff36e1ff2e623280d77cc7464b9e",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/front_camera_cluster%400.2.101.tgz"
+        "name": "front_camera_cluster@0.2.102.tgz",
+        "size": 952436,
+        "sha256": "7bf533bea6aaa42c034f71391b48f21c945a9110e755c963de77900c5936e1d8",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/front_camera_cluster%400.2.102.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -501,12 +501,12 @@
       "kind": "app",
       "title": "绿灯起步提醒",
       "description": "监测 KAFAS 原始红绿灯信号，并以宝马已验证的显示信号作为后备",
-      "version": "0.2.501",
+      "version": "0.2.502",
       "artifact": {
-        "name": "green_light_alert@0.2.501.tgz",
-        "size": 959648,
-        "sha256": "eeac49e3538f48c1f3a29f04af000c21770c69d23a72bba6990b735cc0e62d4a",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/green_light_alert%400.2.501.tgz"
+        "name": "green_light_alert@0.2.502.tgz",
+        "size": 960544,
+        "sha256": "fa96408f574795aef734e1f8399735c8fd04b3939af3f80a2fc17cb51c50397a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/green_light_alert%400.2.502.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -525,12 +525,12 @@
       "kind": "app",
       "title": "热点工作室",
       "description": "通过宝马热点提供华为网络代理，并按需开启单客户端限时 ENET 转发",
-      "version": "0.1.501",
+      "version": "0.1.502",
       "artifact": {
-        "name": "hotspot_studio@0.1.501.tgz",
-        "size": 972180,
-        "sha256": "d2a9cf5bafecd2fc01db43f0c7eb67018a57c2a624503ecd2b46d65c6c8f959f",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/hotspot_studio%400.1.501.tgz"
+        "name": "hotspot_studio@0.1.502.tgz",
+        "size": 973057,
+        "sha256": "ce0d74c4a7a5c79ae6020c371453c7eef321d6ab843ef50f7adc96dc86b81a9e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/hotspot_studio%400.1.502.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -550,12 +550,12 @@
       "kind": "app",
       "title": "泊车距离",
       "description": "只读显示 PDC 距离、转向轨迹和悬架姿态",
-      "version": "0.1.801",
+      "version": "0.1.802",
       "artifact": {
-        "name": "parking_clearance@0.1.801.tgz",
-        "size": 1181414,
-        "sha256": "432b704bf4a063dd7efeb08445489cf877a54cb67fa7b49a8416b4caf2dc14cc",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/parking_clearance%400.1.801.tgz"
+        "name": "parking_clearance@0.1.802.tgz",
+        "size": 1182520,
+        "sha256": "a03522875be80f04d8cd9f1fc7cabdb7b50c887d0c76ca139d24f81ac4210f59",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/parking_clearance%400.1.802.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -574,12 +574,12 @@
       "kind": "app",
       "title": "后排舒适控制",
       "description": "G12 行政座舱后排空调、舒适座椅、按摩、遮阳帘及娱乐控制",
-      "version": "0.5.601",
+      "version": "0.5.602",
       "artifact": {
-        "name": "rear_comfort@0.5.601.tgz",
-        "size": 5497905,
-        "sha256": "93d7588000ae3f512c81f6eb9ffdacaaa8119575be2919fa354c9a4786030f1d",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/rear_comfort%400.5.601.tgz"
+        "name": "rear_comfort@0.5.602.tgz",
+        "size": 5499019,
+        "sha256": "b9deea9f98404dd3607d34a44cf3196c968f219e042326e220b0cebc53f8c472",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/rear_comfort%400.5.602.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -598,12 +598,12 @@
       "kind": "app",
       "title": "车身高度工作室",
       "description": "全屏设置 VDP 预设及前后空气弹簧充放气",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "artifact": {
-        "name": "ride_height@0.6.1.tgz",
-        "size": 954582,
-        "sha256": "a3c72d64a92ab16b594aac3cbeb5992d3521d6e50c8108145d3090a5e1332f3b",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/ride_height%400.6.1.tgz"
+        "name": "ride_height@0.6.2.tgz",
+        "size": 955499,
+        "sha256": "0416199933c89146b3c14fe2a7ff9eb832933d67ffbde5b4cf27ce29e47ebed4",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/ride_height%400.6.2.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -622,12 +622,12 @@
       "kind": "app",
       "title": "行程电脑",
       "description": "全屏显示行程历史、油耗、油价、费用、续航、车外温度和 GPS 海拔",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "artifact": {
-        "name": "road_trip_computer@1.0.2.tgz",
-        "size": 1059386,
-        "sha256": "02e59eca464f92106e0c7d1788d57f0776ff16aacc4fda15dc790c11fa86ccaa",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/widget-chinese-r2-2026-11-20/road_trip_computer%401.0.2.tgz"
+        "name": "road_trip_computer@1.0.3.tgz",
+        "size": 1060364,
+        "sha256": "c9c34f9336f2f3079e72369d5cc0fa756b110350bc592c6f8a5ffa16bcabff92",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/road_trip_computer%401.0.3.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -646,12 +646,12 @@
       "kind": "app",
       "title": "自动启停状态",
       "description": "显示当前及最近十条自动启停抑制状态，以及实时用电负载",
-      "version": "0.1.301",
+      "version": "0.1.302",
       "artifact": {
-        "name": "start_stop_insight@0.1.301.tgz",
-        "size": 954605,
-        "sha256": "a72f6e74925cea2f8b66281bb60cfa65d81b8d21a7e0de75c38802f65e6f0c53",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/start_stop_insight%400.1.301.tgz"
+        "name": "start_stop_insight@0.1.302.tgz",
+        "size": 955551,
+        "sha256": "28533c3f104ebf6c879b300b2f2b603c97afcbf0c1255f0708a38e83c58966a9",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/start_stop_insight%400.1.302.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -670,12 +670,12 @@
       "kind": "app",
       "title": "车辆遥测",
       "description": "分类全屏显示动力、热管理、底盘、轮胎、空调和电气实时数据",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "artifact": {
-        "name": "telemetry_studio@0.2.1.tgz",
-        "size": 985850,
-        "sha256": "6dde2db30557f769fc98df49a58d6509a27509bb03116d657d32552c82728b8a",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/telemetry_studio%400.2.1.tgz"
+        "name": "telemetry_studio@0.2.2.tgz",
+        "size": 986662,
+        "sha256": "77d8edbd175d039030110b4070c939c580f2188605375d4d92e526ad86ee71a5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/telemetry_studio%400.2.2.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -694,12 +694,12 @@
       "kind": "app",
       "title": "车辆健康中心",
       "description": "只读查看轮胎、油液、温度、保养需求、检查控制、DPF 和当前故障",
-      "version": "0.1.901",
+      "version": "0.1.902",
       "artifact": {
-        "name": "vehicle_health@0.1.901.tgz",
-        "size": 956034,
-        "sha256": "e3fb70b8bb22a8f96a1a182e7514574eacdba84c1f63b8c221d43bd764ed20ff",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_health%400.1.901.tgz"
+        "name": "vehicle_health@0.1.902.tgz",
+        "size": 956941,
+        "sha256": "88a8d3cd3eeecdb6e95befcd7b216f06cec82b05334180556b352f6e1152848a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/vehicle_health%400.1.902.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -718,12 +718,12 @@
       "kind": "app",
       "title": "车辆网络",
       "description": "显示 MGU 网络接口、观测到的车辆网络设备和电脑 IPv4 设置",
-      "version": "0.1.301",
+      "version": "0.1.302",
       "artifact": {
-        "name": "vehicle_network@0.1.301.tgz",
-        "size": 959226,
-        "sha256": "c88f249cabc1244a967c610f5f98c036fa19cdc15ebef35c08de696325aead31",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/vehicle_network%400.1.301.tgz"
+        "name": "vehicle_network@0.1.302.tgz",
+        "size": 959942,
+        "sha256": "be1104d1ef3d0539749d8f779c9115790170569e0b82c191fed1b063338946b5",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/vehicle_network%400.1.302.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -743,12 +743,12 @@
       "kind": "app",
       "title": "xDrive 动力分配",
       "description": "只读查看 xDrive 扭矩分配、分动箱扭矩、车轮滑差和底盘动态",
-      "version": "0.1.501",
+      "version": "0.1.502",
       "artifact": {
-        "name": "xdrive_studio@0.1.501.tgz",
-        "size": 1086617,
-        "sha256": "070d46f79c5dffa5ddc979ac295bc3dc0805e2d7fccfa29077f42202ca3693e5",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/xdrive_studio%400.1.501.tgz"
+        "name": "xdrive_studio@0.1.502.tgz",
+        "size": 1087716,
+        "sha256": "a75632ff7819cf9b4e3f23c8812d13b14b3e2ad852a1e8cc7268a5f69228520e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/xdrive_studio%400.1.502.tgz"
       },
       "requires": {
         "idrive7-renderd": "2.1.7",
@@ -767,12 +767,12 @@
       "kind": "app",
       "title": "RideTube",
       "description": "ID7 非官方 YouTube 客户端，支持搜索、频道、章节及登录后的首页、订阅和稍后观看。通过车机播放声音，默认停车时显示画面。需要 jap-ridetube-d 服务。",
-      "version": "0.4.501",
+      "version": "0.4.502",
       "artifact": {
-        "name": "jap_ridetube@0.4.501.tgz",
-        "size": 3273325,
-        "sha256": "b1ce75afdd8f99ff761622af3b788f963ae6e9511c50eda0750102d51c0f92b8",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/jap_ridetube%400.4.501.tgz"
+        "name": "jap_ridetube@0.4.502.tgz",
+        "size": 3434521,
+        "sha256": "98170cb12fb04fa871bbeb707b09b97cab899cc6dfe9ce106863ad69e571a64d",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/jap_ridetube%400.4.502.tgz"
       },
       "requires": {
         "jap-ridetube-d": "0.4.2",
@@ -861,12 +861,12 @@
       "kind": "app",
       "title": "车机浏览器",
       "description": "车机浏览器，支持首页、历史记录、书签和 iDrive 操作。",
-      "version": "0.16.101",
+      "version": "0.16.102",
       "artifact": {
-        "name": "mgu_browser@0.16.101.tgz",
-        "size": 2120222,
-        "sha256": "f646fa63c9353b85e71771248b502cdff6cee95b65c6bc5bb82e1850be015ff5",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/mgu_browser%400.16.101.tgz"
+        "name": "mgu_browser@0.16.102.tgz",
+        "size": 2122320,
+        "sha256": "8f29a6cf9ed1eea63ace46fb825095876e58c2e0f2e3e4826469547d8d72694a",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/mgu_browser%400.16.102.tgz"
       },
       "requires": {
         "mgu-browser": "0.16.1",
@@ -2888,7 +2888,7 @@
     {
       "id": "spritmonitor",
       "title": "加油记录",
-      "version": "0.1.4501",
+      "version": "0.1.4502",
       "description": "Spritmonitor 第三方客户端，记录加油和 AdBlue。默认简中，可在应用内切换语言；同步需要联网和 Spritmonitor 账户。",
       "author": "dzooky / 汉化 小白科技杂物社",
       "requires": {
@@ -2897,10 +2897,10 @@
         "mgu-uplink": "0.7.3"
       },
       "artifact": {
-        "name": "spritmonitor@0.1.4501.tgz",
-        "size": 2895881,
-        "sha256": "6d716463446400186e218181dea60ce101555dcd1ca9f1959ee33c0e9d917b87",
-        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor%400.1.4501.tgz"
+        "name": "spritmonitor@0.1.4502.tgz",
+        "size": 2901589,
+        "sha256": "12e726256e9c8f2a7c5b3e4a1a49a2ba7c46660bc17c6f12d14e9c8617250c7c",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-font-coverage-2026-11-23/spritmonitor%400.1.4502.tgz"
       },
       "iconSha256": "354429fcd0a7ace65ef40aa38adcad66bfa8a3e4df02f91be55099acb59423df",
       "kind": "app",
