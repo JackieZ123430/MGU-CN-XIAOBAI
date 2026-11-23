@@ -1,5 +1,12 @@
 # MGU-CN-XIAOBAI
 
+## idv7lol 自定义仪表简中版 · iDrive 7
+
+- idv7lol 自定义仪表 `0.2.1901` · 在 iDrive 7 预览并选择自定义仪表主题、配色和单位，支持导入 U 盘主题。默认关闭仪表覆盖。 · https://github.com/ALMSTRA/idv7lol
+
+[发布页及校验信息](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/idv7lol-zh-cn-2026-11-23)
+
+
 ## iDrive 7 · 11 款应用统一为故障检测的翻译署名
 
 - ADAS 功能状态 `0.1.2` · 查看碰撞声音警告、起步横向车流防护与狭窄通行辅助的实时可用性及 ECU 状态。 · https://github.com/alexp50/bmw-apps

@@ -1,0 +1,37 @@
+{
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/idv7lol-zh-cn-2026-11-23",
+  "apps": [
+    {
+      "id": "idv7lol",
+      "title": "idv7lol 自定义仪表",
+      "description": "在 iDrive 7 预览并选择自定义仪表主题、配色和单位，支持导入 U 盘主题。默认关闭仪表覆盖。",
+      "version": "0.2.1901",
+      "author": "ALMSTRA / 汉化 小白科技杂物社",
+      "requires": {
+        "cluster-render": "0.6.9",
+        "mgu-deploy": "0.8.27"
+      },
+      "artifact": {
+        "name": "idv7lol@0.2.1901.tgz",
+        "size": 2252659,
+        "sha256": "db22e9d9774eb7faaae19e9ac8a6cb9857d4f989e233913542e21657d5311524",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/idv7lol-zh-cn-2026-11-23/idv7lol%400.2.1901.tgz"
+      },
+      "icon": "idv7lol.png",
+      "iconSha256": "bd5998c4316a0de0488888fcf66b0cfda5e08adf180c3394d033e0151309c7e6",
+      "source": {
+        "upstream": "https://github.com/ALMSTRA/idv7lol",
+        "sourceCommit": "a2aca74354ea6c367cceddacae0e35a8234593c1",
+        "translationCommit": "8826cff75badc8aec7a680e8769ac094642ab7a0",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/idv7lol-zh-cn-2026-11-23/idv7lol-zh-cn-source.zip",
+        "upstreamVersion": "0.2.19",
+        "upstreamPullRequest": "https://github.com/ALMSTRA/idv7lol/pull/11",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "Translation by: 抖音 小白科技杂物社 · BiliBili 小白151 · GitHub JackieZ123430",
+        "validation": "English and Chinese builds, Node 8 display, fixed-UI glyph check, and 141 car-app tests. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/idv7lol-zh-cn-2026-11-23/idv7lol.png"
+    }
+  ]
+}

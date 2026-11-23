@@ -1247,5 +1247,20 @@
     "id": "dk_backgammon",
     "version": "0.1.102",
     "artifactSha256": "de07a07d7f6ec5a855b279f4413fe2d16982d20bce3aea3aca80f609675dc644"
+  },
+  {
+    "upstream": "https://github.com/ALMSTRA/idv7lol",
+    "sourceCommit": "a2aca74354ea6c367cceddacae0e35a8234593c1",
+    "translationCommit": "8826cff75badc8aec7a680e8769ac094642ab7a0",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/idv7lol-zh-cn-2026-11-23/idv7lol-zh-cn-source.zip",
+    "upstreamVersion": "0.2.19",
+    "upstreamPullRequest": "https://github.com/ALMSTRA/idv7lol/pull/11",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "watermark": "Translation by: 抖音 小白科技杂物社 · BiliBili 小白151 · GitHub JackieZ123430",
+    "validation": "English and Chinese builds, Node 8 display, fixed-UI glyph check, and 141 car-app tests. Vehicle verification pending.",
+    "id": "idv7lol",
+    "version": "0.2.1901",
+    "artifactSha256": "db22e9d9774eb7faaae19e9ac8a6cb9857d4f989e233913542e21657d5311524"
   }
 ]

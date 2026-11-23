@@ -3251,6 +3251,30 @@
       "uninstallable": true,
       "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-translation-credit-2026-11-23/dk_backgammon.png",
       "build": "unit"
+    },
+    {
+      "id": "idv7lol",
+      "title": "idv7lol 自定义仪表",
+      "version": "0.2.1901",
+      "description": "在 iDrive 7 预览并选择自定义仪表主题、配色和单位，支持导入 U 盘主题。默认关闭仪表覆盖。",
+      "author": "ALMSTRA / 汉化 小白科技杂物社",
+      "requires": {
+        "cluster-render": "0.6.9",
+        "mgu-deploy": "0.8.27"
+      },
+      "artifact": {
+        "name": "idv7lol@0.2.1901.tgz",
+        "size": 2252659,
+        "sha256": "db22e9d9774eb7faaae19e9ac8a6cb9857d4f989e233913542e21657d5311524",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/idv7lol-zh-cn-2026-11-23/idv7lol%400.2.1901.tgz"
+      },
+      "iconSha256": "bd5998c4316a0de0488888fcf66b0cfda5e08adf180c3394d033e0151309c7e6",
+      "kind": "app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/idv7lol-zh-cn-2026-11-23/idv7lol.png"
     }
   ]
 }
