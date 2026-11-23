@@ -1,5 +1,22 @@
 # MGU-CN-XIAOBAI
 
+## iDrive 7 简中源 100 项 · 新增 11 款应用
+
+- ADAS 功能状态 `0.1.1` · 查看碰撞声音警告、起步横向车流防护与狭窄通行辅助的实时可用性及 ECU 状态。 · https://github.com/alexp50/bmw-apps
+- 车机接口浏览器 `0.2.401` · 在车机接口目录中查找氛围灯、导航、GPS、媒体、空调和车门等服务。可导出接口报告，仅本地读取。 · https://github.com/arefahmad/idrive7-apps
+- 轮胎与胎压设置 `0.2.101` · 查看胎压、目标值、轮胎识别状态与车辆轮胎列表。支持 iDrive 轮胎设置操作，保留上游的驻车确认与 DSC 检查。 允许更改车辆设置仍按上游默认关闭。 · https://github.com/arefahmad/idrive7-apps
+- 12 V 电池与电气 `1.0.1` · 监测 12 V 电池的电压、电流、电量、健康度和温度，提供状态评估。 · https://github.com/DimonPrograms/dimonprograms-apps
+- 赛道计圈 `1.0.1` · 赛道计圈，支持分段、最佳圈和实时差值。 用于封闭赛道。 · https://github.com/DimonPrograms/dimonprograms-apps
+- Mon Vitals 行车仪表 `0.9.601` · iDrive 7 只读仪表，显示温度、增压、动力、底盘等数据。 · https://github.com/benspa900/mon-vitals-idrive7
+- F44 标志与信号灯诊断 `0.1.1` · 在本机目录中查找交通标志及信号灯接口，仅供诊断。 · https://github.com/benspa900/mon-vitals-idrive7
+- elDrive 电动续航与充电 `1.1.1` · 电动车能耗与充电仪表，支持纯电车型（如 iX3），显示续航、动力电池、空调功耗、充电记录及 12 V 电压。 · https://github.com/beele/eldrive
+- 挡位 HUD `1.0.1` · 在 HUD 和仪表显示当前挡位，可分别设置常规、S 挡和 M 挡的颜色。 · https://github.com/RubenRios/GearHUD
+- TJM 导航提示卡 `0.9.201` · 在兼容的仪表地图上显示下一转向、距离、道路与车道。可读取手机或宝马导航指引、外部文件，也可播放演示。 仪表地图叠加还需上游的 Waze on cluster 服务。 · https://github.com/tjmodsss/tjm-apps
+- 西洋双陆棋 `0.1.101` · 支持短局和长局规则，本地双人或人机对弈。 · https://github.com/mistergahan/mgu-backgammon
+
+[发布页及校验信息](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/zh-catalog-100-2026-11-23)
+
+
 ## pinguinooo ID7 套件简中版 · 2026-11-23
 
 - 换挡提示灯 `0.4.501` · 在仪表和 HUD 显示换挡灯，支持驾驶模式阈值和冷机限制。 · https://github.com/pinguinooo/idrive7-apps

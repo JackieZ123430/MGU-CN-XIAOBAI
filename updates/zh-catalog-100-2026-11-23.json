@@ -1,0 +1,337 @@
+{
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/zh-catalog-100-2026-11-23",
+  "apps": [
+    {
+      "id": "adas_feature_probe",
+      "title": "ADAS 功能状态",
+      "description": "查看碰撞声音警告、起步横向车流防护与狭窄通行辅助的实时可用性及 ECU 状态。",
+      "version": "0.1.1",
+      "author": "alexp50 / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "adas_feature_probe@0.1.1.tgz",
+        "size": 715133,
+        "sha256": "6c6d79987a3ab8ed41aa084c603bc816853bee347de3498931dfc346e1cce2e8",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/adas_feature_probe%400.1.1.tgz"
+      },
+      "icon": "adas_feature_probe.png",
+      "iconSha256": "81d062a41d853e7aa1421a36da42095103b5a7db38373303c4f217590e0f3560",
+      "source": {
+        "upstream": "https://github.com/alexp50/bmw-apps",
+        "sourceCommit": "4fb5a5dba1ec7c6a57545ae935a14cb91a194d19",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.1.0",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/adas_feature_probe.png"
+    },
+    {
+      "id": "aref_explorer",
+      "title": "车机接口浏览器",
+      "description": "在车机接口目录中查找氛围灯、导航、GPS、媒体、空调和车门等服务。可导出接口报告，仅本地读取。",
+      "version": "0.2.401",
+      "author": "aref / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "aref_explorer@0.2.401.tgz",
+        "size": 1094552,
+        "sha256": "a3440c7ec43efbbaf004c2eebf27c4bb67edfa187f7e3313e0b995a611f5068f",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/aref_explorer%400.2.401.tgz"
+      },
+      "icon": "aref_explorer.png",
+      "iconSha256": "d11046b1300c438c040fa052b54c9cb4d9997086f3f9d1346ee31c080ea9edb3",
+      "source": {
+        "upstream": "https://github.com/arefahmad/idrive7-apps",
+        "sourceCommit": "4600260de18cf235b5c15d60dfa5570737706959",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.2.4",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/aref_explorer.png"
+    },
+    {
+      "id": "aref_tires",
+      "title": "轮胎与胎压设置",
+      "description": "查看胎压、目标值、轮胎识别状态与车辆轮胎列表。支持 iDrive 轮胎设置操作，保留上游的驻车确认与 DSC 检查。 允许更改车辆设置仍按上游默认关闭。",
+      "version": "0.2.101",
+      "author": "aref / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "aref_tires@0.2.101.tgz",
+        "size": 1342369,
+        "sha256": "ab0b2f1312dc43db20b4f4e085afe2eadc516492e5d69746a870ac9830184851",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/aref_tires%400.2.101.tgz"
+      },
+      "icon": "aref_tires.png",
+      "iconSha256": "d2f066a74d26cc854b5561a1fb6408be6edce9bbdf969af598944bae9f7185ac",
+      "source": {
+        "upstream": "https://github.com/arefahmad/idrive7-apps",
+        "sourceCommit": "4600260de18cf235b5c15d60dfa5570737706959",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.2.1",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/aref_tires.png"
+    },
+    {
+      "id": "dimon_battery",
+      "title": "12 V 电池与电气",
+      "description": "监测 12 V 电池的电压、电流、电量、健康度和温度，提供状态评估。",
+      "version": "1.0.1",
+      "author": "DimonPrograms / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "dimon_battery@1.0.1.tgz",
+        "size": 755144,
+        "sha256": "8a7878c811fadb3827f197934e285c86225044990537ef808ac93e74bb573284",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/dimon_battery%401.0.1.tgz"
+      },
+      "icon": "dimon_battery.png",
+      "iconSha256": "61c7070e56226fddec285d9e4ce697702b20232065822ff154685224a653f33b",
+      "source": {
+        "upstream": "https://github.com/DimonPrograms/dimonprograms-apps",
+        "sourceCommit": "5031c0287c4e90e7c8bdff076b594bbfd3897dee",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "1.0.0",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/dimon_battery.png"
+    },
+    {
+      "id": "dimon_track_mode",
+      "title": "赛道计圈",
+      "description": "赛道计圈，支持分段、最佳圈和实时差值。 用于封闭赛道。",
+      "version": "1.0.1",
+      "author": "DimonPrograms / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "dimon_track_mode@1.0.1.tgz",
+        "size": 753234,
+        "sha256": "54ce490e2fc93c40627b45ed40861fea5f84c0ac2918a56ad24a4a4358e58818",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/dimon_track_mode%401.0.1.tgz"
+      },
+      "icon": "dimon_track_mode.png",
+      "iconSha256": "cf17bba5286f9c96b10284952de891d585e46e9898ba1f8acdd81fbae4dbc5e3",
+      "source": {
+        "upstream": "https://github.com/DimonPrograms/dimonprograms-apps",
+        "sourceCommit": "5031c0287c4e90e7c8bdff076b594bbfd3897dee",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "1.0.0",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/dimon_track_mode.png"
+    },
+    {
+      "id": "benspa_vitals",
+      "title": "Mon Vitals 行车仪表",
+      "description": "iDrive 7 只读仪表，显示温度、增压、动力、底盘等数据。",
+      "version": "0.9.601",
+      "author": "benspa900 / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "benspa_vitals@0.9.601.tgz",
+        "size": 824538,
+        "sha256": "d5da67764aa1740eb3b52891552efc2661bf053dd7d2b5c9488b3130761ce46e",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/benspa_vitals%400.9.601.tgz"
+      },
+      "icon": "benspa_vitals.png",
+      "iconSha256": "f4ed2c2cf8f3c7dce5929aadeade8989449e8e5389568e05c0c4f42f1daef37d",
+      "source": {
+        "upstream": "https://github.com/benspa900/mon-vitals-idrive7",
+        "sourceCommit": "71a4cb549a7c2fe60285382c26a3e88dfd8e8574",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.9.6",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/benspa_vitals.png"
+    },
+    {
+      "id": "f44_traffic_diag",
+      "title": "F44 标志与信号灯诊断",
+      "description": "在本机目录中查找交通标志及信号灯接口，仅供诊断。",
+      "version": "0.1.1",
+      "author": "benspa900 / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "f44_traffic_diag@0.1.1.tgz",
+        "size": 760452,
+        "sha256": "715efc012b39659d38710c6174cd9f8dcb3f0a1690a2f19a7cffd6118bf223c3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/f44_traffic_diag%400.1.1.tgz"
+      },
+      "icon": "f44_traffic_diag.png",
+      "iconSha256": "f4ed2c2cf8f3c7dce5929aadeade8989449e8e5389568e05c0c4f42f1daef37d",
+      "source": {
+        "upstream": "https://github.com/benspa900/mon-vitals-idrive7",
+        "sourceCommit": "71a4cb549a7c2fe60285382c26a3e88dfd8e8574",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.1.0",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/f44_traffic_diag.png"
+    },
+    {
+      "id": "eldrive",
+      "title": "elDrive 电动续航与充电",
+      "description": "电动车能耗与充电仪表，支持纯电车型（如 iX3），显示续航、动力电池、空调功耗、充电记录及 12 V 电压。",
+      "version": "1.1.1",
+      "author": "beele / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "eldrive@1.1.1.tgz",
+        "size": 908586,
+        "sha256": "80bef4a7dcc010309a2f90c2be94f4ab75ebca52667e188cfd141ccfa29fdb2d",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/eldrive%401.1.1.tgz"
+      },
+      "icon": "eldrive.png",
+      "iconSha256": "5869ea41c3c995e8f085e2761277db3e5f5040b6042ad50ad185d9b3b52a824a",
+      "source": {
+        "upstream": "https://github.com/beele/eldrive",
+        "sourceCommit": "64d66ce6e0c89567b443c8715bab3675a0286a65",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "1.1.0",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/eldrive.png"
+    },
+    {
+      "id": "rubenrios_gearhud",
+      "title": "挡位 HUD",
+      "description": "在 HUD 和仪表显示当前挡位，可分别设置常规、S 挡和 M 挡的颜色。",
+      "version": "1.0.1",
+      "author": "RubenRios / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.6.0"
+      },
+      "artifact": {
+        "name": "rubenrios_gearhud@1.0.1.tgz",
+        "size": 764667,
+        "sha256": "4beda66014f6f3945d91482e39fce28a5fa5885e46cdf2bef9df519ad4f6237b",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/rubenrios_gearhud%401.0.1.tgz"
+      },
+      "icon": "rubenrios_gearhud.png",
+      "iconSha256": "3d5c7639632779c5507f9f5f747621c4ec7470b298a859fa718191e8b2081d80",
+      "source": {
+        "upstream": "https://github.com/RubenRios/GearHUD",
+        "sourceCommit": "472b8057598e7c1ec009f959889c771cef001ba4",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "1.0.0",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/rubenrios_gearhud.png"
+    },
+    {
+      "id": "cluster_nav_card",
+      "title": "TJM 导航提示卡",
+      "description": "在兼容的仪表地图上显示下一转向、距离、道路与车道。可读取手机或宝马导航指引、外部文件，也可播放演示。 仪表地图叠加还需上游的 Waze on cluster 服务。",
+      "version": "0.9.201",
+      "author": "TJM / SPRNV4 / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.5.0"
+      },
+      "artifact": {
+        "name": "cluster_nav_card@0.9.201.tgz",
+        "size": 885368,
+        "sha256": "706e6e479adbb4efca5aa113be77732643372ec3b151d7201c4d44fc845ef375",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/cluster_nav_card%400.9.201.tgz"
+      },
+      "icon": "cluster_nav_card.png",
+      "iconSha256": "60e90af1451d5be3bac7097d9e50d3b5af4a3b961d2370baffeb3a442e3c8d04",
+      "source": {
+        "upstream": "https://github.com/tjmodsss/tjm-apps",
+        "sourceCommit": "5748ea83957610af0221220eb3a17762fe797fed",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.9.2",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/cluster_nav_card.png"
+    },
+    {
+      "id": "dk_backgammon",
+      "title": "西洋双陆棋",
+      "description": "支持短局和长局规则，本地双人或人机对弈。",
+      "version": "0.1.101",
+      "author": "mistergahan / 汉化 小白科技杂物社",
+      "requires": {
+        "mgu-deploy": "0.8.27"
+      },
+      "artifact": {
+        "name": "dk_backgammon@0.1.101.tgz",
+        "size": 23948,
+        "sha256": "0a1968c24dfe0b50858213c430cf667f60cf4d0c9e51dc2157b2bc5694684a60",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/dk_backgammon%400.1.101.tgz"
+      },
+      "icon": "dk_backgammon.png",
+      "iconSha256": "5d658ccfa2060c91fa1bd3a294ab58dc82ea2efcf4f43b5d0ccc5fbb5570a724",
+      "source": {
+        "upstream": "https://github.com/mistergahan/mgu-backgammon",
+        "sourceCommit": "24ceba2cdce04dcc31a48ec3590b2412784f7320",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/mgu-id7-catalog-100-zh-source.zip",
+        "upstreamVersion": "0.1.1",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "watermark": "PowerBy 小白科技杂物社",
+        "validation": "PC package and display checks passed. Vehicle verification pending."
+      },
+      "build": "unit",
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/zh-catalog-100-2026-11-23/dk_backgammon.png"
+    }
+  ]
+}
