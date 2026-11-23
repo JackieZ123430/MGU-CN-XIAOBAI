@@ -1,0 +1,161 @@
+{
+  "release": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/five-cn-apps-2026-11-23",
+  "apps": [
+    {
+      "id": "tyrewatch",
+      "version": "0.1.501",
+      "title": "胎压监测",
+      "description": "四轮实时胎压和胎温、车辆目标值及冷胎趋势。G08 上游标明仍需实车验证。",
+      "author": "suhailpatel / 汉化 小白科技杂物社",
+      "artifact": {
+        "name": "tyrewatch@0.1.501.tgz",
+        "size": 847551,
+        "sha256": "b0d80991bda03c723aa2c23e6d126d544aa226806c8fb0ee7807660489d54e24",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/tyrewatch%400.1.501.tgz"
+      },
+      "icon": "tyrewatch.png",
+      "iconSha256": "5fa2a6d50948cc7af99b5c7fa7091b7e24bf1c7fc788a6f8b25194cc9524f91b",
+      "requires": {
+        "idrive7-renderd": "2.1.6",
+        "mgu-inputgate": "1.0.0"
+      },
+      "source": {
+        "upstream": "https://github.com/suhailpatel/id7-apps",
+        "sourceCommit": "5f844a553e4bf789c42215bf036d17538e208b98",
+        "upstreamVersion": "0.1.5",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/tyre-source.zip",
+        "validation": "Local package, typography and syntax checks; no vehicle test.",
+        "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/tyrewatch.png"
+    },
+    {
+      "id": "idrive_hud_widgets",
+      "version": "0.15.801",
+      "title": "HUD 小组件",
+      "description": "在 HUD 显示挡位、温度、换挡灯或行程数据，支持多布局。需要原车 HUD 和兼容的 cluster-render。",
+      "author": "bimmer-lab / 汉化 小白科技杂物社",
+      "artifact": {
+        "name": "idrive_hud_widgets@0.15.801.tgz",
+        "size": 1860324,
+        "sha256": "e70bcf5021420f3a77c0c288ba7f21f041dc96179b1b64bfe2fb8776150553b3",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/idrive_hud_widgets%400.15.801.tgz"
+      },
+      "icon": "idrive_hud_widgets.png",
+      "iconSha256": "dbb8176088bc89d90ea9fbb8e0c4b6f7c79107bb53fb786ecc366a10c52ca476",
+      "requires": {
+        "idrive7-renderd": "2.1.6",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.5.1"
+      },
+      "source": {
+        "upstream": "https://github.com/bimmer-lab/apps",
+        "sourceCommit": "30867179098d8f93a54557882611f83faa87adbd",
+        "upstreamVersion": "0.15.8",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/hud-source.zip",
+        "validation": "Local package, typography and syntax checks; no vehicle test.",
+        "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/idrive_hud_widgets.png"
+    },
+    {
+      "id": "cluster_lyrics",
+      "version": "0.1.401",
+      "title": "仪表歌词",
+      "description": "连接自有 Spotify 账户，从 LRCLIB 获取同步歌词，可在停车时显示到兼容仪表地图窗口。此次汉化针对应用界面，歌词字库沿用上游。",
+      "author": "NamelsMissing / 汉化 小白科技杂物社",
+      "artifact": {
+        "name": "cluster_lyrics@0.1.401.tgz",
+        "size": 1051234,
+        "sha256": "a9532d4a857621a17f96b4353f226580a0b784351394f897304bf88cbb7d6006",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/cluster_lyrics%400.1.401.tgz"
+      },
+      "icon": "cluster_lyrics.png",
+      "iconSha256": "cba99ac848e408d10289b24e82e79380de96c5a26a9852944b2d9cdddf2c93cf",
+      "requires": {
+        "idrive7-renderd": "2.1.6",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.4.0",
+        "mgu-uplink": "0.7.3",
+        "mgu-deploy": "0.8.27"
+      },
+      "source": {
+        "upstream": "https://github.com/NamelsMissing/mgu-apps",
+        "sourceCommit": "c1722dfdfbc1fa1fae84045d1c5b20314528a5ef",
+        "upstreamVersion": "0.1.4",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/namels-source.zip",
+        "validation": "Local package, typography and syntax checks; no vehicle test.",
+        "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/cluster_lyrics.png"
+    },
+    {
+      "id": "g21_wheelheat",
+      "version": "0.5.401",
+      "title": "G21 加热舒适 Beta",
+      "description": "G21 方向盘和座椅加热的入口、诊断页面与日志。自动加热默认关闭。不同控制单元的兼容性依车辆配置而定。",
+      "author": "NamelsMissing / 汉化 小白科技杂物社",
+      "artifact": {
+        "name": "g21_wheelheat@0.5.401.tgz",
+        "size": 898633,
+        "sha256": "285b984acfaf38bcfd8962b2d7e4532d3643732ec2491ea6f6ae54038e07a545",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/g21_wheelheat%400.5.401.tgz"
+      },
+      "icon": "g21_wheelheat.png",
+      "iconSha256": "569519333b5bf0ffb283d9b2e3612c0a96a89ee260253635838a4b0f52f081ed",
+      "requires": {
+        "idrive7-renderd": "2.1.6",
+        "mgu-inputgate": "1.0.0",
+        "mgu-deploy": "0.8.27"
+      },
+      "source": {
+        "upstream": "https://github.com/NamelsMissing/mgu-apps",
+        "sourceCommit": "c1722dfdfbc1fa1fae84045d1c5b20314528a5ef",
+        "upstreamVersion": "0.5.4",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/namels-source.zip",
+        "validation": "Local package, typography and syntax checks; no vehicle test.",
+        "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/g21_wheelheat.png"
+    },
+    {
+      "id": "spritmonitor",
+      "version": "0.1.4501",
+      "title": "加油记录",
+      "description": "Spritmonitor 第三方客户端，记录加油和 AdBlue。默认简中，可在应用内切换语言；同步需要联网和 Spritmonitor 账户。",
+      "author": "dzooky / 汉化 小白科技杂物社",
+      "artifact": {
+        "name": "spritmonitor@0.1.4501.tgz",
+        "size": 2895881,
+        "sha256": "6d716463446400186e218181dea60ce101555dcd1ca9f1959ee33c0e9d917b87",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor%400.1.4501.tgz"
+      },
+      "icon": "spritmonitor.png",
+      "iconSha256": "354429fcd0a7ace65ef40aa38adcad66bfa8a3e4df02f91be55099acb59423df",
+      "requires": {
+        "idrive7-renderd": "2.1.19",
+        "mgu-inputgate": "1.2.1",
+        "mgu-uplink": "0.7.3"
+      },
+      "source": {
+        "upstream": "https://github.com/dzooky/bmrmodz",
+        "sourceCommit": "356f69a6397ab7d3a93c75b2ba9c38c5deb52f0e",
+        "upstreamVersion": "0.1.45",
+        "language": "zh-CN",
+        "translation": "小白科技杂物社",
+        "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/fuel-source.zip",
+        "validation": "Local package, typography and syntax checks; no vehicle test.",
+        "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling"
+      },
+      "iconUrl": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor.png"
+    }
+  ]
+}

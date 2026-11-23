@@ -1,5 +1,16 @@
 # MGU-CN-XIAOBAI
 
+## 五款 ID7 应用简中版 · 2026-11-23
+
+- 胎压监测 `0.1.501` · 四轮实时胎压和胎温、车辆目标值及冷胎趋势。G08 上游标明仍需实车验证。 · https://github.com/suhailpatel/id7-apps
+- HUD 小组件 `0.15.801` · 在 HUD 显示挡位、温度、换挡灯或行程数据，支持多布局。需要原车 HUD 和兼容的 cluster-render。 · https://github.com/bimmer-lab/apps
+- 仪表歌词 `0.1.401` · 连接自有 Spotify 账户，从 LRCLIB 获取同步歌词，可在停车时显示到兼容仪表地图窗口。此次汉化针对应用界面，歌词字库沿用上游。 · https://github.com/NamelsMissing/mgu-apps
+- G21 加热舒适 Beta `0.5.401` · G21 方向盘和座椅加热的入口、诊断页面与日志。自动加热默认关闭。不同控制单元的兼容性依车辆配置而定。 · https://github.com/NamelsMissing/mgu-apps
+- 加油记录 `0.1.4501` · Spritmonitor 第三方客户端，记录加油和 AdBlue。默认简中，可在应用内切换语言；同步需要联网和 Spritmonitor 账户。 · https://github.com/dzooky/bmrmodz
+
+[发布页及校验信息](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/five-cn-apps-2026-11-23)
+
+
 ## 上游评审修订与简中应用更新 · 2026-11-23
 
 - Spotify Beta `1.0.3401` · Spotify Connect 简中版。支持常用简繁体曲名、歌单及设备名，播放需要手机配对、车机联网与 Spotify 账号。 · https://github.com/hexlay/idrive7-custom-apps

@@ -735,5 +735,70 @@
     "id": "speed_limit",
     "version": "1.0.1001",
     "artifactSha256": "7c7238d1cf030b765f1de3a63b61f9d2320c5cb3b88484de6ba65669859c42f3"
+  },
+  {
+    "upstream": "https://github.com/suhailpatel/id7-apps",
+    "sourceCommit": "5f844a553e4bf789c42215bf036d17538e208b98",
+    "upstreamVersion": "0.1.5",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/tyre-source.zip",
+    "validation": "Local package, typography and syntax checks; no vehicle test.",
+    "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling",
+    "id": "tyrewatch",
+    "version": "0.1.501",
+    "artifactSha256": "b0d80991bda03c723aa2c23e6d126d544aa226806c8fb0ee7807660489d54e24"
+  },
+  {
+    "upstream": "https://github.com/bimmer-lab/apps",
+    "sourceCommit": "30867179098d8f93a54557882611f83faa87adbd",
+    "upstreamVersion": "0.15.8",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/hud-source.zip",
+    "validation": "Local package, typography and syntax checks; no vehicle test.",
+    "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling",
+    "id": "idrive_hud_widgets",
+    "version": "0.15.801",
+    "artifactSha256": "e70bcf5021420f3a77c0c288ba7f21f041dc96179b1b64bfe2fb8776150553b3"
+  },
+  {
+    "upstream": "https://github.com/NamelsMissing/mgu-apps",
+    "sourceCommit": "c1722dfdfbc1fa1fae84045d1c5b20314528a5ef",
+    "upstreamVersion": "0.1.4",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/namels-source.zip",
+    "validation": "Local package, typography and syntax checks; no vehicle test.",
+    "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling",
+    "id": "cluster_lyrics",
+    "version": "0.1.401",
+    "artifactSha256": "a9532d4a857621a17f96b4353f226580a0b784351394f897304bf88cbb7d6006"
+  },
+  {
+    "upstream": "https://github.com/NamelsMissing/mgu-apps",
+    "sourceCommit": "c1722dfdfbc1fa1fae84045d1c5b20314528a5ef",
+    "upstreamVersion": "0.5.4",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/namels-source.zip",
+    "validation": "Local package, typography and syntax checks; no vehicle test.",
+    "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling",
+    "id": "g21_wheelheat",
+    "version": "0.5.401",
+    "artifactSha256": "285b984acfaf38bcfd8962b2d7e4532d3643732ec2491ea6f6ae54038e07a545"
+  },
+  {
+    "upstream": "https://github.com/dzooky/bmrmodz",
+    "sourceCommit": "356f69a6397ab7d3a93c75b2ba9c38c5deb52f0e",
+    "upstreamVersion": "0.1.45",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/fuel-source.zip",
+    "validation": "Local package, typography and syntax checks; no vehicle test.",
+    "sdk": "BMW OAP SDK supplied by the owner’s installed deployment tooling",
+    "id": "spritmonitor",
+    "version": "0.1.4501",
+    "artifactSha256": "6d716463446400186e218181dea60ce101555dcd1ca9f1959ee33c0e9d917b87"
   }
 ]
