@@ -1065,5 +1065,44 @@
     "fontSource": "Noto Sans SC (OFL-1.1)",
     "originalPackage": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor%400.1.4501.tgz",
     "notes": "Rebuilt CJK font with complete fixed UI coverage; existing application logic retained."
+  },
+  {
+    "upstream": "https://github.com/pinguinooo/idrive7-apps",
+    "sourceCommit": "82bea95add762c03d97070d2bd462bfd5fac429c",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/pinguinooo-idrive7-apps-zh-source.zip",
+    "upstreamVersion": "0.4.5",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "watermark": "PowerBy 小白科技杂物社",
+    "validation": "PC builds, fixed UI glyph verification and offline tests. Vehicle verification pending.",
+    "id": "adam_shiftlights",
+    "version": "0.4.501",
+    "artifactSha256": "257cb6fd756dbcff9ff7f0d5396d4746f1b4acaf995cfcf5793047716e7cbdea"
+  },
+  {
+    "upstream": "https://github.com/pinguinooo/idrive7-apps",
+    "sourceCommit": "82bea95add762c03d97070d2bd462bfd5fac429c",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/pinguinooo-idrive7-apps-zh-source.zip",
+    "upstreamVersion": "0.2.0",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "watermark": "PowerBy 小白科技杂物社",
+    "validation": "PC builds, fixed UI glyph verification and offline tests. Vehicle verification pending.",
+    "id": "adam_vitals",
+    "version": "0.2.1",
+    "artifactSha256": "b8a76931d67e9b82b610dff2dafda5fbb2e1bcdecf9ced28b4fb09c8f64acbbf"
+  },
+  {
+    "upstream": "https://github.com/pinguinooo/idrive7-apps",
+    "sourceCommit": "82bea95add762c03d97070d2bd462bfd5fac429c",
+    "sourceArchive": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/pinguinooo-idrive7-apps-zh-source.zip",
+    "upstreamVersion": "0.1.7",
+    "language": "zh-CN",
+    "translation": "小白科技杂物社",
+    "watermark": "PowerBy 小白科技杂物社",
+    "validation": "PC builds, fixed UI glyph verification and offline tests. Vehicle verification pending.",
+    "id": "adam_mtrack",
+    "version": "0.1.701",
+    "artifactSha256": "9a246f629b6e4b6fbd897e6c18cd64c73b784ea3f1777dee06b1782ed3f9fe32"
   }
 ]

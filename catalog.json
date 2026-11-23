@@ -2909,6 +2909,82 @@
       ],
       "uninstallable": true,
       "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/five-cn-apps-2026-11-23/spritmonitor.png"
+    },
+    {
+      "id": "adam_shiftlights",
+      "title": "换挡提示灯",
+      "version": "0.4.501",
+      "description": "在仪表和 HUD 显示换挡灯，支持驾驶模式阈值和冷机限制。",
+      "author": "pinguinooo / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.5.1",
+        "mgu-deploy": "0.8.27"
+      },
+      "artifact": {
+        "name": "adam_shiftlights@0.4.501.tgz",
+        "size": 863767,
+        "sha256": "257cb6fd756dbcff9ff7f0d5396d4746f1b4acaf995cfcf5793047716e7cbdea",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/adam_shiftlights%400.4.501.tgz"
+      },
+      "iconSha256": "b7a24c813d07b4e4f0aadf82d58bb86ea00cb185f63c7fb748aeacdec4752d12",
+      "kind": "app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/adam_shiftlights.png"
+    },
+    {
+      "id": "adam_vitals",
+      "title": "发动机仪表",
+      "version": "0.2.1",
+      "description": "查看发动机和变速箱温度、增压、动力、挡位，含暖机和涡轮冷却提示。",
+      "author": "pinguinooo / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0"
+      },
+      "artifact": {
+        "name": "adam_vitals@0.2.1.tgz",
+        "size": 836756,
+        "sha256": "b8a76931d67e9b82b610dff2dafda5fbb2e1bcdecf9ced28b4fb09c8f64acbbf",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/adam_vitals%400.2.1.tgz"
+      },
+      "iconSha256": "c06845cb5113ee6071e4303461ede61840194c263a1cfebc0c356196c5117242",
+      "kind": "app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/adam_vitals.png"
+    },
+    {
+      "id": "adam_mtrack",
+      "title": "M Track 仪表 Beta",
+      "version": "0.1.701",
+      "description": "M Track 风格仪表覆盖，默认关闭。仅兼容支持仪表面板渲染的配置，车机实测待验证。",
+      "author": "pinguinooo / 汉化 小白科技杂物社",
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "cluster-render": "0.5.1",
+        "mgu-deploy": "0.8.27"
+      },
+      "artifact": {
+        "name": "adam_mtrack@0.1.701.tgz",
+        "size": 900919,
+        "sha256": "9a246f629b6e4b6fbd897e6c18cd64c73b784ea3f1777dee06b1782ed3f9fe32",
+        "url": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/adam_mtrack%400.1.701.tgz"
+      },
+      "iconSha256": "a892973274d3c9c006e82903eb9ef5f5509eaba5d627ce25728c827f0cc8227d",
+      "kind": "app",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "icon": "https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/pinguinooo-suite-zh-2026-11-23/adam_mtrack.png"
     }
   ]
 }

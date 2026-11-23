@@ -1,5 +1,14 @@
 # MGU-CN-XIAOBAI
 
+## pinguinooo ID7 套件简中版 · 2026-11-23
+
+- 换挡提示灯 `0.4.501` · 在仪表和 HUD 显示换挡灯，支持驾驶模式阈值和冷机限制。 · https://github.com/pinguinooo/idrive7-apps
+- 发动机仪表 `0.2.1` · 查看发动机和变速箱温度、增压、动力、挡位，含暖机和涡轮冷却提示。 · https://github.com/pinguinooo/idrive7-apps
+- M Track 仪表 Beta `0.1.701` · M Track 风格仪表覆盖，默认关闭。仅兼容支持仪表面板渲染的配置，车机实测待验证。 · https://github.com/pinguinooo/idrive7-apps
+
+[发布页及校验信息](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/pinguinooo-suite-zh-2026-11-23)
+
+
 ## 简中缺字修复 · 2026-11-23
 
 - 故障检测 `2.9.802` · 读取和清除各控制单元的故障存储，并查看当前检查控制信息。 · https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/download/source-refresh-2026-11-20/dtc_scanner%402.9.801.tgz
