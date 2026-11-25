@@ -1,5 +1,18 @@
 # MGU-CN-XIAOBAI
 
+## 感谢上游作者与贡献者
+
+感谢把代码、工具和文档开放出来的原作者，也感谢愿意审阅、测试、合并中文译文的维护者和车友。小白 MGU 中文源上的很多应用和组件，都是在这些项目的基础上做汉化、打包和维护的。
+
+- MGU Store、部署和渲染组件，感谢 Robert Nisipeanu、IterioDev 及相关维护者。 [MGU Store](https://github.com/robertnisipeanu/mgu-store) · [iDrive Apps](https://github.com/robertnisipeanu/idrive-apps) · [渲染器上游署名](https://github.com/cauliflowermossgrape/idrive7-apps/blob/main/README.zh-CN.md)
+- 车辆数据和仪表应用，感谢这些项目的作者与贡献者。 [cauliflowermossgrape/idrive7-apps](https://github.com/cauliflowermossgrape/idrive7-apps) · [alexp50/bmw-apps](https://github.com/alexp50/bmw-apps) · [bimmer-lab/apps](https://github.com/bimmer-lab/apps) · [ALMSTRA/idv7lol](https://github.com/ALMSTRA/idv7lol) · [pinguinooo/idrive7-apps](https://github.com/pinguinooo/idrive7-apps) · [beele/eldrive](https://github.com/beele/eldrive) · [benspa900/mon-vitals-idrive7](https://github.com/benspa900/mon-vitals-idrive7) · [RubenRios/GearHUD](https://github.com/RubenRios/GearHUD) · [TJM 与 SPRNV4 的仪表导航卡](https://github.com/tjmodsss/tjm-apps)
+- 车辆设置、驾驶工具和车机小组件，感谢这些项目的作者与贡献者。 [arefahmad/idrive7-apps](https://github.com/arefahmad/idrive7-apps) · [NamelsMissing/mgu-apps](https://github.com/NamelsMissing/mgu-apps) · [giuseppesalatino-boop/mgu-apps](https://github.com/giuseppesalatino-boop/mgu-apps) · [DimonPrograms/dimonprograms-apps](https://github.com/DimonPrograms/dimonprograms-apps) · [suhailpatel/id7-apps](https://github.com/suhailpatel/id7-apps) · [dzooky/bmrmodz](https://github.com/dzooky/bmrmodz) · [hexlay/idrive7-custom-apps](https://github.com/hexlay/idrive7-custom-apps) · [hexlay/idrive7-system-monitor](https://github.com/hexlay/idrive7-system-monitor) · [JustAnotherPU/mgu-apps](https://github.com/JustAnotherPU/mgu-apps)
+- 媒体、浏览器、天气和游戏，感谢这些项目的作者与贡献者。 [Vizualyse/idrive-apps](https://github.com/Vizualyse/idrive-apps) · [JustAnotherPU/ridetube](https://github.com/JustAnotherPU/ridetube) · [Leon Pllana 的 MGU Browser](https://github.com/pllanaio/mgu-browser) · [flash8523/bmw-weather-mgu](https://github.com/flash8523/bmw-weather-mgu) · [mistergahan/mgu-backgammon](https://github.com/mistergahan/mgu-backgammon)
+- 也感谢字体、游戏引擎和素材的维护者。 [Noto Sans CJK](https://github.com/notofonts/noto-cjk) · [Barlow](https://github.com/jpt/barlow) · [doomgeneric](https://github.com/ozkl/doomgeneric) · [Freedoom](https://freedoom.github.io/)
+
+原应用作者、源码、版本和汉化记录可从目录与发布记录核对。各项目及第三方组件继续适用各自的许可证，相关版权与许可声明以源码仓库和包内文件为准。 [应用目录](catalog.json) · [源码与汉化版本记录](provenance.json)
+
+
 ## 关于第三方重打包与汉化署名 · 2026-11-25
 
 本源由小白科技杂物社（BiliBili 小白151 / GitHub JackieZ123430）维护。各应用的原作者及许可证以本源发布记录和对应上游项目为准。上游 `idrive7-apps` 的简体中文构建也明确保留了译者署名。 [上游署名记录](https://github.com/cauliflowermossgrape/idrive7-apps/commit/8cccfde3d01aa73f64e78fde7d1b0c6741fc56b5)
