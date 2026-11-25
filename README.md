@@ -1,5 +1,14 @@
 # MGU-CN-XIAOBAI
 
+## 关于第三方重打包与汉化署名 · 2026-11-25
+
+本源由小白科技杂物社（BiliBili 小白151 / GitHub JackieZ123430）维护。各应用的原作者及许可证以本源发布记录和对应上游项目为准。上游 `idrive7-apps` 的简体中文构建也明确保留了译者署名。 [上游署名记录](https://github.com/cauliflowermossgrape/idrive7-apps/commit/8cccfde3d01aa73f64e78fde7d1b0c6741fc56b5)
+
+`zhanyce/mgu-apps-zh` 的公开清单收录了 73 款应用，其中 71 款以本源发布的汉化包为输入，输入包的 SHA-256 与本源目录逐项一致。对方的构建脚本会移除应用界面和代码中的翻译署名。已解包核验的 ADAS 功能状态 `0.1.3` 仍保留本源 `0.1.2` 的下载地址、校验值、MIT 许可证和汉化版权声明。 [对方的输入包清单](https://github.com/zhanyce/mgu-apps-zh/blob/66a28bdd4a5ee3f0b475d36a1642e7ba6114c5d5/data/apps.json) · [删除署名的脚本](https://github.com/zhanyce/mgu-apps-zh/blob/66a28bdd4a5ee3f0b475d36a1642e7ba6114c5d5/tools/build.py#L118-L132) · [本源的原始发布](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/zh-translation-credit-2026-11-23)
+
+对方在抖音宣传中明确指向这个仓库，并写到「界面里没有汉化推广署名」。此前请求恢复署名的 Issue #1 已被删除。请再分发者明确标注原应用作者、译者和重打包维护者，并在受影响的安装包与商店条目中恢复译者署名。 [抖音宣传截图](docs/evidence/2026-11-25/douyin-post.jpg) · [Issue #1 删除状态截图](docs/evidence/2026-11-25/issue-1-deleted.png) · [对方仓库的讨论](https://github.com/zhanyce/mgu-apps-zh/issues)
+
+
 ## idv7lol 自定义仪表简中版 · iDrive 7
 
 - idv7lol 自定义仪表 `0.2.1901` · 在 iDrive 7 预览并选择自定义仪表主题、配色和单位，支持导入 U 盘主题。默认关闭仪表覆盖。 · https://github.com/ALMSTRA/idv7lol
