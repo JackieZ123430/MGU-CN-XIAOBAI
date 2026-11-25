@@ -6,7 +6,17 @@
 
 `zhanyce/mgu-apps-zh` 的公开清单收录了 73 款应用，其中 71 款以本源发布的汉化包为输入，输入包的 SHA-256 与本源目录逐项一致。对方的构建脚本会移除应用界面和代码中的翻译署名。已解包核验的 ADAS 功能状态 `0.1.3` 仍保留本源 `0.1.2` 的下载地址、校验值、MIT 许可证和汉化版权声明。 [对方的输入包清单](https://github.com/zhanyce/mgu-apps-zh/blob/66a28bdd4a5ee3f0b475d36a1642e7ba6114c5d5/data/apps.json) · [删除署名的脚本](https://github.com/zhanyce/mgu-apps-zh/blob/66a28bdd4a5ee3f0b475d36a1642e7ba6114c5d5/tools/build.py#L118-L132) · [本源的原始发布](https://github.com/JackieZ123430/MGU-CN-XIAOBAI/releases/tag/zh-translation-credit-2026-11-23)
 
-对方在抖音宣传中明确指向这个仓库，并写到「界面里没有汉化推广署名」。此前请求恢复署名的 Issue #1 已被删除。请再分发者明确标注原应用作者、译者和重打包维护者，并在受影响的安装包与商店条目中恢复译者署名。 [抖音宣传截图](docs/evidence/2026-11-25/douyin-post.jpg) · [Issue #1 删除状态截图](docs/evidence/2026-11-25/issue-1-deleted.png) · [对方仓库的讨论](https://github.com/zhanyce/mgu-apps-zh/issues)
+对方在抖音宣传中明确指向这个仓库，并写到「界面里没有汉化推广署名」。此前请求恢复署名的 Issue #1 已被删除。随后尝试附图重新提交，GitHub API 返回 `403 Blocked`。请再分发者明确标注原应用作者、译者和重打包维护者，并在受影响的安装包与商店条目中恢复译者署名。 [抖音宣传截图](docs/evidence/2026-11-25/douyin-post.jpg) · [Issue #1 删除状态截图](docs/evidence/2026-11-25/issue-1-deleted.png) · [对方仓库的讨论](https://github.com/zhanyce/mgu-apps-zh/issues)
+
+
+<details>
+<summary>查看抖音宣传和原 Issue 删除截图</summary>
+
+<img src="docs/evidence/2026-11-25/douyin-post.jpg" width="520" alt="抖音作品正文指向该仓库并写明界面里没有汉化推广署名">
+
+<img src="docs/evidence/2026-11-25/issue-1-deleted.png" width="660" alt="GitHub 页面显示原 Issue 已被删除">
+
+</details>
 
 
 ## idv7lol 自定义仪表简中版 · iDrive 7
